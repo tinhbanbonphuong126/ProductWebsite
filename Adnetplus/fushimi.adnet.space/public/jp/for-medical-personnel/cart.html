@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <title>For Medical Personnel</title>
+    <meta name="keywords" content="AG、アンヒドロ、SGP、有機合成、吸水、スポンジ、糖、ＡＧＥ、とろみ調整食品、スワローケア、Ｘ線造影剤、ラビトル、難燃剤、ホスファゼン、高機能、流動食、半固形" />
+	<meta name="description" content="伏見製薬はＸ線造影剤のパイオニアとして知られていますが、その一方で有機合成や吸水ロールとその製品は様々で医薬品関係、化粧品関係、化成品関係など多岐にわたります" />
+	<link rel="index" href="/index.html" />
+	<link rel="shortcut icon" href="../../images/favicon.ico" />
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" id="font-css" href="../../css/font-awesome.min.css" type="text/css" media="all">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../../css/meanmenu.css" media="all" />
+    <link rel="stylesheet" href="../../css/normalize.css" media="all" />
+    <link rel="stylesheet" href="../../css/page.css" media="all" />
+    <link rel="stylesheet" href="../../css/main.css" media="all" />
+    <link rel="stylesheet" href="../../css/responsive.css" media="all" />
+    
+	<!-- Custom css for medial supplies page -->
+    <link rel="stylesheet" href="../../css/medical.css" type="text/css">
+    <link rel="stylesheet" href="../../css/medical-page2.css" type="text/css">
+
+    <style>
+        .error {
+            border: 1px solid #f00 !important;
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrapper">
+        <div id="header_out"></div> <!-- End .header  -->
+
+    <section class="main-history page-chem page-contact">
+        <div class="banner-history">
+            <p class="tit-history">医療関係者の方へ</p>
+            <p class="small">For Medical Personnel</p>
+        </div> <!-- End .banner-history -->
+
+        <div class="banner-center">
+            <div class="container ba-des">
+                <img src="../../images/medical/medical-banner.png">
+                <div class="des-banner">
+                    <p>
+                        このサイトは、国内の医師、薬剤師等の医療関係者<br>
+                        を対象に、医療用医薬品を適切にご利用いただくた<br>
+                        めの情報を提供しています。
+                    </p>
+                </div>
+            </div>
+        </div> <!-- End .banner-center -->
+        
+         <form class="form-contact page-per" id="medical-personnel">
+            <div class="container">
+                <div class="contact-email">
+                    <img src="../../images/medical/medical-icon-02.png">
+                </div>
+                <div class="please-row">
+                    <div class="item-sp">
+                        <img src="../../images/medical/medical-icon-03.png">
+                    </div>
+                    <div class="des-sp">
+                        <h4>スワローケアピュアの購入</h4>
+                        <p>品名/2kgスタンディングアルミパウチ</p>
+                        <p>容量/2kg×1袋/セット</p>
+                        <p>価格   \7,560円（税込）</p>
+                        <p>数量<input class="form-control" type="text" name="number" id="number">セット <br class="only_mb"><span>※消費税改訂に伴い価格を変更しております。</span></p>
+                    </div>
+                </div>
+                
+                <div class="form" id="form1">
+                    <div class="input-group">
+                        <label for="kanji-name" class="col-md-3 col-form-label">お名前（漢字）<span>＊</span></label>
+                        <div class="col-md-3">
+                            <input class="form-control" type="text" id="kanji-name" name="kanji-name">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="furigana_name" class="col-md-3 col-form-label">ふりがな</label>
+                        <div class="col-md-3">
+                            <input class="form-control" type="text" id="furigana_name" name="furigana_name">
+                        </div>
+                    </div>
+                   
+                    <div class="input-group">
+                        <label for="zip11" class="col-md-3 col-form-label">郵便番号<span></span></label>
+                        <div class="col-md-2" id="zip_mb">
+                            <input class="form-control" type="text" id="zip11" name="zip11" size="10" maxlength="8" onkeyup="AjaxZip3.zip2addr(this,'','addr01','addr01');">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="addr01" class="col-md-3 col-form-label">住所<span>＊</span></label>
+                        <div class="col-md-9">
+                            <!-- <input class="form-control" type="text" value="" id="address"> -->
+                            <!-- <input type="text" name="pref01" size="20"> -->
+                            <!-- ▼住所入力フィールド(都道府県以降の住所) -->
+                            <input class="form-control" type="text" name="addr01" id="addr01" size="60" disabled="">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone" class="col-md-3 col-form-label">電話番号</label>
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="email" class="col-md-3 col-form-label">メールアドレス<span>＊</span></label>
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" id="email" name="email">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm-email" class="col-md-3 col-form-label">確認用メールアドレス<span>＊</span></label>
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" value="" name="confirm-email" id="confirm-email">
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirm-email" class="col-md-3 col-form-label">ご希望配達日<span>＊</span></label>
+                        <div class="col-md-1">
+                            <input class="form-control" type="text" name="month" id="month"><span>月</span>
+                        </div>
+                        <div class="col-md-1">
+                            <input class="form-control" type="text" name="day" id="day"><span>日</span>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="time-zone" class="col-md-3 col-form-label">時間帯</label>
+                        <div class="col-md-4">
+                            <select id="time-zone" name="time-zone">
+                                <option value="">下記の中から必ず選んでください。</option>
+                                <option value="指定なし">指定なし</option>
+                                <option value="午前中">午前中</option>
+                                <option value="12時〜14時">12時〜14時</option>
+                                <option value="14時〜16時">14時〜16時</option>
+                                <option value="16時〜18時">16時〜18時</option>
+                                <option value="18時〜20時">18時〜20時</option>
+                                <option value="20時〜21時">20時〜21時</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form" id="form2">
+                    <h3>送付先が異なる場合</h3>
+                    <div class="input-group">
+                        <label for="kanji1" class="col-md-3 col-form-label">お名前（漢字）<span>＊</span></label>
+                        <div class="col-md-3">
+                            <input class="form-control" type="text" name="kanji1" id="kanji1">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="furigana1" class="col-md-3 col-form-label">ふりがな</label>
+                        <div class="col-md-3">
+                            <input class="form-control" type="text" name="furigana1" id="furigana1">
+                        </div>
+                    </div>
+                   
+                    <div class="input-group">
+                        <label for="zip21" class="col-md-3 col-form-label">郵便番号<span></span></label>
+                        <div class="col-md-2" id="zip_mb2">
+                            <input class="form-control" type="text" id="zip21" name="zip21" size="10" maxlength="8" onkeyup="AjaxZip3.zip2addr(this,'','addr02','addr02');">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="addr02" class="col-md-3 col-form-label">住所<span>＊</span></label>
+                        <div class="col-md-9">
+                            <!-- <input class="form-control" type="text" value="" id="address"> -->
+                            <!-- <input type="text" name="pref01" size="20"> -->
+                            <!-- ▼住所入力フィールド(都道府県以降の住所) -->
+                            <input class="form-control" type="text" id="addr02" name="addr02" size="60" disabled="">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone1" class="col-md-3 col-form-label">電話番号</label>
+                        <div class="col-md-4">
+                            <input class="form-control" type="text"  id="phone1" name="phone1">
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="note-contact offset-md-3 col-md-9">
+                    <p>※弊社がご注文を確認する時間（営業時間9：00～17：30、年末年始、土・日・祝祭日を除く）、およびお客様のお届け先住所などによってご希望に添えないこともございます。</p>
+                    <ul>
+                        <li><strong>■送料</strong></li>
+                        <li style="margin-left:1em;">商品代金にかかわらず、弊社にて負担いたします。</li>
+                        <li><strong>■代金引換手数料</strong></li>
+                        <li style="margin-left:1em;">商品代金と代金引換手数料の合計が、10,000円未満は324円（税込）、10,000円～30,000円未満は432円（税込）です。</li>
+                    </ul>
+                </div>
+                    
+                    <div class="input-group" id="submit_box">
+                        <div>
+                            <span style="margin-right:20px;">※は必須項目です</span><br class="only_mb"><button type="button" id="btn-submit">メールを送信する</button><img src="../../images/medical/medical-icon-12.jpg" width="85px">
+                        </div>
+                    </div>
+                </form> <!-- End .form -->
+                
+                
+                
+                <p></p>
+            </div>
+        </div>
+
+        <div class="supplier-produce form-contact pa-medical">
+            <img src="../../images/medical/medical-icon-08.png" class="icon-center">
+            <div class="content-supp">
+                <p>伏見製薬株式会社</p>
+                
+                <div class="add-medical">
+                    <p>本社</p>
+                    <p>〒763-8605　丸亀市中津町1676</p>
+                    <p>TEL 0877-22-7284 　FAX 0877-22-6284</p>
+                </div>
+
+                <div class="add-medical">
+                    <p>仙台営業所</p>
+                    <p>〒983-0852　仙台市宮城野区榴岡4-5-22　宮城野センタービル403</p>
+                    <p>TEL 022-295-5667 　FAX 022-295-5668</p>
+                </div>
+
+                <div class="add-medical">
+                    <p>東京営業所</p>
+                    <p>〒164-0013　東京都中野区弥生町2-41-5</p>
+                    <p>TEL 03-5328-7801 　FAX 03-5328-7802</p>
+                </div>
+
+                <div class="add-medical">
+                    <p>名古屋営業所   </p>
+                    <p>〒464-0850　名古屋市千種区今池3-12-20　KAビル</p>
+                    <p>TEL 052-732-8555 　FAX 052-732-8520</p>
+                </div>
+
+                <div class="add-medical">
+                    <p>大阪営業所    </p>
+                    <p>〒533-0013　大阪市東淀川区豊里4-8-19</p>
+                    <p>TEL 06-6160-2431　FAX 06-6160-2432</p>
+                </div>
+
+                <div class="add-medical">
+                    <p>中四国営業所   </p>
+                    <p>〒733-0002　広島市西区楠木町3丁目13-6　カルチェヴェールS棟203号</p>
+                    <p>TEL 082-509-2431 　FAX 082-509-2432</p>
+                </div>
+
+                <div class="add-medical">
+                    <p>福岡営業所    </p>
+                    <p>〒812-0011　福岡市博多区博多駅前4-7-1</p>
+                    <p>TEL 092-413-4107 　FAX 092-477-3689</p>
+                </div>
+
+                <div class="add-medical">
+                    <p>金沢オフィス   </p>
+                    <p>〒920-0025　金沢市駅西本町3丁目14-21　リブスイート駅西602号</p>
+                    <p>TEL 076-255-0282 　FAX 076-255-1904</p>
+                </div>
+            </div>
+        </div> <!-- End .supplier-produce -->
+    </section>
+    
+
+	<div id="footer_out">
+    </div>
+    <!-- <div class="only_mb"><p id="page-top"><a href="#wrap">ページのトップへ</a></p></div> -->
+</div>
+    <script src="../../js/jquery.min.js"></script>
+	<script> 
+    $(function(){
+      $("#header_out").load("../header.html"); 
+	  $("#footer_out").load("../footer.html"); 
+    });
+</script>
+<script id="news-template" type="text/x-custom-template">
+    <li class="news_item">
+        <time class="news_time">{{date}}</time>
+        <span class="news_tag {{class}}">{{cname}}</span>
+        <h3 class="rs news_title">
+            <a class="" href="" title="{{title}}">{{title}}</a> </h3>
+    </li>
+</script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="../../js/modernizr-2.8.3.min.js"></script>
+<script src="../../js/mustache.min.js"></script>
+<script src="../../js/global.js"></script>
+<script src="../../js/home.js"></script>
+<script src="../../js/pageTop.js"></script>
+<script src="../../js/jquery.meanmenu.min.js"></script>
+<script src="../../js/ajaxzip3.js" charset="UTF-8"></script>
+<script src="../../js/jquery.validate.min.js" ></script>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('header nav').meanmenu({
+        meanMenuCloseSize: "120%", // クローズボタンのフォントサイズ
+        meanMenuClose: "×" // クローズボタン
+        });
+});
+
+    $("#medical-personnel").validate({
+        errorPlacement: function(){
+            return false;
+        },
+        rules: {
+            'number': {
+                required: true
+            },
+            'kanji-name': {
+                required: true
+            },
+            'addr01': {
+                required: true
+            },
+            'email': {
+                required: true,
+                email: true,
+            },
+            'confirm-email': {
+                equalTo: "#email"
+            },
+            'day': {
+                required: true
+            },
+            'month': {
+                required: true
+            },
+            'kanji1': {
+                required: true
+            },
+            'addr02': {
+                required: true
+            }
+        },
+        messages: {
+            'ex-mail': {
+                required: "は必須項目です"
+            },
+            'name': {
+                required: "は必須項目です"
+            },
+            'address': {
+                required: "は必須項目です"
+            },
+            'email': {
+                required: "は必須項目です",
+                email: "は必須項目です",
+            },
+            'confirm-email': {
+                equalTo: "#email"
+            },
+            'date': {
+                required: "は必須項目です"
+            },
+            'month': {
+                required: "は必須項目です"
+            },
+        }
+    });
+    $('#btn-submit').click(function () {
+        if(!$("#medical-personnel").valid()){
+            return false;
+        }
+        var data = {
+            "number": $('#number').val(),
+            "kanji-name": $('#kanji-name').val(),
+            "furigana_name": $('#furigana_name').val(),
+            "zip11": $('#zip11').val(),
+            "addr01": $('#addr01').val(),
+            "phone": $('#phone').val(),
+            "email": $('#email').val(),
+            "day": $('#day').val(),
+            "month": $('#month').val(),
+            "time-zone": $('#time-zone').val(),
+            "kanji1": $('#kanji1').val(),
+            "furigana1": $('#furigana1').val(),
+            "zip21": $('#zip21').val(),
+            "addr02": $('#addr02').val(),
+            "phone1": $('#phone1').val()
+        };
+        $.ajax({
+            data: data,
+            url: "http://fushimi.adnet.space/admin/contact/send-contact-medical",
+            type: "POST",
+            success: function (mess) {
+                if (mess == "ok"){
+                    alert("Send contact successfull!");
+                    window.location.reload();
+                }else{
+                    alert("Send contact error!");
+                }
+            }
+        })
+    });
+
+</script>
+</body>
+</html>

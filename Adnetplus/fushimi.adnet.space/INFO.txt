@@ -1,0 +1,5 @@
+1. Put the "nagoya" project directory inside "htdocs" directory of XAMPP
+2. Run the below URL to test it
+    http://localhost/myapp/test
+    => string(4) "test"
+    => It works!!!

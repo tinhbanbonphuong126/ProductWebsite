@@ -1,0 +1,235 @@
+/*General Css*/
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.clear-fix {
+    clear: both;
+}
+.clear-fix-10 {
+    height: 10px;
+    clear: both;
+}
+.clear-fix-20 {
+    height: 10px;
+    clear: both;
+}
+th {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.color-red {
+    color: #ff0000;
+}
+.w100 {
+    width: 100%;
+}
+/*Header Css*/
+#login {
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+    margin-top: 100p;
+    z-index: 0;
+    position: fixed;
+    background-color: rgba(241, 241, 241, 0.27);
+}
+#header-title {
+    background-color: #5cb85c;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+    margin-top: 52px;
+}
+#login-form{
+    margin: 50px auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px #ccc;
+    float: none;
+    border-radius: 5px;
+}
+
+#logout {
+    line-height: 54px;
+    display: none;
+}
+#logout a {
+    color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+}
+/*News and Notice pages , Edit delete */
+#nav-vetical .sidebar-nav .navbar-nav li:hover {
+    background-color: #e7e7e7;
+    border-bottom: 1px solid #999;
+}
+
+#main-content {
+    /* border: 1px solid red; */
+    /* height: 100%; */
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    margin-top: 49px;
+    overflow: scroll;
+    /* margin-left: 23%; */
+}
+
+#main-content tbody tr td a:last-child {
+    color: #ff0b43;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 3px;
+    line-height: 2.428571;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    height: 37px;
+}
+#table-note {
+
+    /* height: 1000px; */
+
+    /* border: 1px solid red; */
+
+    /* margin-top: 1000px; */
+
+    /* width: 700px; */
+}
+#table-note tr:first-child th:last-child {
+    float: right;
+    margin-right: 63px;
+}
+
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #ddd;
+}
+#note-pagination {
+
+    text-align: center;
+}
+
+#table-note .pull-right.btn-success {
+
+    font-size: 15px;
+}
+#note-pagination .pagination li a {
+    border: none;
+}
+.modal-user {
+    width: 338px;
+    height: 133px;
+    margin: 44px auto;
+}
+
+#table-note td button {
+    border: none;
+    background-color: #ffffff;
+    font-size: 16px;
+    margin: 0 5px;
+}
+#table-note td button:hover {
+    background-color: #ddd;
+}
+#table-note td button:first-child {
+    color: #7a0a0a;
+}
+#table-note td button:last-child {
+    color: #2d21aa;
+}
+
+#myModal-remove h4 {
+    text-align: center;
+    line-height: 35px;
+}
+
+
+.big-title {
+
+    background-color: #f8f8f8;
+
+    padding: 10px;
+}
+
+
+
+
+
+
+/*Responsive Here/* make sidebar nav vertical */
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+        height: 44.5px;
+        /* overflow: hidden; */
+        border-bottom: 1px solid #999;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .navbar {
+        border-radius: 0px;
+        height: 100%;
+        position: fixed;
+        width: 23%;
+        border: 1px solid #e7e7e7;
+        margin-top: 70px;
+    }
+    #main-content {
+        border: 0px solid red;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        margin-top: 68px;
+        overflow: auto;
+        /* overflow: scroll; */
+        padding: 20px 30px;
+        margin-left: 23%;
+        /* margin-right: 10%; */
+        width: 77%;
+    }
+    #header-title {
+        background-color: #5cb85c;
+        color: #fff;
+        /* position: fixed; */
+        width: 100%;
+        margin-top: 0px;
+    }
+    #submit-register-btn {
+        margin-top: 271px;
+        margin-right: 15px;
+        float: right;
+    }
+    .modal-user {
+        width: 436px;
+        height: 133px;
+        margin: 44px auto;
+    }
+
+    #logout {
+        display: block;
+    }
+}

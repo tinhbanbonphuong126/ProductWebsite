@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.content_main {
+	margin-bottom: 2rem;
+}
+.section_main {
+	width: 100%;
+	float: none;
+}
+.news_box {
+	margin: 2rem 0;
+}
+.lst_news {
+	overflow-y:initial;
+	height: auto;
+}
+.news_time {
+	width:6.5em;
+}
+@media only screen and (max-width: 768px) {
+	.news_caption {
+		padding-bottom:1rem;
+	}
+}

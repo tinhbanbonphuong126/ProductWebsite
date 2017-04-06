@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contact</title>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" id="font-css" href="../../css/font-awesome.min.css" type="text/css" media="all">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/main.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../../css/meanmenu.css" media="all" />
+    <link rel="stylesheet" href="../../css/normalize.css" media="all" />
+    <link rel="stylesheet" href="../../css/page.css" media="all" />
+    <link rel="stylesheet" href="../../css/responsive.css" media="all" />
+    <!-- <script src="../../../../js/cssrefresh.js"></script> -->
+    <!-- <link href="../../css/fushimi.min.css" rel="stylesheet" type="text/css"/> -->
+
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header_top">
+            <div class="fixCen ">
+                <ul class="rs cf top_menu">
+                    <li><a href="" title="サイトマップ">サイトマップ</a></li> |
+                    <li><a href="" title="プライバシーポリシー">プライバシーポリシー</a></li> |
+                    <li><a href="" title="特定商取引法に基づく表記">特定商取引法に基づく表記</a></li> |
+                    <li><a href="" title="中文">中文</a></li> |
+                    <li><a href="" title="English">English</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fixCen pRel header_content">
+            <h1 class="rs logo">
+                <a href="" title=""><img src="../../images/logo-final.jpg" alt="logo"/></a>
+            </h1>
+            <div class="form_search">
+                <input class="input_search" type="text" placeholder="サイト内検索"/>
+                <input class="input_btn" type="button"/>
+            </div>
+        </div>
+        <nav class="nav_top en">
+            <ul class="rs cf fixCen nav_lst">
+                <li><a href="javascript:void(0)" title="トップページ  Top">Top<br/><span>Top</span></a>
+                    <!-- <ul class="sub-menu">
+                        <li><a href="#">Top1</a></li>
+                        <li><a href="#">Top2</a></li>
+                        <li><a href="#">Top3</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="javascript:void(0)" title="会社案内  Company">Company<br/><span>Company</span></a></li>
+                <li><a href="javascript:void(0)" title=">> 医薬品　>> 工業薬品　>> 衛生検査センター">Medical supplies<br/><span>Products & Service</span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">医薬品</a></li>
+                        <li><a href="#">関連商品</a></li>
+                        <li><a href="#">衛生検査センター</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0)" title="医療関係者の方へ  For Medical Personnel">Industrial chemicals<br/><span>For Medical Personnel</span></a></li>
+                <li><a href="javascript:void(0)" title="採用情報  Recruit">Clinical Laboratory Center<br/><span>Recruit</span></a></li>
+                <li class="active"><a href="javascript:void(0)" title="お問合せ  Contact">Contact<br/><span>Contact</span></a></li>
+            </ul>
+        </nav>
+
+    </header> <!-- End .header  -->
+
+    <section class="main-history page-contact en">
+        <div class="banner-history">
+            <p class="tit-history">Contact Us</p>
+            <p class="small">Contact Us</p>
+        </div> <!-- End .banner-history -->
+
+        <div class="contact-des">
+
+            <p>Thank you for your visiting our website. To contact us, please use the form below.</p>
+        </div> <!-- End .contact-des -->
+        <form action="" id="form-contact">
+            <div class="form-contact">
+                <div class="container">
+                    <div class="contact-email">
+                        <img src="../../images/contact/icon-contact.png">
+                    </div>
+                    <div class="form">
+                        <div class="input-group">
+                            <label for="company" class="col-md-2 col-form-label">Company Name<span>＊</span></label>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" value="" id="company" name="company">
+                            </div>
+                        </div>
+                        <!-- <div class="input-group">
+                            <label for="ex-mail-de" class="col-md-2 col-form-label">部署名</label>
+                            <div class="col-md-4">
+                                <input class="form-control" type="email" value="" id="ex-mail-de">
+                            </div>
+                        </div> -->
+                        <div class="input-group">
+                            <label for="name" class="col-md-2 col-form-label">Name<span>＊</span></label>
+                            <div class="col-md-3">
+                                <input class="form-control" type="text" value="" id="name" name="name">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="zip11" class="col-md-2 col-form-label">Zip code<span></span></label>
+                            <div class="col-md-2">
+                                <input class="form-control" type="text" id="zip11" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','address','address');">
+                            </div>
+                            <!-- <input type="button" class="col-md-2" value="〒から住所を自動入力" onclick=""> -->
+                        </div>
+                        <div class="input-group">
+                            <label for="address" class="col-md-2 col-form-label">address<span>＊</span></label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text" id="address" name="address" size="60">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone" class="col-md-2 col-form-label">Phone number</label>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" value="" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="email" class="col-md-2 col-form-label">email<span>＊</span></label>
+                            <div class="col-md-6">
+                                <input class="form-control" type="email" value="" id="email" name="email">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-email" class="col-md-2 col-form-label">confirm_email<span>＊</span></label>
+                            <div class="col-md-6">
+                                <input class="form-control" type="mail" value="" id="confirm-email"
+                                       name="confirm-email">
+                            </div>
+                        </div>
+                        <!-- <div class="input-group">
+                            <label for="requirement" class="col-md-2 col-form-label">ご用件<span>＊</span></label>
+                            <div class="col-md-4">
+                                <select name="ご用件(必須)">
+                                    <option value="">下記の中から必ず選択して下さい</option>
+                                    <option value="製品について">製品について</option>
+                                    <option value="資料請求について">資料請求について</option>
+                                    <option value="採用情報について">採用情報について</option>
+                                    <option value="その他">その他</option>
+                                </select>
+                            </div>
+                        </div> -->
+                        <div class="input-group">
+                            <label for="confirm-email" class="col-md-2 col-form-label">Your message<span>＊</span></label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" value="" id="content" name="content" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-email" class="col-md-2 col-form-label"><span>＊</span>Requied field</label>
+                            <div class="col-md-2">
+                                <button  id="btn-submit" type="button" >Submit</button>
+                            </div>
+                        </div>
+                    </div> <!-- End .form -->
+                </div>
+            </div> <!-- End .form-contact -->
+        </form>
+
+    </section> <!-- End .main-contact -->
+
+    <footer class="footer">
+        <div class="fixCen pRel footer_inner">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 footer_col">
+                    <ul class="rs cf footer_link">
+                        <li><a href="" title="トップページ">トップページ</a></li>
+                        <li><a href="" title="新着情報">新着情報</a></li>
+                        <li><a href="" title="ニュースリリース">ニュースリリース</a></li>
+                        <li><a href="" title="お知らせ">お知らせ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 footer_col">
+                    <ul class="rs cf footer_link">
+                        <li>
+                            <a href="" title="会社案内">会社案内</a>
+                            <ul class="rs cf footer_link-child">
+                                <li><a href="" title="会社概要">会社概要</a></li>
+                                <li><a href="" title="会社沿革">会社沿革</a></li>
+                                <li><a href="" title="関連会社">関連会社</a></li>
+                                <li><a href="" title="Map">Map</a></li>
+                                <li><a href="" title="ふるさと紹介">ふるさと紹介</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" title="医薬品">医薬品</a>
+                            <ul class="rs cf footer_link-child">
+                                <li><a href="" title="大腸検査食　FG-two☆">大腸検査食　FG-two☆</a></li>
+                                <li><a href="" title="フィーメック">フィーメック</a></li>
+                                <li><a href="" title="スワローケアピュア">スワローケアピュア</a></li>
+                                <li><a href="" title="PROJECT F">PROJECT F</a></li>
+                                <li><a href="" title="医薬品関連リンク集">医薬品関連リンク集</a></li>
+                                　
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 footer_col">
+                    <ul class="rs cf footer_link">
+                        <li>
+                            <a href="" title="工業薬品">工業薬品</a>
+                            <ul class="rs cf footer_link-child">
+                                <li><a href="" title="安息香酸・ 安息香酸ナトリウム">安息香酸・ 安息香酸ナトリウム</a></li>
+                                <li><a href="" title="微結晶セルロース「コンプレッセル」">微結晶セルロース「コンプレッセル」</a></li>
+                                <li><a href="" title="クロスカルメロースナトリウム「ディゾルセル」">クロスカルメロースナトリウム「ディゾルセル」</a></li>
+                                <li><a href="" title="金属スポンジ・炭化ケイ素スポンジ">金属スポンジ・炭化ケイ素スポンジ</a></li>
+                                <li><a href="" title="テクノポーラスローラー">テクノポーラスローラー</a></li>
+                                <li><a href="" title="テクノポーラス清拭材">テクノポーラス清拭材</a></li>
+                                <li><a href="" title="テクノポーラスブロック">テクノポーラスブロック</a></li>
+                                <li><a href="" title="エコゼリー">エコゼリー</a></li>
+                                <li><a href="" title="ラビトル">ラビトル</a></li>
+                                <li><a href="" title="有機合成受託">有機合成受託</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" title="衛生検査センター">衛生検査センター</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 footer_col">
+                    <ul class="rs cf footer_link">
+                        <li>
+                            <a href="" title="採用情報">採用情報</a>
+                            <ul class="rs cf footer_link-child">
+                                <li><a href="" title="People">People</a></li>
+                                <li><a href="" title="新卒者募集要項">新卒者募集要項</a></li>
+                                <li><a href="" title="中途者・経験者募集要項">中途者・経験者募集要項</a></li>
+                                <li><a href="" title="FAQ">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="" title="お問合せ">お問合せ</a></li>
+                        <li><a href="" title="サイトマップ">サイトマップ</a></li>
+                        <li><a href="" title="プライバシーポリシー">プライバシーポリシー</a></li>
+                        <li><a href="" title="特定商取引法に基づく表記">特定商取引法に基づく表記</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer_bottom">
+            © Copyright 株式会社伏見製薬所 All Rights Reserved.
+        </div>
+    </footer> <!-- End .footer -->
+    <p id="back-top">
+        <a href="#top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+    </p>
+    <!-- <div class="only_mb"><p id="page-top"><a href="#wrap">ページのトップへ</a></p></div> -->
+</div>
+<script id="news-template" type="text/x-custom-template">
+    <li class="news_item">
+        <time class="news_time">{{date}}</time>
+        <span class="news_tag {{class}}">{{cname}}</span>
+        <h3 class="rs news_title">
+            <a class="" href="" title="{{title}}">{{title}}</a> </h3>
+    </li>
+</script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="../../js/modernizr-2.8.3.min.js"></script>
+<script src="../../js/mustache.min.js"></script>
+<script src="../../js/global.js"></script>
+<!--<script src="../../js/home.js"></script>-->
+<!--<script src="../../js/pageTop.js"></script>-->
+<script src="../../js/jquery.meanmenu.min.js"></script>
+<script src="../../js/ajaxzip3.js" charset="UTF-8"></script>
+<script src="../../js/jquery.validate.min.js" ></script>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('header nav').meanmenu({
+        meanMenuCloseSize: "120%", // クローズボタンのフォントサイズ
+        meanMenuClose: "×" // クローズボタン
+        });
+
+        $(window).ready( function() {
+            $('#postcode1').jpostal({
+                postcode : [
+                    '#zip11'
+                ],
+                address : {
+                    '#address'  : '%3%4%5'
+                }
+            });
+        });
+
+    });
+
+    $("#form-contact").validate({
+        rules: {
+            'company': {
+                required: true
+            },
+            'name': {
+                required: true
+            },
+            'address': {
+                required: true
+            },
+            'email': {
+                required: true,
+                email: true,
+            },
+            'content': {
+                required: true
+            },
+        },
+        messages: {
+            'company': {
+                required: "Company is required",
+            },
+            'name': {
+                required: "Name is required",
+            },
+            'address': {
+                required: "Address is required",
+            },
+            'email': {
+                required: "Email is required",
+                email: 'Email is not valid',
+            },
+            'content': {
+                required: "Content is required",
+            },
+        }
+    });
+    $('#btn-submit').click(function () {
+        if(!$("#form-contact").valid()){
+            return false;
+        }
+        var data = {
+            "company": $('#company').val(),
+            "name": $('#name').val(),
+            "zip11": $('#zip11').val(),
+            "address": $('#address').val(),
+            "phone": $('#phone').val(),
+            "email": $('#email').val(),
+            "content": $('#content').val(),
+            "type": 'en'
+        };
+        $.ajax({
+            data: data,
+            url: "http://fushimi.adnet.space/admin/contact/send-contact",
+            type: "POST",
+            success: function (mess) {
+                console.log(mess);
+                if (mess == "ok"){
+                    alert("Send contact successfull!");
+                    window.location.reload();
+                }else{
+                    alert("Send contact error!");
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

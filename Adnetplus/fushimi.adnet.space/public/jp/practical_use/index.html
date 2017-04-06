@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Top Page Jp</title>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" id="font-css" href="../../css/font-awesome.min.css" type="text/css" media="all">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../../css/meanmenu.css" media="all" />
+    <link rel="stylesheet" href="../../css/normalize.css" media="all" />
+    <link rel="stylesheet" href="../../css/page.css" media="all" />
+    <link rel="stylesheet" href="../../css/main.css" media="all" />
+    <link rel="stylesheet" href="../../css/top.css" media="all" />
+    <link rel="stylesheet" href="../../css/responsive.css" media="all" />
+    <link rel="stylesheet" href="css/jquery.powertip.min.css" media="all" />
+
+</head>
+<body>
+<div class="wrapper">
+        <div id="header_out"></div> <!-- End .header  -->
+
+     <section class="main-history">
+        <div class="banner-history">
+            <p class="tit-history">伏見製品の活用</p>
+            <p class="small">Practical use FUSHIMI</p>
+        </div>
+    </section> <!-- End .main-history -->
+
+    <div class="page-top">
+    <p style="text-align:center;">当社の製品は、皆さまの生活の中のいろいろなものに使用されています。<br>下の絵の、どこに使用されているか探してみてください。</p>
+    
+       <div class="item_img clearfix">
+       	<div class="item-img-01">
+                <img src="img/home_off.png" usemap="#Map2" id="map2" alt="「テクノポーラスブロック」">
+                <map name="Map2">
+                  <area shape="circle" coords="304,165,35" href="../industrial-chemicals/industrial-chemicals-11.html" onmouseover="changeMapImage2('img/home_on.png')" onmouseout="changeMapImage2('img/home_off.png')">
+                </map>
+       	 </div>
+            
+            <div class="item-img-02">
+                <img src="img/hos_off.png" usemap="#Map" id="map" alt="大腸検査食「FG-two」 「X線造影剤」 その他関連商品 「有機合成受託」">
+                <map name="Map">
+                  <area shape="poly" coords="115,229,81,251,62,260,61,299,36,302,34,319,76,380,239,380,244,366,201,296,198,259,148,231,112,230" href="../for-medical-personnel/pdf/FG-two.pdf" target="_blank" onmouseover="changeMapImage('img/hos_on1.png')" onmouseout="changeMapImage('img/hos_off.png')">
+                  <area shape="poly" coords="335,88,308,112,297,133,314,182,319,202,302,222,294,270,303,319,306,415,429,416,442,350,448,285,409,134,402,84,335,88" href="../for-medical-personnel/" onmouseover="changeMapImage('img/hos_on3.png')" onmouseout="changeMapImage('img/hos_off.png')">
+                  <area shape="poly" coords="499,31,474,36,475,51,534,176,629,140,620,97,564,13,501,29" href="../industrial-chemicals/industrial-chemicals-04.html" onmouseover="changeMapImage('img/hos_on2.png')" onmouseout="changeMapImage('img/hos_off.png')">
+                </map>
+         	</div>
+            
+            <div class="item-img-01">
+                <img src="img/park_off.png" usemap="#Map3" id="map3"  class="tooltip-hover-01" alt="「安息香酸安息香酸ナトリウム」">
+                <map name="Map3">
+                  <area shape="poly" coords="258,182,222,190,228,236,262,261,349,281,422,277,425,234,409,211,258,185" href="../industrial-chemicals/industrial-chemicals-02.html" onmouseover="changeMapImage3('img/park_on.png')" onmouseout="changeMapImage3('img/park_off.png')">
+                </map>
+       	 </div>
+         
+         <div class="item-img-02">
+                <img src="img/company_off.png" usemap="#Map4" id="map4" alt="高機能ハロゲンフリー 難燃剤「ラビトル」">
+                <map name="Map4">
+                  <area  shape="rect" coords="486,96,573,174" href="../industrial-chemicals/industrial-chemicals-01.html" onmouseover="changeMapImage4('img/company_on.png')" onmouseout="changeMapImage4('img/company_off.png')">
+                </map>
+       	 </div>
+
+           
+      </div>
+    </div> <!-- End .page-top -->
+
+	<div id="footer_out">
+    </div>
+    <!-- <div class="only_mb"><p id="page-top"><a href="#wrap">ページのトップへ</a></p></div> -->
+</div>
+    <script src="../../js/jquery.min.js"></script>
+	<script> 
+    $(function(){
+      $("#header_out").load("../header.html"); 
+	  $("#footer_out").load("../footer.html"); 
+    });
+</script> 
+<script id="news-template" type="text/x-custom-template">
+    <li class="news_item">
+        <time class="news_time">{{date}}</time>
+        <span class="news_tag {{class}}">{{cname}}</span>
+        <h3 class="rs news_title">
+            <a class="" href="" title="{{title}}">{{title}}</a> </h3>
+    </li>
+</script>
+<!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="../../../../js/modernizr-2.8.3.min.js"></script> -->
+<script src="../../js/mustache.min.js"></script>
+<script src="../../js/global.js"></script>
+<script src="../../js/home.js"></script>
+<script src="../../js/pageTop.js"></script>
+<script src="../../js/jquery.meanmenu.min.js"></script>
+<script src="../../js/ajaxzip3.js" charset="UTF-8"></script>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('header nav').meanmenu({
+        meanMenuCloseSize: "120%", // クローズボタンのフォントサイズ
+        meanMenuClose: "×" // クローズボタン
+        });
+});
+</script>
+<script type="text/javascript">
+function changeMapImage(imgPath) {
+  document.getElementById('map').src = imgPath;
+}
+
+function changeMapImage2(imgPath) {
+  document.getElementById('map2').src = imgPath;
+}
+
+function changeMapImage3(imgPath) {
+  document.getElementById('map3').src = imgPath;
+}
+
+function changeMapImage4(imgPath) {
+  document.getElementById('map4').src = imgPath;
+}
+</script>
+<script src="js/jquery.rwdImageMaps.min.js"></script>
+<script>
+$(function(){
+  $('img[usemap]').rwdImageMaps();
+});
+</script>
+</body>
+</html>

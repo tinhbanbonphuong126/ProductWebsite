@@ -1,0 +1,126 @@
+#product{
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+#product .page-content{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: -20px;
+}
+#product .content-left{
+    position: relative;
+    float: left;
+    width: 50%;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-size: 0.9rem;
+    padding-right: 15px;
+}
+#product .content-right{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+#product .content-right img{
+    width: 100%;
+}
+.page-block h3{
+    color: #F39700;
+    font-size: 0.9375rem;
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    font-weight: bold;
+    z-index: 999;
+    padding-right: 0.5rem;
+}
+.page-block hr{
+    position: relative;
+    border-bottom: 1px dashed #F39700;
+    margin: 10px 0;
+    bottom: 1.6rem;
+    border-top: 0;
+}
+.icon-1::before{
+    content: " ";
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-right: 4px;
+    width: 14px;
+    height:14px;
+    background-size: cover;
+    border-radius: 100%;
+    background-color: #F39700;
+
+}
+
+#product .img{
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+#product .img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    #product .content-left{
+        width: 100%;
+    }
+    #product .content-right{
+        margin-top: 15px;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    #product .img{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+    .page-block hr{
+        position: relative;
+        border-bottom: 2px dotted #F39700;
+        margin: 0px 0;
+        bottom: 1rem;
+    }
+}
+/*jp 追加*/
+.page-block {
+	padding-bottom:20px;
+}
+.page-chem .content h2.srs_title {
+	padding: 1rem 0.5rem 1rem 1.2rem
+}
+@media screen and (max-width: 480px){
+    .page-block hr{
+    	bottom: 1.2rem;
+	}
+	.page-block h3 {
+		font-size: 15px;
+	}
+	.page-chem .content h2.srs_title {
+		padding: 1rem 0.5rem;
+	}
+	.page-chem .content h2.crso_title {
+		padding: 1rem 0.5rem;
+	}
+}

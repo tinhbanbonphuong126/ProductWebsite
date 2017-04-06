@@ -1,0 +1,301 @@
+/*------------------- Responsive Iphone -----------------------*/
+@media only screen and (min-width: 760px) and (max-width: 800px) {
+	/********************industrial chemicals********************/
+	.hu-page .col-md-9{
+		width: 67%;
+	}
+	.hu-page .col-md-3{
+		width: 33%;
+	}
+	.hu-page .special .col-md-8{
+		width: 54%;
+	}
+	.hu-page .special .col-md-4{
+		width: 46%;
+	}
+	/********************industrial chemicals page2********************/
+	.hu-page2 .contai-en .content .des img{
+		width: 100%;
+	}
+	.hu-page2 .contai-en .content .des .viewmore{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	/******************** en industrial chemicals page2********************/ 
+	.hu-page3 #enhup2-sec1 .enhup2-row .col-md-4{
+		width: 50%;
+		margin-left: 0px;
+	}
+	.hu-page3 #hup2-sec2 .hup2-block img,
+	.hu-page3 #enhup2-sec5 .enhup2-block img,
+	.hu-page3 #enhup2-sec4 .enhup2-block img,
+	.hu-page3 #enhup2-sec6 .enhup2-block img,
+	.hu-page3 #enhup2-sec8 .enhup2-block img
+	{
+		max-width: 95%
+	}
+	
+	/******************** ndustrial chemicals page3********************/ 
+	.hu-page4 .contai-en .hup4-special .des .view-detail{
+		padding-left:0rem;
+	}
+	.hu-page4 .contai-en .hup4-special .des .viewmore{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.hu-page4 .contai-en .des.app-indu h2,
+	.hu-page4 .contai-en .des.app-indu.af-max h2{
+		width: 45%;
+	}
+	.hu-page4 .contai-en .des.app-indu .view-img{
+		width: 47%;
+	}
+	.hu-page4 .contai-en .first-chem .des .col-xs-12{
+		width: auto;
+	}
+	
+	/******************** EN industrial chemicals page3********************/ 
+	.hu-page5 .contai-en .hup4-special .des .view-detail{
+		padding-left:0rem;
+	}
+	.hu-page5 .contai-en .hup4-special .des .viewmore{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.hu-page5 .contai-en .des.app-indu h2,
+	.hu-page5 .contai-en .des.app-indu.af-max h2{
+		width: 45%;
+	}
+	.hu-page5 .contai-en .des.app-indu .view-img{
+		width: 47%;
+	}
+	.hu-page5 .contai-en .first-chem .des .col-xs-12{
+		width: auto;
+	}		
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+	/********************industrial chemicals********************/
+ 	.hu-page .special .col-md-8{
+		width: 50%;
+	}
+	.hu-page .special .col-md-4{
+		width: 50%;
+	}
+	
+	/********************industrial chemicals page2********************/
+	.hu-page2 .contai-en .content .des img{
+		width: 100%;
+	}
+	.hu-page2 .content .des .hup2-row div:nth-child(2){
+		margin: 10px 0px;
+	}
+	.hu-page2  .contai-en .navigation{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.hu-page2 .hup2-text{
+		min-height: 120px;
+	}
+	.hu-page2 #hup2-sec3 .hup2-ulrow li img{
+		max-width: 200px;
+	}
+	.hu-page2 #hup2-sec3 .hup2-bottom{
+		padding-left: 0px;
+	}	
+	.hu-page2 .contai-en .content .des .viewmore{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	
+	/******************** en industrial chemicals page2********************/ 
+	.hu-page3 #enhup2-sec1 .enhup2-row .col-sm-12{
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+	.hu-page3 .contai-en .des .viewmore{
+		padding-left: 1em;
+	}
+	.hu-page3 #hup2-sec2 .hup2-block img,
+	.hu-page3 #enhup2-sec5 .enhup2-block img,
+	.hu-page3 #enhup2-sec4 .enhup2-block img,
+	.hu-page3 #enhup2-sec6 .enhup2-block img,
+	.hu-page3 #enhup2-sec8 .enhup2-block img
+	{
+		max-width: 95%;
+	}	
+	
+	/******************** industrial chemicals page3 ********************/ 
+	.hu-page4 .contai-en .content .des,
+	.hu-page4 .contai-en .des,
+	.hu-page4 .contai-en .first-chem .des{
+		display: block;
+	}
+	.hu-page4 .contai-en .first-chem .des{
+		float: left;
+	}
+	.hu-page4 .contai-en .des .view-detail{
+		padding-left: 0rem;
+	}
+	.hu-page4 .contai-en .des.app-indu h2{
+		width: 100%;
+		text-align: center;
+		margin-left: 0rem;
+	}
+	.hu-page4 .contai-en .des.app-indu .view-img{
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	.hu-page4 .contai-en .des.app-indu .view-img .img{
+		display: inline;
+	}
+	.hu-page4 .contai-en .des .viewmore,
+	.hu-page4 .contai-en .des .viewmore a{
+		display: inline;
+	}
+	.hu-page4 .contai-en .first-chem .des .col-xs-12{
+		width: 100%;
+	}
+	
+	/********************EN industrial chemicals page3 ********************/ 
+	.hu-page5 .contai-en .content .des,
+	.hu-page5 .contai-en .des,
+	.hu-page5 .contai-en .first-chem .des{
+		display: block;
+	}
+	.hu-page5 .contai-en .first-chem .des{
+		float: left;
+	}
+	.hu-page5 .contai-en .des .view-detail{
+		padding-left: 0rem;
+	}
+	.hu-page5 .contai-en .des.app-indu h2,
+	.hu-page5 .contai-en .des.app-indu.af-max h2{
+		width: 100%;
+		text-align: center;
+		margin-left: 0rem;
+	}
+	.hu-page5 .contai-en .des.app-indu .view-img{
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	.hu-page5 .contai-en .des.app-indu .view-img .img{
+		display: inline;
+	}
+	.hu-page5 .contai-en .des .viewmore,
+	.hu-page5 .contai-en .des .viewmore a{
+		display: inline;
+	}
+	.hu-page5 .contai-en .first-chem .des .col-xs-12{
+		width: 100%;
+	}	
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	/********************industrial chemicals********************/
+  html {
+    font-size: 12px; }
+  body {
+    font-size: 1rem; }
+    .hu-infomation .circle{
+    	bottom: -49px;
+    }
+    .hu-page .contai-en .content .des{
+    	text-align: center;
+    }
+	.hu-page .special .col-md-8,
+	.hu-page .special .col-md-4{
+		width: 100%;
+		text-align: left;
+	}
+	.hu-page .special .des .viewmore{
+		padding: 0px 0px 0px 7px;
+	}
+	.hu-page .special .col-md-4{
+		padding-right: 0px;
+	}
+	
+	/********************industrial chemicals page2********************/
+	.hu-page2 .contai-en .content .des img{
+		width: 100%;
+	}
+	.hu-page2 .content .des .hup2-row div:nth-child(2){
+		margin: 10px 0px;
+	}
+	.hu-page2  .contai-en .navigation{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.hu-page2 .hup2-text{
+		min-height: 120px;
+	}
+	.hu-page2 #hup2-sec3 .hup2-ulrow li img{
+		max-width: 150px;
+	}
+	.hu-page2 #hup2-sec3 .hup2-bottom{
+		padding-left: 0px;
+	}	
+	.hu-page2 .contai-en .content .des .viewmore{
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	
+	/******************** en industrial chemicals page2********************/ 
+	.hu-page3 #enhup2-sec1 .enhup2-list li{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.hu-page3 #enhup2-sec1 .enhup2-row .col-xs-12{
+		margin-left: 0px;
+		margin-bottom: 10px;
+	}
+	.hu-page3 #hup2-sec2 .hup2-block img,
+	.hu-page3 #enhup2-sec5 .enhup2-block img,
+	.hu-page3 #enhup2-sec4 .enhup2-block img,
+	.hu-page3 #enhup2-sec6 .enhup2-block img,
+	.hu-page3 #enhup2-sec8 .enhup2-block img
+	{
+		max-width: 95%;
+	}
+	.hu-page3 #enhup2-sec3 .hup2-ulrow li img{
+		max-width: 120px;
+	}
+	
+	/******************** industrial chemicals page3 ********************/ 
+	.hu-page4 .contai-en .content .des img{
+		max-width: 16.5rem;
+	}
+	
+	/******************** EN industrial chemicals page3 ********************/ 
+	.hu-page5 .contai-en .content .des img{
+		max-width: 16.5rem;
+	}	
+}
+/*jp 追加*/
+@media only screen and (max-width: 480px) {
+	.hu-infomation {
+		background-size: cover;
+	}
+	.hu-infomation .hu-infocontent div.col-md-6 .row2 {
+		margin-bottom: 20px;
+	}
+
+	.hu-page .hu-infomation .hu-infocontent {
+	    padding: 0 2.2rem 8em;
+	}
+	.hu-page .hu-infomation .icon-center {
+		max-width: 60%;
+	}
+	.hu-page .hu-infomation .circle {
+	    bottom: -72px;
+	}
+	.page-chem .contai-en .content.navigation ul li {
+		display: block;
+	}
+	.hu-page .contai-en .content .des {
+		margin-top: -15px;
+	}
+	.hu-page .contai-en .content .des .col-md-9{
+		margin-bottom: 15px;
+	}
+}

@@ -1,0 +1,351 @@
+.hu-medicalsupplies{
+    background-color:#EFEFEF;
+    padding-top:  40px;
+	position:relative;
+}
+
+
+.pink{
+    background-color: #EF94AE;
+}
+.blue{
+    background: #00A0E9;
+}
+.yellow{
+    background: #F8B62D;
+}
+.green{
+    color: #8FC31F;
+}
+.light-green{
+    color: #60B592;
+}
+.red{
+    color: #f00;
+}
+#medical-page2 #hu-sec1 .header,
+#medical-page2 #hu-sec3 .header,
+#medical-page2 #hu-sec5 .header
+{
+    text-align: center;
+    font-size: 1.8rem;
+    width: 100%;
+    padding:2rem 0rem;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75);
+    box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75); 
+    color: #fff;  
+}
+
+#medical-page2 #hu-sec1 .header span,
+#medical-page2 #hu-sec3 .header span,
+#medical-page2 #hu-sec5 .header span
+{
+	font-size:1rem;
+}
+
+#medical-page2 #hu-sec2 h2,
+#medical-page2 #hu-sec4 h2{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2.1rem 0rem;
+}
+#medical-page2 #hu-sec2 .row{
+    margin-bottom: 0.92rem;
+}
+#medical-page2 #hu-sec2 .row:last-child{
+    margin-bottom:0rem;
+}
+#medical-page2 #hu-sec3,
+#medical-page2 #hu-sec5{
+    padding-top:  6.78rem;
+}
+
+#medical-page2 #hu-sec6{
+	margin-bottom:40px;
+}
+
+#medical-page2 #hu-sec6 h2{
+    padding-top: 4.85rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    font-size:1.1rem;
+}
+
+#medical-page2 #hu-sec6 a{
+	color:#0592E1;
+}
+
+#medical-page2 #hu-sec6 a:hover,a:hover img{
+	opacity:0.7;
+	-moz-opacity: 0.7;
+-webkit-opacity: 0.7;
+}
+
+#medical-page2 #hu-sec6 .row .col-md-4 a:hover{
+	text-decoration:underline;
+}
+
+#medical-page2 #hu-sec6 .row .col-md-4{
+    text-align: center;
+}
+
+#medical-page2 #hu-sec6 .row .col-md-4 img{
+	border:#8A8989 1px solid;
+}
+
+
+#medical-page2 #hu-sec6 .row{
+    margin-bottom: 3.5rem;
+}
+#medical-page2 #hu-sec6 .row:last-child{
+	margin-bottom: 0rem;
+}
+#medical-page2 #hu-sec6 .row:nth-child(3){
+    margin-bottom: 0rem;
+}
+#medical-page2 #hu-sec6 .row .col-md-4 .img{
+    margin-bottom: 1rem;
+}
+.hu-medicalsupplies.white{
+	background: #fff;
+	/*padding-top: 11.4rem;
+	padding-bottom: 7.57rem;*/
+}
+.hu-medicalsupplies #hu-sec7 .row1{
+    text-align: center;
+}
+.hu-medicalsupplies #hu-sec7 .row1 h3{
+    padding-bottom: 0.92rem;
+    font-size:inherit;
+}
+.hu-medicalsupplies #hu-sec7 .row1 div:nth-child(2){
+    padding-bottom: 2rem;
+	background: url(../../images/medical-sup/page2/icon-arrow.png) no-repeat center bottom;
+}
+.hu-medicalsupplies #hu-sec7 .row1 div:last-child{
+    padding-top:0.92rem;
+}
+/*.hu-medicalsupplies #hu-sec8 .row2{
+    padding-top:  6.28rem;
+}*/
+.hu-medicalsupplies #hu-sec8 .row2 .block div:last-child,
+.hu-medicalsupplies #hu-sec8 .row2 .block-end{
+    text-align: center;
+}
+.hu-medicalsupplies #hu-sec8 .row2 .block{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	border-bottom: 1px dotted #ccc;
+}
+.hu-medicalsupplies #hu-sec8 .row2 .block:nth-child(2){
+	padding-top: 0rem;
+}
+.hu-medicalsupplies #hu-sec8 .row2 .block:nth-child(5){
+	border:none;
+}
+.hu-medicalsupplies #hu-sec8 .row2 .block label{
+	margin-bottom: 0rem;
+	font-size:16px;
+	font-weight:bold;
+}
+.hu-medicalsupplies #hu-sec8 .row2 .block-end{
+	padding-top: 2rem;
+	background: url(../../images/medical-sup/page2/icon-arrow.png) no-repeat center top;
+}
+.hu-medicalsupplies #hu-sec8 .row3{
+    padding-top:  6.28rem;
+    text-align: center;
+}
+.hu-medicalsupplies #hu-sec8 .row2 .medical-intro-header,
+.hu-medicalsupplies #hu-sec8 .row3 .medical-intro-header{
+	padding-bottom: 1.5rem;
+}
+
+
+.hu-medicalsupplies #hu-sec8 .row3 .ul-list{
+	margin-bottom: 6rem;
+}
+.hu-medicalsupplies #hu-sec8 .row3 div:nth-child(2){
+	margin-bottom:3rem;
+}
+/*.hu-medicalsupplies #hu-sec8 .row3 .ul-list p.first span{
+	font-size: 1.7rem;	
+}*/
+.hu-medicalsupplies #hu-sec8 .row3 .ul-list h3{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+#medical-page2 .hu-medicalsupplies .header span{
+	font-size: 1rem;
+}
+
+.hu-medicalsupplies #hu-sec8 .row3 .ul-list p a{
+	color:#0592E1;
+}
+
+.hu-medicalsupplies #hu-sec8 .row3 .ul-list p a:hover{
+	text-decoration:underline;
+}
+
+.hu-medicalsupplies .icon-arrow{
+	position:absolute;
+	top:100%;
+	left:45%;
+	z-index:999;
+}
+
+/*スワローケアピュア*/
+.page-chem .content .three-featured h3{
+	margin-top:30px;
+}
+
+.page-chem .content .three-featured h4{
+	font-size:16px !important;
+}
+
+.page-chem .content .chem-product p{
+	font-weight:normal !important;
+}
+
+.page-chem .con-medical .content .three-featured .fe-mect table td {
+	font-weight:normal !important;
+text-align:left !important;
+}
+
+.page-chem .con-medical .content .three-featured .fe-mect #table1 td{
+	text-align:center !important;
+}
+
+.page-chem .con-medical .content .chem-product p {
+	line-height:21px;
+}
+
+.page-chem .con-medical .content .three-featured .fe-mect .table{
+	border: solid 2px #CCCCCC !important;
+}
+
+.page-chem .con-medical .content .three-featured .fe-mect .table tr td{
+    vertical-align: middle;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-left: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;	
+	border-bottom: solid 1px #CCCCCC;
+}
+
+.page-chem .con-medical .content .three-featured .fe-mect .table tr th{
+	border-bottom: solid 1px #CCCCCC;
+	border-top: solid 1px #CCCCCC;
+}
+
+#table1 td span{
+	display:block;
+	text-align:left;
+	padding-left:30px;
+	margin-right:-30px;
+}
+
+.page-chem .con-medical .content .three-featured .fe-mect.fe-af{
+	right:50px;
+}
+
+
+/*スワーローケアピュア購入*/
+
+.page-chem.page-contact .form-contact.page-per .please-row .des-sp h4{
+	font-weight:bold !important;
+}
+
+.page-chem.page-contact .form-contact.page-per {
+	color:#333 !important;
+	font-weight:normal !important;
+}
+
+.page-contact .form-contact .form .col-form-label {
+		color:#333 !important;
+		font-weight: 400 !important;
+}
+
+#form2 h3{
+	font-weight:500;
+	color: #93BE50;
+    font-size: 1.1rem;
+	margin-left:260px;
+}
+
+#submit_box{
+	width:100%;
+	text-align:center;
+	padding-top:50px;
+}
+
+#submit_box img{
+	margin-left:20px;
+}
+
+.page-contact .form-contact .form .input-group button{
+	width:25%;
+	font-size:1rem;
+}
+/*フェーメック*/
+
+#femec .con-medical .content .chem-product p{
+	letter-spacing:0.05rem !important;
+}
+
+#femec #text_box{
+	padding-left:1em !important;
+	letter-spacing:-0.03rem !important;
+	text-align:justify;
+	text-justify:distribute-all-lines; 
+	width:100%;
+}
+
+#femec .con-medical .content .three-featured .fe-mect .table tr th:first-child{
+	border-right: solid 1px #999;
+}
+
+#femec .name-table{
+	margin-top:20px !important;
+}
+
+#femec_list li{
+	font-weight:normal !important;
+	letter-spacing:0;
+}
+
+#femec .con-medical .content .three-featured h3{
+	padding-top:10px !important;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 800px) {
+	#medical-page2 #hu-sec2 .row .col-md-6 img,
+	#medical-page2 #hu-sec4 .row .col-md-6 img{
+		max-width: 100%;
+	}	
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+	#medical-page2 #hu-sec2 .row,
+	#medical-page2 #hu-sec4 .row{
+		text-align: center;
+	}
+	#medical-page2 #hu-sec2 .row img,
+	#medical-page2 #hu-sec4 .row img{
+		max-width: 100%;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	#medical-page2 #hu-sec2 .row,
+	#medical-page2 #hu-sec4 .row{
+		text-align: center;
+	}	
+	#medical-page2 #hu-sec2 .row img,
+	#medical-page2 #hu-sec4 .row img{
+		max-width: 100%;
+	}	
+}
+
+

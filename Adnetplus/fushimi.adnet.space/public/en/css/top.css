@@ -1,0 +1,254 @@
+.page-top{
+	width:98vw;
+	margin:auto;
+	padding:0 5%;
+	margin-top:20px;
+}
+
+/*.page-top .bg-top {
+  background: url(../../images/top/bg-top.jpg) no-repeat top center;
+  height: 74.5vw;
+  background-size: contain;
+  position: relative;
+  
+	border:#B5B2B2 2px solid;
+   }*/
+
+.item_img{
+	border:#B7B3B3 2px solid !important;
+	width:100%;
+}
+   
+.item-img-01{
+	width:50%;
+	height:auto;
+	float:left;
+}
+
+ img{
+	width:100%;
+	height:auto;
+}
+
+.item-img-02{
+	width:50%;
+	float:right;
+}
+
+   
+ /* .page-top  .tooltiptext {
+    opacity: 0;
+    width: 23vw;
+    visibility: hidden;
+    background-color: #221814;
+    border-radius: 1rem;
+    padding: 0.5vw 2vw 0.5vw 0;
+    position: absolute;
+    z-index: 1;
+    transition: opacity 1s;
+    color: #fff;
+    font-weight: 600;
+    text-align: right;
+    display: inline-block;
+    font-size: 2vw;
+    line-height: 3.125rem;
+    position: relative; }
+  .page-top .tooltiptext:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 3rem solid #221814;
+    border-left: 2.5rem solid transparent;
+    border-right: 0 solid transparent;
+    left: 50%;
+    bottom: -35%;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+  .page-top .item-img-01:hover .tooltiptext {
+    text-align: center; }
+    .page-top .item-img-01:hover .tooltiptext span {
+      text-align: right;
+      display: block; }
+  .page-top .bg-top .item-img-02:hover .tooltiptext {
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+    .page-top .bg-top .item-img-02:hover .tooltiptext span {
+      display: block;
+      text-align: right; }
+  .page-top .bg-top .item-img-03 .tooltiptext:after {
+    left: 75%; }
+  .page-top .bg-top .item-img-04 .tooltiptext:after, .page-top .bg-top .item-img-06 .tooltiptext:after {
+    border-bottom: 3rem solid #221814;
+    top: -38%;
+    border-top: none;
+    left: 45%; }
+  .page-top .bg-top a .tooltip01 {
+    position: absolute;
+    top: 16.4%;
+    left: 23.35%;
+    width: 2.6vw;
+    opacity: 1; }
+  .page-top .bg-top a .tooltip-hover-01 {
+    opacity: 0;
+    position: absolute;
+    top: 16.4%;
+    left: 23.35%;
+    width: 2.6vw; }
+  .page-top .bg-top a .tooltip02 {
+    position: absolute;
+    top: 30.5%;
+    left: 51.7%;
+    width: 10.6vw;
+    opacity: 1; }
+  .page-top .bg-top a .tooltip-hover-02 {
+    position: absolute;
+    top: 30.5%;
+    left: 51.7%;
+    width: 10.6vw;
+    opacity: 0; }
+  .page-top .bg-top a .tooltip03 {
+    position: absolute;
+    top: 6%;
+    left: 84.7%;
+    width: 13.2vw;
+    opacity: 1; }
+  .page-top .bg-top a .tooltip-hover-03 {
+    position: absolute;
+    top: 6%;
+    left: 84.7%;
+    width: 13.2vw;
+    opacity: 0; }
+  .page-top .bg-top a .tooltip04 {
+    position: absolute;
+    top: 24.6%;
+    left: 75.4%;
+    width: 4vw;
+    opacity: 1; }
+  .page-top .bg-top a .tooltip-hover-04 {
+    position: absolute;
+    top: 24.6%;
+    left: 75.4%;
+    width: 4vw;
+    opacity: 0; }
+  .page-top .bg-top a .tooltip05 {
+    position: absolute;
+    top: 75.8%;
+    left: 18.7%;
+    width: 14vw;
+    opacity: 1; }
+  .page-top .bg-top a .tooltip-hover-05 {
+    position: absolute;
+    top: 75.4%;
+    left: 18.7%;
+    width: 14vw;
+    opacity: 0; }
+  .page-top .bg-top a .tooltip06 {
+    position: absolute;
+    top: 64.2%;
+    left: 88.2%;
+    width: 6.4vw;
+    opacity: 1; }
+  .page-top .bg-top a .tooltip-hover-06 {
+    position: absolute;
+    top: 64.2%;
+    left: 88.2%;
+    width: 6.4vw;
+    opacity: 0; }
+  /*.page-top .bg-top .item-img-01 {
+    width: 0;
+    display: inline-block; }
+  .page-top .bg-top .item-img-02 {
+    width: 0;
+    display: inline-block; }
+  .page-top .bg-top .item-img-03 {
+    width: 0;
+    display: inline-block; }
+  .page-top .bg-top .item-img-04 {
+    width: 0;
+    display: inline-block; }
+  .page-top .bg-top .item-img-05 {
+    width: 0;
+    display: inline-block; }
+  .page-top .bg-top .item-img-06 {
+    width: 0;
+    display: inline-block; }*/
+/*  .page-top .bg-top .item-img-01:hover .tooltip01 {
+    opacity: 0; }
+  .page-top .bg-top .item-img-01:hover .tooltip-hover-01 {
+    opacity: 1; }
+  .page-top .bg-top .item-img-01:hover .tooltiptext {
+    opacity: 1;
+    visibility: inherit;
+    position: absolute;
+    top: 3%;
+    left: 8%; }
+  .page-top .bg-top .item-img-02:hover .tooltip02 {
+    opacity: 0; }
+  .page-top .bg-top .item-img-02:hover .tooltip-hover-02 {
+    opacity: 1; }
+  .page-top .bg-top .item-img-02:hover .tooltiptext {
+    opacity: 1;
+    visibility: inherit;
+    position: absolute;
+    top: 18%;
+    left: 41%; }
+  .page-top .bg-top .item-img-03:hover .tooltip03 {
+    opacity: 0; }
+  .page-top .bg-top .item-img-03:hover .tooltip-hover-03 {
+    opacity: 1; }
+  .page-top .bg-top .item-img-03:hover .tooltiptext {
+    opacity: 1;
+    visibility: inherit;
+    position: absolute;
+    top: 1.5%;
+    left: 65%;
+    padding: 2rem 0;
+    text-align: center; }
+  .page-top .bg-top .item-img-04:hover .tooltip04 {
+    opacity: 0; }
+  .page-top .bg-top .item-img-04:hover .tooltip-hover-04 {
+    opacity: 1; }
+  .page-top .bg-top .item-img-04:hover .tooltiptext {
+    opacity: 1;
+    visibility: inherit;
+    position: absolute;
+    top: 38%;
+    left: 65%;
+    font-size: 1.7vw;
+    padding: 0.5vw 1vw 0.6vw 0;
+    padding-right: 4rem; }
+  .page-top .bg-top .item-img-04.en:hover .tooltiptext {
+    padding-right: 1vw; }
+  .page-top .bg-top .item-img-05:hover .tooltip05 {
+    opacity: 0; }
+  .page-top .bg-top .item-img-05:hover .tooltip-hover-05 {
+    opacity: 1; }
+  .page-top .bg-top .item-img-05:hover .tooltiptext {
+    opacity: 1;
+    visibility: inherit;
+    position: absolute;
+    top: 43vw;
+    left: 12%;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .page-top .bg-top .item-img-06:hover .tooltip06 {
+    opacity: 0; }
+  .page-top .bg-top .item-img-06:hover .tooltip-hover-06 {
+    opacity: 1; }
+  .page-top .bg-top .item-img-06:hover .tooltiptext {
+    opacity: 1;
+    visibility: inherit;
+    position: absolute;
+    top: 57vw;
+    left: 75%; }*/
+	
+	@media screen and (max-width: 640px) {
+		.item-img-01,.item-img-02{
+			width:100%;
+			float:none;
+		}
+	}

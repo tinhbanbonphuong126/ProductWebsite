@@ -1,0 +1,57 @@
+.content {
+	margin-bottom:60px;
+}
+.page-chem .page-induch .chem-product table.table-two {
+    border: 0;
+}
+.page-chem .page-induch .chem-product table.table-two td{
+    font-weight: 400;
+}
+.page-chem .page-induch .chem-product table.table-two td:first-child {
+    width: 10%;
+}
+.page-chem .content .chem-product p {
+	font-weight: 400;
+}
+.page-chem .page-induch .chem-product table.th-w tr td:first-child,
+.page-chem .page-induch .chem-product table.table-first tr td:first-child {
+	text-align:left;
+    padding-left: 3em;
+}
+.page-chem .page-induch .chem-product table tr.row_two th {
+	padding: 0;
+}
+/*jp 追加*/
+@media screen and (max-width: 800px){
+	.page-chem .page-induch .note-indu {
+		margin: 2rem 15px 0;
+	}
+	.page-chem .page-induch .chem-product table.th-w tr td:first-child, .page-chem .page-induch .chem-product table.table-first tr td:first-child {
+		white-space: nowrap;
+	}
+	.page-chem .page-induch .chem-product table.table-two td:first-child {
+		width: 20%;
+	}
+}
+@media screen and (max-width: 480px){
+	.page-chem .page-induch .chem-product table.th-w tr td:first-child, .page-chem .page-induch .chem-product table.table-first tr td:first-child {
+		white-space: initial;
+	    padding: 1rem 2rem;
+	}
+	.page-chem .page-induch .chem-product .df .metal-micro {
+		width: 50%;
+	}
+	.page-chem .page-induch .chem-product .df .img-metal  {
+		width: 50%;
+	}
+
+}
+@media screen and (max-width: 320px){
+	.page-chem .page-induch .chem-product table.th-w tr td:first-child, .page-chem .page-induch .chem-product table.table-first tr td:first-child {
+		white-space: initial;
+	    padding: 0.5rem;
+	}
+	.page-chem .page-induch .chem-product table.table-first th {
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,38 @@
+/*中国版*/
+.main-clinical {
+	margin-top: 100px;
+}
+.cn .btn {
+	cursor: initial;
+}
+.link-clinical {
+	padding: 5rem 0 7rem;
+}
+.link-clinical .btn {
+    background-color: #8AB929;
+    padding: 0.8rem 4rem;
+    border-radius: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+}
+.banner-center .ba-des .des-banner {
+	right:60px;
+}
+.banner-center .ba-des .des-banner p{
+	font-size: 1.5rem;
+    text-align: left;
+    line-height: 2rem;
+    white-space: nowrap;
+}
+.medical-green {
+	font-size: 1.3rem;
+}
+@media only screen and (max-width: 800px) {
+	.banner-center .ba-des .des-banner p{
+		white-space: initail;
+	}
+	.br:before {
+		content: "\A" ;
+		white-space: pre ;
+	}
+}

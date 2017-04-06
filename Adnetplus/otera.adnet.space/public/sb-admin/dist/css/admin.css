@@ -1,0 +1,76 @@
+.txt_err,
+.help-block{
+    color: #FF0000;
+    padding-top: 5px;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.control-label{
+    text-align: left !important;
+}
+.bullet{
+    color: #FF0000;
+}
+.bg-brown{
+    background: #D5D5D5;
+}
+.no-border tr td,
+.no-border tr th{
+    border: none !important;
+}
+.font-normal{
+    font-weight: normal !important;
+}
+.btnDelete,
+.btnDone{
+    cursor: pointer;
+}
+.frame{
+    padding: 10px;
+    border: 2px solid #000000;
+    min-height: 100px;
+}
+.frame-warming{
+    border: 2px solid #a94442;
+}
+.show-name{
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+}
+.show-name p{
+    text-align: left;
+    margin-bottom: 0px;
+}
+.addHref{
+    cursor: pointer;
+}
+.show-yes{
+    background: #F4CCCC;
+}
+.show-no{
+    text-decoration: line-through;
+}
+.show-yes img,
+.show-no img,
+.show-noconfirm img{
+    margin-top: -7px;
+}
+.bg-pink{
+    background: #F4CCCC;
+}
+.table-responsive{
+    overflow-x: inherit !important;
+}
+@media screen and (max-width: 768px) {
+    .smtop10{
+        padding-top: 10px;
+    }
+}

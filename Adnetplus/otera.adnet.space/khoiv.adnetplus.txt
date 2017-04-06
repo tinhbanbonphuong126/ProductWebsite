@@ -1,0 +1,46 @@
+\INFO.md
+\app\Http\routes.php
+
+--------------------------------------------------- Changes => 葬儀司会進行者派遣管理システムv10.pptx
+List of affected files (A)
+
+views
+- resources\views\undertaker\urequest\show.blade.php
+- resources\views\undertaker\urequest\create.blade.php
+- resources\lang\jp\validation.php
+
+controllers
+- app\Http\Controllers\Under\URequestController.php
+- app\Http\Requests\UrescreateRequest.php
+
+models
+- app\OtRequest.php
+
+-------------------------------------------------- Changes => 葬儀管理システム修正v02
+List of affected files (B)
+
+views
+- resources\views\admin\users\index.blade.php
+- resources\views\admin\ot-requests\index.blade.php
+- resources\views\admin\ot-requests\show.blade.php
+- resources\views\staff\staffrequest\index.blade.php
+- resources\views\admin\ot-requests\choose.blade.php
+
+controllers
+- app\Http\Controllers\Admin\UsersController.php
+- app\Http\Controllers\Admin\OtRequestsController.php
+- app\Http\Controllers\Under\URequestController.php
+    + public function addRequest(UrescreateRequest $request) => resources\views\undertaker\urequest\create.blade.php
+- app\Http\Controllers\Staff\MRequestController.php
+
+models
+- app\OtRequest.php
+
+helpers
+- app\Http\helper.php
+
+SQL
+TRUNCATE TABLE `type_work`;
+INSERT INTO `type_work` (`id`, `name`) VALUES (1, '司会・進行'), (2, 'アシスタント'), (3, '司会・進行＆アシスタント');
+
+ALTER TABLE `request` ADD `is_new_request` TINYINT NOT NULL DEFAULT '0' AFTER `status`;

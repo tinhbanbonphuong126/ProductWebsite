@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Medical supplies </title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" id="font-css" href="../css/font-awesome.min.css" type="text/css" media="all">
+    <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/main.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../css/meanmenu.css" media="all" />
+    <link rel="stylesheet" href="../css/normalize.css" media="all" />
+    <link rel="stylesheet" href="../css/page.css" media="all" />
+    <link rel="stylesheet" href="../css/responsive.css" media="all" />
+    <!-- <link href="../css/fushimi.min.css" rel="stylesheet" type="text/css"/> -->
+
+    <!-- Custom css for medial supplies page -->
+    <link rel="stylesheet" href="../css/medical.css" type="text/css">
+    <!-- Script only for debug, delete this when in production -->
+    <!-- <script src="http://cssrefresh.frebsite.nl/../../js/cssrefresh.js"></script> -->
+</head>
+
+<body>
+
+<div class="wrapper en-wrapper medical-wrapper">
+<header class="header" id="header_out">
+</header>
+
+    <section class="main-history">
+        <div class="banner-history">
+            <p class="tit-history">Medical supplies</p>
+            <!-- <p class="small">Clinical Laboratory Center</p> -->
+        </div> <!-- End .banner-history -->
+
+        <div class="banner-center">
+            <div class="container ba-des">
+                <img src="../../images/medical/medical-banner.png">
+                <div class="des-banner">
+                    <p>
+                        Medicine for gastrointestinal<br>radiography
+                    </p>
+                </div>
+            </div>
+        </div> <!-- End .banner-center -->
+
+        <div class="container clearfix main-clinical">
+            <div class="row text-center">
+                <div class="clinical-title text-center">
+                    <a class="btn medical-btn medical-white medical-bg-pink" href="#">
+                    ❖Medical supplies
+                    </a>
+                </div>
+                <div class="clinical-body">
+                  <p>Medicine for gastrointestinal radiography</p>
+                  <img class="img-responsive" src="../../images/medical-sup/img3_11.jpg" alt="Medicine for gastrointestinal radiography">
+                </div>
+            </div> <!-- End of .row -->
+
+            <div class="row text-center">
+                <div class="clinical-title">
+                    <a class="btn medical-btn medical-white medical-bg-orange" href="../clinical-laboratory-center/">
+                    ❖Clinical laboratory center
+                    </a>
+                </div>
+                <div class="clinical-body">
+                    <p>
+                        We handle clinical laboratory test and support clinical study.<br><br>
+                        At our Clinical laboratory center,<br>
+                        we support clinical laboratory test and research study such as the <br>
+                        development and the build up of the quantitative analysis of Advanced glycation end-products (= AGEs).
+                    </p>
+                    <img class="img-responsive" src="../../images/medical-sup/img3_23.jpg" alt="Medicine for gastrointestinal radiography">
+                </div>
+            </div> <!-- End of .row -->
+        </div> <!-- End of .main-clinical -->
+
+        
+
+    </section>
+	<div id="footer_out">
+    </div>
+    <!-- <div class="only_mb"><p id="page-top"><a href="#wrap">ページのトップへ</a></p></div> -->
+</div>
+    <script src="../../js/jquery.min.js"></script>
+	<script> 
+    $(function(){
+      $("#header_out").load("../header.html"); 
+	  $("#footer_out").load("../footer.html"); 
+    });
+</script>
+<script src="../../js/modernizr-2.8.3.min.js"></script>
+<script src="../../js/mustache.min.js"></script>
+<script src="../../js/global.js"></script>
+<script src="../../js/home.js"></script>
+<script src="../../js/pageTop.js"></script>
+<script src="../../js/jquery.meanmenu.min.js"></script>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('header nav').meanmenu({
+        meanMenuCloseSize: "120%", // クローズボタンのフォントサイズ
+        meanMenuClose: "×" // クローズボタン
+        });
+});
+</script>
+</body>
+</html>

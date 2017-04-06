@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+  RewriteCond $1 !^(public)
+  RewriteRule ^(.*)$ /public/$1 [L]
+</IfModule>
+
+AuthUserFile /virtual/adplus/public_html/otera.adnet.space/public/.htpasswd
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user 

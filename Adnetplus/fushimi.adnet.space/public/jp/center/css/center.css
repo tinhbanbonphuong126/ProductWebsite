@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* CSS Document */
+/*-- CSS page Laboratory Center --*/
+a:hover,a:hover img,a:hover p{
+	opacity:0.7;
+	-moz-opacity: 0.7;
+	-webkit-opacity: 0.7;
+}
+
+.banner-center {
+  background-color: #2EA7E0; }
+  .banner-center .ba-des {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .banner-center .des-banner {
+    color: #fff;
+    padding-left: 2.2rem;
+    padding-top: 2.2rem; }
+    .banner-center .des-banner h2 {
+      font-size: 1.25rem;
+      line-height: 2.1875rem;
+      margin-bottom: 1.5rem; }
+    .banner-center .des-banner p {
+      font-size: 14px;
+      line-height: 1.75rem; }
+
+.inspec-item .icon-center {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem; }
+
+.inspec-item .tit {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 2rem; }
+  .inspec-item .tit img {
+    margin-right: 1rem;
+    margin-top: -0.5rem; }
+
+.inspec-item .table-responsive table th {
+  background-color: #F8B62D;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #DAE000;
+  border-bottom: 1px solid #fff; 
+  letter-spacing:0;
+  }
+  
+  .inspec-item .table-responsive table th span {
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: -webkit-inline-box;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+.inspec-item .table-responsive table td {
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #DAE000;
+  letter-spacing:0;
+  }
+
+.inspec-item .table-responsive table tr td:nth-child(1) {
+  background-color: #FADCE9; }
+
+.inspec-item .table-responsive table tr td:first-child {
+  background-color: #FADCE9; }
+
+.inspec-item .table-responsive table tr td.col-td {
+  background-color: #ECEFBF; }
+
+.inspec-item .table-responsive table tr:nth-child(2) td {
+  text-align: left;
+  padding-left: 3.5rem; }
+
+.inspec-item .table-responsive table tr:nth-child(4) td {
+  text-align: left;
+  padding-left: 5.3rem; }
+
+.inspec-item .table-responsive table tr:nth-child(6) td {
+  text-align: left;
+  padding-left: 3.7rem; }
+
+.inspec-item .table-responsive table tr:nth-child(10) td {
+  text-align: left;
+  padding-left: 4rem; }
+
+.inspec-item .table-responsive table tr:nth-child(14) td {
+  text-align: left;
+  padding-left: 0.5rem; }
+
+.inspec-item .table-responsive table tr:nth-child(17) td {
+  text-align: left;
+  padding-left: 2.5rem; }
+
+.step-request {
+  margin: 3rem 0rem; }
+  .step-request .step-item {
+    border: 0.8rem solid #EFEFEF;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+    .step-request .step-item .tit {
+      color: #E4007F;
+      position: relative;
+      top: -4rem;
+      display: inline-block;
+      background-color: #fff; }
+      .step-request .step-item .tit p {
+        text-align: center;
+        font-size: 1.3125rem;
+        font-weight: bold; }
+    .step-request .step-item .ptn-5 {
+      text-align: center;
+      font-size: 1.3125rem;
+      font-weight: bold;
+      color: #E4007F;
+      position: relative;
+      top: -4rem; }
+    .step-request .step-item h1 {
+      font-size: 1.5rem;
+      width: 150px;
+      margin-left: auto;
+      margin-right: auto;	  
+	  font-weight:bold;
+	  }
+    .step-request .step-item span {
+      font-size: 3.125rem;
+      position: relative;
+      display: inline-block;
+      top: 0.5rem; }
+    .step-request .step-item p {
+      font-size: 0.875rem;
+      margin-bottom: 0.3rem;
+      }
+	 
+	 .step-request .des{
+		 color:#000;
+	 }
+	 
+    .step-request .step-item .des {
+      border-top: 1px dashed #ccc;
+      padding-top: 1rem;
+      padding: 1rem 0.5rem 1.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      top: 0rem;
+      position: relative;
+      margin-top: -3rem; }
+      .step-request .step-item .des p {
+        text-align: left; }
+  .step-request img {
+    margin-top: 1.5rem; }
+
+.inspectid img {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
+
+.inspectid .item-inspectid {
+  border-top: 1px dashed #737373;
+  padding-top: 1.3rem;
+  }
+  
+  .inspectid .item-inspectid h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem; }
+  .inspectid .item-inspectid p {
+    margin: auto;
+    margin-bottom: 0.5rem;
+    max-width: 610px;
+    text-align: left; }
+    .inspectid .item-inspectid p.des {
+      margin-bottom: 2.5rem;
+      margin-top: -0.5rem;
+      text-align: center;
+	  }
+  .inspectid .item-inspectid .name {
+    margin-top: 1.5rem;
+    text-align: center;
+	font-weight:bold;
+	}
+
+#map-four.document {
+  background: url(../../../images/center/bg-document.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  margin-top: 1rem;
+  position: relative;
+  padding-bottom: 1.5rem; }
+  #map-four.document .icon-docu {
+    margin: auto;
+    display: table;
+    position: relative;
+    z-index: 99;
+    top: 2.4rem;
+    margin-bottom: 5rem; }
+  #map-four.document .content {
+    padding-top: 2rem; }
+    #map-four.document .content h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem; }
+    #map-four.document .content img {
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+  #map-four.document .des-do {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem; }
+    #map-four.document .des-do p {
+      margin-bottom: 0.5rem; }
+  #map-four.document .con-do {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem; }
+    #map-four.document .con-do p {
+      margin-bottom: 0.5rem; }
+  #map-four.document .bg-document {
+    background-color: #00A0E9; }
+
+#map-four.document:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  top: 0;
+  border-top: 9rem solid #fff;
+  border-left: 49.5vw solid transparent;
+  border-right: 49.6vw solid transparent;
+  background-color: rgba(26, 169, 226, 0.7); }
+
+.content-clinical {
+  background: url(../../../images/center/bg-ci.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 3rem;
+  color: #fff; }
+  .content-clinical.bg-cloud {
+    background: url(../../../images/center/bg-oop.jpg) no-repeat center;
+    background-size: cover; }
+  .content-clinical hr {
+    border-top: 2px dotted #fff; }
+  .content-clinical .main-left table {
+    color: #fff; }
+  .content-clinical .main-left img {
+    max-width: 100%;
+    height: auto; }
+  .content-clinical .main-left .table td {
+    border-top: none;
+    padding: .3rem; }
+  .content-clinical .main-left .tit-name {
+    font-size: 1.375rem;
+    margin-bottom: 2rem; }
+    .content-clinical .main-left .tit-name span {
+      font-size: 2rem;
+      display: inline-block;
+      margin-right: 0.5rem; }
+  .content-clinical .chart {
+    color: #fff; }
+    .content-clinical .chart img {
+      max-width: 90%; }
+    .content-clinical .chart .top-y {
+      margin-left: 0.5rem; }
+    .content-clinical .chart .name {
+      text-align: center;
+      margin-top: 1rem;
+      margin-right: 5rem;
+      font-size: 1.25rem; }
+  .content-clinical .main-right {
+    color: #fff; }
+    .content-clinical .main-right img {
+      max-width: 100%;
+      height: auto; }
+    .content-clinical .main-right .list-img-box {
+      margin-top: 4rem; }
+      .content-clinical .main-right .list-img-box .box {
+        padding-left: 0rem;
+        padding-right: 2.5rem; }
+        .content-clinical .main-right .list-img-box .box p {
+          text-align: center;
+          margin-top: 0.6rem;
+          margin-bottom: 1.5rem; }
+  .content-clinical .company-profile p {
+    margin-bottom: 0.35rem; }
+  .content-clinical .company-profile span {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .content-clinical .company-profile .ad-of {
+    font-size: 1.25rem; }
+  .content-clinical .icon-center {
+    margin-top: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem; }
+  .content-clinical .en-jp {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .content-clinical .en-jp .box {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 2rem; }
+      .content-clinical .en-jp .box .thumbnail-box {
+        margin: 0 1rem; }
+      .content-clinical .en-jp .box p {
+        margin-top: 1rem; }
+      .content-clinical .en-jp .box img {
+        max-width: 100%;
+        height: auto; }
+  .content-clinical .en .tit-name {
+    font-size: 1.375rem; }
+  .content-clinical .en p {
+    font-size: 1rem;
+    margin-bottom: 0.4rem; }
+  .content-clinical .tit-name {
+    font-size: 1.375rem; }
+
+.content-clinical:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  top: 0;
+  border-top: 9rem solid #fff;
+  border-left: 49.4vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  background-color: rgba(26, 169, 226, 0.8); }
+
+.link-clinical {
+  text-align: center;
+  padding: 6rem 0; }
+  .link-clinical .btn {
+    background-color: #8FC31F;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 0;
+    border-radius: 1.2rem;
+    width: 200px;
+    font-weight: 500;
+    margin: 0 4rem; }
+
+.address{
+	text-align:left;
+	display:inline-block;
+}
+
+.item_add img{
+    margin: 1rem auto 1.5rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+@media only screen and (max-width: 640px){
+	.banner-center .ba-des{
+		width:100%;
+		max-height:50vh;
+	}
+	
+	.banner-center .ba-des img{
+		max-width:100%;
+		height:auto;
+	}
+	
+	.banner-center .des-banner p{
+		padding-left:0;
+		text-shadow: 1px 2px 3px #575757;
+	}
+	
+	.banner-center .des-banner{
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top:1rem;
+		padding-left:1rem;
+	}
+	
+	div.table_mb{
+		padding:5%;
+		box-sizing:border-box;
+	}
+	
+	div.table_mb p{
+		font-size:1.2rem;
+		color:#6B9A49;
+		font-weight:bold;
+		padding-left:0;
+	}
+	
+	.table-bordered tr td,.table-bordered tr th{
+	border: 1px solid #DAE000;
+	vertical-align:middle;
+	}
+	
+	.table-bordered tr th{
+	text-align:center;
+	}
+	
+	.table-bordered .col-td {
+		background-color: #ECEFBF !important;
+		text-align:center;
+		font-weight:500;
+		font-size:1.1rem;
+	}
+	
+	.table-bordered .bg_pink {
+		background-color: #FADCE9;
+	}
+	
+	p{
+		padding-left:5%;
+	}
+	
+	#map-four.document .content{
+		padding-top:5rem;
+	}
+	
+	.content{
+		padding-left:1.5rem !important;
+		padding-right:1.5rem !important;
+		box-sizing:border-box;
+	}
+	
+}
+
+
+/*-- End CSS page Laboratory Center --*>

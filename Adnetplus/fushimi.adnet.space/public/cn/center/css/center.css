@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/*-- CSS page Laboratory Center --*/
+a:hover,a:hover img,a:hover p{
+	opacity:0.7;
+	-moz-opacity: 0.7;
+	-webkit-opacity: 0.7;
+}
+
+.banner-center {
+  background-color: #2EA7E0;
+  margin-bottom: 100px; }
+  .banner-center .ba-des {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .banner-center .des-banner {
+    color: #fff;
+    padding-left: 2.2rem;
+    padding-top: 2.2rem; }
+    .banner-center .des-banner h2 {
+      font-size: 1.25rem;
+      line-height: 2.1875rem;
+      margin-bottom: 1.5rem;
+      white-space: nowrap; }
+    .banner-center .des-banner p {
+      font-size: 14px;
+      line-height: 1.75rem; }
+
+
+@media screen and (max-width: 800px){
+.banner-center .ba-des img{
+	max-width: 50%;
+}
+}
+@media only screen and (max-width: 640px){
+	.banner-center .ba-des{
+		width:100%;
+		max-height:50vh;
+	}
+	
+	.banner-center .ba-des img{
+		max-width:100%;
+		height:auto;
+	}
+	
+	.banner-center .des-banner p{
+		padding-left:0;
+		text-shadow: 1px 2px 3px #575757;
+	}
+	
+	.banner-center .des-banner{
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top:1rem;
+		padding-left:1rem;
+	}
+	
+	
+	p{
+		padding-left:5%;
+	}
+	
+	
+	.content{
+		padding-left:1.5rem !important;
+		padding-right:1.5rem !important;
+		box-sizing:border-box;
+	}
+	
+}
+
+
+/*-- End CSS page Laboratory Center --*>

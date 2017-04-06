@@ -1,0 +1,396 @@
+
+* {
+    font-size: 18px;
+    /*font-family: Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;*/
+}
+body, input {
+    font-size: 18px;
+    /*font-family: Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;*/
+}
+/*General css*/
+
+.bold{
+    font-weight: bold;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+/*No border table bootstrap*/
+.no-border-table > thead > tr > th, .no-border-table > tbody > tr > th, .no-border-table > tfoot > tr > th, .no-border-table > thead > tr > td, .no-border-table > tbody > tr > td, .no-border-table > tfoot > tr > td {
+    /* padding: 8px; */
+    /* line-height: 1.42857143; */
+    /* vertical-align: top; */
+    border-top: 0px solid #ddd;
+}
+
+/*Vertical*/
+.vertical-align {
+    display: flex;
+    align-items: flex-end;
+}
+
+/*Hide narrow select box*/
+
+/*select {*/
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*-ms-appearance: none;*/
+    /*text-indent: 1px;*/
+    /*text-overflow: '';*/
+/*}*/
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.bg-color {
+    background-color: #FBFBFB;
+}
+
+.top-header {
+    margin-top: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.clear-fix-10 {
+    height: 10px;
+    clear: both;
+}
+
+.clear-fix-20 {
+    height: 20px;
+    clear: both;
+}
+
+.errors {
+    display: none;
+    font-size: 20px;
+    color: red;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#top-header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#top-header a:hover, a:focus {
+    color: #000000;
+    text-decoration: none;
+}
+
+th {
+    font-weight: bold;
+}
+
+.color-red {
+    color: #ff0000;
+}
+
+input  {
+    font-weight: lighter;
+}
+
+
+/*CSS for website*/
+
+/*.simsum {*/
+    /*font-family: simsum;*/
+/*}*/
+
+/*Login page*/
+.form-horizontal {
+    margin-top: 100px;
+}
+
+.btn-dangnhap {
+    background-color: #666666;
+    color: #F5FFFF;
+}
+
+#form-login {
+    position: relative;
+}
+
+#LogInForm span.color-red {font-size: 15px;}
+
+.form-border {
+    overflow: hidden;
+    margin: 15px auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px #ccc;
+    border-radius: 5px;
+}
+
+#lang {
+    position: absolute;
+    right: 50px;
+    bottom: -100px;
+}
+
+#LogInForm div h4 {
+
+font-size: 27px;
+
+font-weight: bold;
+}
+/*User list page*/
+#top-header {
+
+background-color: #5CB85C;
+
+color: #fff;
+}
+
+.select-sex {
+    width: 74px !important;
+}
+
+#search-form {
+    /* overflow: hidden; */
+    margin: 8px 0px;
+    padding: 14px 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 1px 1px 3px #ccc; */
+    /* border-radius: 5px; */
+}
+
+.table-border {
+    margin: 0px;
+    padding: 20px 10px 0px 10px;
+}
+
+/*User detail page*/
+
+/*Calendar*/
+#fix-size-column th,
+#fix-size-column tr
+{
+    width: 100px;
+}
+
+#fix-height-td tr:last-child td {
+    height: 200px;
+}
+
+#fix-height-td{
+    text-align: center;
+}
+
+#fix-size-column th {
+    text-align: center;
+}
+
+#next-back-week{
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+
+/*Medical record */
+#medical-form input {
+    /* width: 160px; */
+}
+
+#medical-form {
+    font-size: 20px;
+}
+
+#btn-save {
+    /* width: 80px; */
+    margin-bottom: -18px;
+    /* height: 35px; */
+    margin-left: -54px;
+    /* font-size: 20px; */
+}
+
+#half-input-medical div {
+    /* width: 100px; */
+    float: left;
+    margin-right: 10px;
+}
+
+#half-input-medical input {
+    width: 100%;
+}
+
+
+@media (min-device-width: 320px) {
+    .u-col-sm-12 {
+        width: 100%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
+        float: left;
+    }
+}
+
+@media (min-device-width: 768px) {
+    .u-col-sm-6 {
+        width: 50%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
+        float: left;
+    }
+}
+
+@media (min-device-width: 1024px) {
+    /*#medical-form input {*/
+        /*width: 100%;*/
+    /*}*/
+
+}
+
+.u-modal-title {
+
+/* margin: 0 auto; */
+
+text-align: center;
+
+line-height: 1.42857143;
+}
+
+.u-modal-body {
+
+font-size: 17px;
+
+text-align: center;
+}
+
+.modal-header {
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+
+/*Admin Pages*/
+/*user-employee register*/
+
+#top-header .container div div a {
+    font-size: 12px;
+}
+#user-employee label {
+    width: 135px;
+}
+
+#user-employee input {
+    width: 300px;
+}
+
+.inline {
+    display: inline;
+}
+
+/*Medical record format*/
+#medical-format .table > thead > tr > th, #medical-format .table > tbody > tr > th, #medical-format .table > tfoot > tr > th, #medical-format .table > thead > tr > td, #medical-format .table > tbody > tr > td, #medical-format .table > tfoot > tr > td {
+    border-top: 0px solid #ddd;!important
+    margin-top:;
+    /* margin: 37px 0px; */
+    /* padding-top: 2px; */
+    margin: 1;
+}
+
+th.left-title {
+    padding-top: 100px;
+    /* color: red; */
+    padding-top: 10px;
+    /* border: 1px solid red; */
+    width: 95px;
+    padding: 100px;
+    padding: 100px;
+    font-size: 25px;
+}
+
+th.left-title div {
+    margin-top: 9px;
+}
+
+/*Checkbox*/
+.label-checkbox {
+    position: absolute;
+    top: 7px;
+    left: 15px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+#btn-save-edit {
+    position: absolute;
+    bottom: 54px;
+}
+
+#width-th {
+    width: 20%;
+}
+
+.input-unit {
+    width: 80%!important;
+}
+
+th * {
+    font-weight: lighter;
+}
+
+form div span.color-red.inline {
+    width: 10px;
+    display: inline-block;
+}
+
+
+/*Aditional*/
+.back-btn {
+
+}
+
+/*Add arrow*/
+.a-arrow a:hover, .a-arrow a:focus{
+    text-decoration: none!important;
+}
+
+.a-arrow div {
+    height: 10px;;
+}
+
+/*  IE6 renders the up/down arrow smaller than all other browsers for some reason */
+span.arrow {
+    font-size: 18px;
+    line-height: 0;
+    top: 0;
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+.display-block {
+    display: block;
+}
+.a-arrow a{
+    font-weight:bold;
+}
+
+
+

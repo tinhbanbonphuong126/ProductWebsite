@@ -1,0 +1,403 @@
+@font-face {
+  font-family: 'MS-Gothic';
+  src: url("../fonts/MS Gothic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'YuGothic-Regular';
+  src: url("../fonts/YuGothic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.container {
+  max-width: 980px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.img-futured-event {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+/*--------------------- CSS Menu *--------------------------*/
+.nav_lst li a {
+  font-weight: 600; }
+
+.nav_lst li:first-child a {
+  border-left: 1px solid #fff; }
+
+/*------------------------ CSS Page History ------------------------*/
+.main-history .banner-history {
+  background: #99C74F;
+  text-align: center;
+  color: #fff;
+  padding: 60px 0px 40px;
+  line-height: 15px; }
+  .main-history .banner-history .tit-history {
+    font-size: 28px; }
+  .main-history .banner-history .small {
+    font-size: 15px; }
+
+.main-history .content-history {
+  padding: 30px 0px; }
+  .main-history .content-history .event-history .tit-event {
+    float: right; }
+    .main-history .content-history .event-history .tit-event h3 {
+      font-size: 18px;
+      color: #98C64E;
+      position: relative;
+      top: 35px;
+      font-weight: 600; }
+  .main-history .content-history .event-history .item-event {
+    border-left: 1px solid #99C74F;
+    float: left;
+    margin-top: 0px; }
+    .main-history .content-history .event-history .item-event .des-event {
+      padding-left: 40px;
+      position: relative;
+      top: -13px; }
+      .main-history .content-history .event-history .item-event .des-event .year-event {
+        font-weight: 600;
+        padding-bottom: 20px; }
+        .main-history .content-history .event-history .item-event .des-event .year-event .ye-num {
+          font-size: 25px;
+          color: #98C64E; }
+        .main-history .content-history .event-history .item-event .des-event .year-event .ye_txt {
+          font-size: 17px;
+          color: #000; }
+      .main-history .content-history .event-history .item-event .des-event .year-event:before {
+        content: "";
+        position: absolute;
+        background: url(../images/history/history_line.png) no-repeat left center;
+        padding: 12px 16px;
+        left: -1px; }
+      .main-history .content-history .event-history .item-event .des-event .number {
+        color: #fff;
+        background-color: #000;
+        padding: 5px 10px;
+        font-size: 20.41px;
+        float: left;
+        margin-right: 5px; }
+      .main-history .content-history .event-history .item-event .des-event h2 {
+        font-size: 1.5625rem;
+        margin-bottom: 20px; }
+      .main-history .content-history .event-history .item-event .des-event .img-futured-event img {
+        padding-left: 0px;
+        margin-bottom: 15px;
+        padding-right: 10px;
+        display: inline-block; }
+      .main-history .content-history .event-history .item-event .des-event .des-year-event {
+        clear: both;
+        padding-top: 2px;
+        padding-bottom: 50px; }
+        .main-history .content-history .event-history .item-event .des-event .des-year-event p {
+          font-weight: 500;
+          margin-bottom: 0px; }
+    .main-history .content-history .event-history .item-event .list-event {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-top: 80px; }
+      .main-history .content-history .event-history .item-event .list-event ul {
+        border: 1px solid #99C74F;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        .main-history .content-history .event-history .item-event .list-event ul li {
+          list-style-type: square;
+          line-height: 26px;
+          font-weight: 500; }
+      .main-history .content-history .event-history .item-event .list-event p {
+        line-height: 26px; }
+  .main-history .content-history .event-history .item-history-two .des-event .img-futured-event img {
+    padding-right: 5px; }
+
+/*------------------------ End CSS Page History ------------------------*/
+/*------------------------ CSS Page Map ------------------------*/
+.page-info {
+  font-family: 'MS-Gothic'; }
+  .page-info .banner-history {
+    padding: 50px 0px 30px; }
+
+.info-campany {
+  padding-left: 0px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .info-campany li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15.5px; }
+    .info-campany li a {
+      font-size: 21px;
+      font-weight: 500;
+      color: #fff;
+      font-family: 'MS-Gothic';
+      line-height: 25px; }
+    .info-campany li a:hover {
+      color: #E83828; }
+    .info-campany li .text-en {
+      font-size: 15px; }
+    .info-campany li .arrow {
+      font-size: 18px;
+      margin-right: 5px; }
+    .info-campany li.active a {
+      color: #E83828;
+      font-weight: 600; }
+  .info-campany li:first-child {
+    border-right: 2px solid #fff;
+    display: inline-block;
+    padding-left: 0px; }
+    .info-campany li:first-child a {
+      font-size: 24px; }
+    .info-campany li:first-child span {
+      font-family: initial; }
+  .info-campany li:nth-child(2) span {
+    font-family: initial; }
+  .info-campany li:last-child {
+    padding-right: 0px; }
+
+.main-map {
+  padding: 3.75rem 0rem; }
+  .main-map h1 {
+    font-size: 1.5625rem;
+    border-bottom: 1px solid #6b6b6b;
+    line-height: 3.28125rem;
+    padding-bottom: 20px;
+    color: #98C64E;
+    text-align: center; }
+  .main-map .item-map h4 {
+    font-size: 22px;
+    color: #98C64E;
+    position: relative;
+    text-align: left;
+    font-family: 'MS-Gothic'; }
+  .main-map .item-map h4:after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    padding-bottom: 14px;
+    margin-left: 20px; }
+  .main-map .item-map p {
+    font-size: 22px;
+    font-family: 'MS-Gothic';
+    margin-bottom: 3rem; }
+  .main-map .item-map h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #0074d9;
+    margin: 15px 0px 25px; }
+  .main-map .item-map .gmap {
+    text-align: center; }
+  .main-map .des-map {
+    line-height: 30px; }
+  .main-map .title-map {
+    background: -webkit-linear-gradient(to bottom, #98C64E, #cfe4d4);
+    background: -o-linear-gradient(to bottom, #98C64E, #cfe4d4);
+    background: -moz-linear-gradient(to bottom, #98C64E, #cfe4d4);
+    background: linear-gradient(to bottom, #98C64E, #cfe4d4);
+    color: #fff;
+    padding: 10px 0px;
+    margin: 10px 0px 20px; }
+    .main-map .title-map h2 {
+      font-size: 1.5rem;
+      font-family: 'MS-Gothic';
+      margin-bottom: 0rem;
+      text-align: center; }
+
+/*------------------------ End CSS Page Map ------------------------*/
+/*------------------------ CSS Page About Us ------------------------*/
+.about-us p {
+  font-size: 1.3125rem;
+  margin-bottom: 0px;
+  font-family: 'MS-Gothic';
+  line-height: 31px;
+  text-align: justify;
+  text-indent: 2rem; }
+
+.about-us img {
+  margin: auto; }
+
+.about-us .img-futured {
+  background: -webkit-linear-gradient(to bottom, #98C64E, #fff);
+  background: -o-linear-gradient(to bottom, #98C64E, #fff);
+  background: -moz-linear-gradient(to bottom, #98C64E, #fff);
+  background: linear-gradient(to bottom, #98C64E, #fff);
+  padding: 30px 0px;
+  margin-bottom: 30px; }
+
+/*------------------------ CSS Page About Us ------------------------*/
+/*------------------------ CSS Page Quote Us ------------------------*/
+.quote-us {
+  padding: 1.5625rem; }
+  .quote-us p {
+    font-size: 1.5625rem;
+    margin-bottom: 0px;
+    font-family: 'YuGothic-Regular';
+    line-height: 2.734375rem;
+    text-align: justify;
+    color: #323232;
+    font-weight: 600;
+    letter-spacing: -2px; }
+
+/*------------------------ CSS Page Quote Us ------------------------*/
+/*------------------------ CSS Page Info ------------------------*/
+.page-info h1 {
+  border-bottom: none; }
+
+.page-info .table td {
+  font-size: 1.5625rem;
+  color: #323232;
+  line-height: 25px; }
+
+.page-info .table th {
+  font-size: 1.5625rem;
+  color: #323232;
+  font-weight: 500;
+  line-height: 25px; }
+
+.page-info dl {
+  font-size: 1.5625rem;
+  border-top: 1px solid #eceeef;
+  padding: 1.25rem;
+  padding-right: 0rem; }
+  .page-info dl dt {
+    font-weight: 300; }
+  .page-info dl dd {
+    line-height: 3.5625rem;
+    margin-bottom: 2rem; }
+    .page-info dl dd img {
+      width: 100%; }
+
+/*------------------------ CSS End Page Info ------------------------*/
+/*------------------------ CSS page History Company ------------------------*/
+.content-history-company {
+  float: left;
+  width: 100%;
+  margin-top: 20px; }
+  .content-history-company .item-history {
+    float: left;
+    width: 100%;
+    position: relative; }
+    .content-history-company .item-history .table th {
+      border-bottom: 1px dashed #ccc;
+      border-top: none;
+      font-size: 1.325rem;
+      font-family: 'MS-Gothic';
+      line-height: 1.5rem;
+      font-family: 'YuGothic-Regular'; }
+    .content-history-company .item-history .img-item {
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 22%; }
+    .content-history-company .item-history .des-item {
+      border-left: 1px solid #ADD272;
+      width: 78%;
+      padding-left: 30px;
+      padding-right: 0px; }
+      .content-history-company .item-history .des-item table {
+        margin-bottom: 0rem; }
+  .content-history-company .item-history:last-child .des-item:after {
+    content: "";
+    position: absolute;
+    border: 5px solid #99C74F;
+    border-radius: 50%;
+    left: -5px;
+    bottom: 0px;
+    width: 5px; }
+  .content-history-company .item-history:first-child .des-item:before {
+    content: "";
+    position: absolute;
+    border: 3px solid #99C74F;
+    border-radius: 50%;
+    left: -3.5px;
+    top: 0px;
+    width: 3px; }
+
+/*------------------------ CSS End Page History Company ------------------------*/
+/*------------------------ CSS page Partner Company ------------------------*/
+.content-partner-company {
+  font-family: 'MS-Gothic'; }
+  .content-partner-company h2 {
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #b5b5b5);
+    background: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #b5b5b5);
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #b5b5b5);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #b5b5b5);
+    color: #fff;
+    padding: 10px;
+    padding-left: 20px; }
+  .content-partner-company .item-partner {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 2px dashed #ccc; }
+    .content-partner-company .item-partner .location {
+      font-size: 1.4375rem;
+      color: #98C64E; }
+    .content-partner-company .item-partner .des-partner {
+      border-left: 3px solid #9FA0A0;
+      font-size: 1.4375rem;
+      padding-left: 1.25rem;
+      margin: 2rem 0rem;
+      font-family: 'YuGothic-Regular'; }
+      .content-partner-company .item-partner .des-partner p {
+        font-weight: 700; }
+  .content-partner-company .item-location .item-partner:last-child {
+    border-bottom: none; }
+
+/*------------------------ CSS End Page Partner Company ------------------------*/
+
+/*------------------- Responsive Iphone -----------------------*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 12px; }
+  body {
+    font-size: 1rem; }
+  .img-futured-event {
+    display: inline-block; }
+  .main-history .content-history .event-history .tit-event {
+    display: none; }
+  .main-history .content-history .event-history .item-event {
+    border-left: none; }
+    .main-history .content-history .event-history .item-event .list-event {
+      padding: 15px 30px;
+      margin-top: 0px; }
+    .main-history .content-history .event-history .item-event .des-event .img-futured-event img {
+      width: 100%; }
+    .main-history .content-history .event-history .item-event .des-event .des-year-event {
+      padding-bottom: 0px; }
+  .info-campany {
+    display: block; }
+    .info-campany li {
+      display: block; }
+    .info-campany li:first-child {
+      border-right: none;
+      border-bottom: 2px solid #fff; }
+  .main-map {
+    padding: 25px 10px; }
+    .main-map .item-map h4:after {
+      width: 60%; }
+  .page-info .banner-history {
+    padding: 40px 0px 20px; }
+  .page-info dl {
+    padding: 0.8rem; }
+    .page-info dl .col-md-8 {
+      padding: 0px; }
+    .page-info dl .col-md-4 {
+      padding: 0px; }
+  .quote-us {
+    padding: 0.5rem; }
+  .content-history-company .item-history .img-item {
+    width: 100%; }
+    .content-history-company .item-history .img-item img {
+      width: 100%; }
+  .content-history-company .item-history .des-item {
+    width: 100%;
+    padding-left: 0px; } }

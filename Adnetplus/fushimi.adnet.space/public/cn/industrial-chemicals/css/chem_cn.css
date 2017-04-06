@@ -1,0 +1,61 @@
+/*工業薬品　中国版*/
+img {
+	max-width: 100%;
+}
+.img {
+	width: 240px;
+}
+
+.cn .contai-en .content .des {
+	width: 100%;
+}
+.cn .contai-en .first-chem .des {
+	width: auto;
+}
+.cn .contai-en .des p.col-md-6 {
+	width: 55%;
+}
+.cn .contai-en .des div.col-md-6 {
+	width: 45%;
+}
+.cn .contai-en .des.app-indu h2 {
+	padding: 0.7rem 0;
+}
+.cn .contai-en .des.app-indu.af-max h2 {
+    width: 47%;
+    text-align: right;
+    padding-right: 3rem;
+}
+.cn .contai-en .des .viewmore {
+	padding-left: 1rem;
+	padding-right: 0;
+}
+.hu-page2.cn .hup2-text {
+    justify-content: initial;
+}
+@media (max-width: 800px) {
+
+	.cn .contai-en .des p.col-md-6 {
+		width: 50%;
+	}
+	.cn .contai-en .des div.col-md-6 {
+		width: 50%;
+	}
+
+}
+@media only screen and (max-width: 480px) {
+	.img {
+		width: 75%;
+	    text-align: right;
+	}
+	.cn .contai-en .des p.col-md-6 {
+		width: 100%;
+	}
+	.cn .contai-en .des div.col-md-6 {
+		width: 100%;
+	}
+	.hu-page2.cn .contai-en .content h2, .hu-page2.cn .contai-en .content h2.first-h {
+	    padding-left: 1.5rem;
+	    padding-right: 1.5rem;
+	}
+}

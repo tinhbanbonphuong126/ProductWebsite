@@ -1,0 +1,15 @@
+/*中国共通*/
+
+body {
+    font-family: "Hiragino Sans GB","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif !important;
+    font-size: 15px;
+}
+
+.cn_header .nav_lst li {
+    width: calc(100%/5);
+}
+@media only screen and (max-width: 480px) {
+	.content-clinical:before {
+		display:none;
+	}
+}

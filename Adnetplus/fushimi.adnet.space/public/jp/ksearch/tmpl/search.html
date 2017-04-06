@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-jp">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta http-equiv="content-style-type" content="text/css">
+<style type="text/css">
+<!--
+body { background:#f0f0f0; font-size:13px; }
+a { text-decoration:none; }
+a:link { color:#0033cc; }
+a:hover { text-decoration:underline; color:#dd0000; }
+h1 { font-size:20px; margin-bottom:0; }
+div.top { background:#666; padding:3px; border:solid 1px #000; text-align:right; color:#fff; font-size:12px; margin-bottom:5px; }
+div.top a { color:#fff; }
+dl.search dd { font-size:12px; margin-bottom:1em; }
+dl.search dd span { color:green; }
+dl.search dt,dl.search dd { line-height:140%; }
+div.op { margin-top:4px; }
+hr.foot { background:#a4a4a4; border:none; color:#a4a4a4; height:1px; }
+div.ta-r { text-align:right; }
+-->
+</style>
+<title>全文検索システム</title>
+</head>
+<body>
+
+<h1>全文検索システム</h1>
+<div class="top">
+	| <a href="!topurl!">トップに戻る</a> |
+</div>
+<div class="ta-r">
+	索引可能文書 : !all!ファイル
+	&nbsp;
+	最終更新日 : !update!
+</div>
+
+<form action="!search_cgi!" class="find" name="ksearch">
+<input type="hidden" name="code" value="漢字">
+検索文
+<input type="text" name="q" value="!word!" size="45">
+<input type="submit" value="検索"> &nbsp;
+[<a href="!search_cgi!?">検索方法</a>]
+<div class="op">
+条件：
+<select name="cond">
+<!-- op_cond -->
+</select>
+&nbsp;
+件数：
+<select name="logs">
+<!-- op_logs -->
+</select>
+&nbsp;
+ソート：
+<select name="sort">
+<!-- op_sort -->
+</select>
+</div>
+</form>
+
+<b>検索結果</b>
+<p>!result!</p>
+
+<dl class="search">
+
+<!-- loop_begin -->
+<dt>!num!. <a href="!url!"><b>!title!</b></a></dt>
+<dd>
+	<span>日付 : !date!</span><br>
+	!doc!<br>
+	<a href="!url!">!url!</a>
+</dd>
+<!-- loop_end -->
+
+</dl>
+
+<p>
+リスト : !list!<br>
+Page : !page!
+</p>
+
+<script language="javascript">
+<!--
+	self.document.ksearch.q.focus();
+//-->
+</script>
+
+<hr class="foot">
+
+</body>
+</html>

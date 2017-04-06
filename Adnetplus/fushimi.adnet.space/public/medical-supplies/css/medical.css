@@ -1,0 +1,224 @@
+/*************************************************
+ * STYLE ONLY FOR MEDICAL SUPPLIES PAGE
+ *************************************************/
+
+
+/* Common
+************************************/
+.text-center {
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.medical-wrapper .medical-supplies,
+.medical-wrapper .medical-question,
+.medical-wrapper .main-clinical,
+ {
+    font-size: 1.125rem;
+}
+
+.medical-white {
+    color: #fff;
+}
+
+.medical-pink {
+    color: #EF94AE;
+}
+
+.medical-blue {
+    color: #00A0E9;
+}
+
+.medical-orange {
+    color: #F8B62D;
+}
+
+.medical-green {
+    color: #99C74F;
+}
+
+.medical-bg-pink {
+    background-color: #EF94AE;
+}
+
+.medical-bg-blue {
+    background-color: #00A0E9;
+}
+
+.medical-bg-orange {
+    background-color: #F8B62D;
+}
+
+.medical-bg-green {
+    color: #99C74F;
+}
+
+/* Page 1
+************************************/
+
+/* Fix from other styles */
+
+.banner-center .ba-des .des-banner {
+    padding-left: 0; 
+}
+
+.page-chem.page-contact .form-contact.pa-medical {
+    padding-bottom: 0;
+    margin-top: none; 
+}
+
+.page-chem.page-contact .form-contact.pa-medical:before {
+    border-top: 9rem solid #fff;
+}
+
+/* Normal style */
+.medical-wrapper .medical-supplies {
+    font-size: 1.25rem;
+    padding-top: 3.125rem;
+    padding-bottom: 6.5625rem;
+    background: url('../../../images/background_01.jpg') center top;
+}
+
+.medical-wrapper .medical-intro-header h2 {
+    font-weight: 600;
+    font-size: 1.3125rem;
+    margin-bottom: 2.1875rem;
+}
+
+.medical-wrapper .medical-intro-body ul li {
+    padding-bottom: 1.875rem;
+    margin-bottom: 1.125rem;
+    border-bottom: 1px #000 dashed;
+}
+
+.medical-wrapper .medical-intro-body .medical-title {
+    display: block;
+    color: #00A0E9;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.medical-wrapper .medical-question {
+    padding: 10rem 0;
+}
+
+.medical-wrapper .medical-question .question-title {
+    margin-bottom: 5rem;
+}
+
+.medical-wrapper .medical-question .answer-select img:first-child {
+    margin-right: 3.125rem;
+}
+
+
+/* Page 3
+************************************/
+
+/* Fix style from other page */
+
+.banner-center {
+    background-color: #040000;
+    padding: 2rem 0;
+}
+
+.banner-center .des-banner {
+    color: #fff;
+    margin-left: -2rem;
+    padding-left: 0;
+    padding-top: 2.2rem;
+}
+
+.link-clinical {
+    padding-bottom: 10.3125rem;
+}
+
+.link-clinical .btn {
+    margin: 0 auto; 
+}
+
+/* Normal styles */
+
+.medical-wrapper .main-clinical .btn.medical-btn {
+    font-size: 2.375rem;
+    width: 100%;
+    max-width: 980px;
+    padding: 2rem 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75);
+    box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75);
+}
+
+.medical-wrapper .main-clinical .row {
+    margin-bottom: 5.5rem;
+}
+
+.medical-wrapper .main-clinical .clinical-body {
+    padding-top: 3.125rem;
+    line-height: 1.5625rem;
+}
+
+.medical-wrapper .main-clinical .clinical-body p {
+    padding: 0 1.875rem;
+}
+
+
+/* Page 4
+************************************/
+
+/* Fix style from other page */
+.medical-wrapper .link-clinical a.btn .large {
+    font-size: 1.5625rem
+}
+
+.medical-wrapper .link-clinical a.btn .normal {
+    font-size: 1.125rem;
+}
+
+.medical-wrapper .link-clinical a.btn {
+    width: 31.75rem;
+}
+
+.wrapper.en-wrapper .banner-center .ba-des .des-banner p {
+    font-size: 1.5625rem;
+}
+
+/****************************************************************
+ * RESPONSIVE
+ ****************************************************************/
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .banner-center .ba-des .des-banner {
+        padding-left: 1.5rem;
+        margin-left: 0;
+    }
+    .medical-wrapper .main-clinical .clinical-body {
+        text-align: center;
+    }
+
+    .medical-wrapper .medical-question .answer-select a {
+        float: left;
+        width: 50%;
+    }
+
+    .medical-wrapper .medical-question .answer-select img:first-child {
+        margin-right: 0;
+    }
+
+    .medical-wrapper .container {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+    }
+}

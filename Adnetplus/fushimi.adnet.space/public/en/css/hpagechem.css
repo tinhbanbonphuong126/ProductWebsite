@@ -1,0 +1,542 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------- CSS page  industrial chemicals*--------------------------*/
+.hu-infomation ul,
+.hu-infomation li{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.hu-infomation{
+    min-height: 460px;
+    background: url(../../images/chemical-page1/bg_head.jpg) no-repeat center;
+    position: relative;
+}
+.hu-infomation *{
+    color: #fff;
+}
+.hu-infomation .circle{
+    position:absolute;
+    left: calc(50% - 120px);
+    bottom: -110px;
+}
+.hu-page .img-icon .icon-center{
+	margin-top: 0px;
+}
+.hu-page .img-icon:first-child .icon-center{
+    margin-top: 8.5rem;
+}
+.hu-page .hu-infomation .hu-infocontent{
+    padding: 0 2.2rem;
+}
+.hu-infomation .hu-infocontent div.col-md-12{
+    padding: 25px 15px;
+}
+.hu-infomation .hu-infocontent div.col-md-6 .row1{
+    margin-bottom: 20px;
+}
+.hu-infomation .hu-infocontent div.col-md-6 li:nth-child(1) span{
+    font-size: 14px;
+    padding-right: 0.5em;
+}
+.hu-page .contai-en .content.first-chem{
+	margin-bottom: 3rem;
+}
+.hu-page .contai-en .des .row-block{
+    display: block;
+	padding-left: 15px;
+}
+.hu-page .contai-en .des .row-block .viewmore{
+    margin-top: 0px;
+    padding: 10px 0px;
+	text-align: center;
+}
+.hu-page .contai-en .des .row-block .viewmore a{
+	display: inline;
+	font-weight: bold;
+}
+.hu-page .content.first-chem .col-md-12{
+	padding-left:calc(2.2rem + 15px);
+}
+.hu-page .content.first-chem .col-md-12 ul,
+.hu-page .content.first-chem .col-md-12 li{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+}
+.hu-page .content.first-chem .col-md-12 li{
+	display: inline-block;
+	padding-right: 30px;
+}
+.hu-page .content.first-chem .col-md-12 li:last-child{
+	padding-right: 0px;
+}
+.hu-page .content .des{
+	width: 100%;
+}
+.hu-page .special .des .view-detail{
+	padding-left: 0px;
+}
+.page-chem .special .des .viewmore{
+	margin-top: 0px;
+	padding:0px 0px 0px 10px;
+	font-size:14px;
+}
+.hu-page .special .col-md-8{
+	width: 65%;
+}
+.hu-page .special .col-md-4{
+	width: 35%;
+}
+
+/*--------------------- CSS page  industrial chemicals 2*--------------------------*/
+.hu-nav .nav_lst li{
+	width: calc(100%/5);
+}
+.hu-page2 ul,
+.hu-page2 li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.hu-page2 .content .des,
+.hu-page2 .contai-en .des
+{
+	display: block;
+	width: 100%;
+}
+.hu-page2 .content .des .hup2-img,
+.hu-page2 .content .des .hup2-row{
+	padding: 0px 15px;
+}
+.hu-page2 .hup2-info{
+	border: 1px solid #000;
+	padding: 20px 40px;
+}
+.hu-page2 .contai-en .content .des p{
+	padding:0;
+	margin:0;
+	font-weight: normal;
+}
+.hu-page2 .content .des .hup2-row{
+	padding-bottom: 40px;
+}
+.hu-page2 .content .des .hup2-row ul{
+	display:block;
+}
+.hu-page2 .contai-en .des .hup2-row ul li{
+	padding-left: 0px;
+	list-style:decimal;
+}
+.hu-page2 .contai-en .content.first-chem{
+	margin-bottom:15px;
+}
+.hu-page2 .navigation ul{
+	text-align: center;
+	background: #EFEFEE;
+}
+.hu-page2 .navigation ul li{
+	display: inline;
+	padding-right: 30px;
+}
+.hu-page2 .navigation ul li:last-child{
+	padding-right: 0px;
+}
+.hu-page2 .contai-en .content h2,
+.hu-page2 .contai-en .content h2.first-h{
+	padding-left: 3.5rem;
+	padding-right: 3.5rem;
+}
+.hu-page2 .hup2-text{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+}
+.hu-page2 .hup2-photo{
+	text-align: left;
+}
+.hu-page2 .contai-en .des .view-detail{
+	padding-left: 0px;
+}
+.hu-page2 .hup2-block{
+	text-align: center;
+}
+.hu-page2 #hup2-sec3{
+	padding-left: 8px;
+}
+.hu-page2 #hup2-sec3 .des{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 8px;
+	width: auto;
+	border-bottom: 1px dotted #ccc;
+}
+.hu-page2 #hup2-sec3 .hup2-ulrow{
+	display: block;
+}
+.hu-page2 #hup2-sec3 .hup2-ulrow li{
+	display: block;
+	width: 100%;
+	padding-left: 10px;
+	border-left: 1px solid #8AB929;
+	margin-bottom: 5px;
+}
+.hu-page2 #hup2-sec3 .hup2-ulrow:first-child{
+	padding-bottom: 35px;
+}
+.hu-page2 #hup2-sec3 .hup2-ulrow li label{
+	margin-bottom: 0px;
+}
+.hu-page2 #hup2-sec3 .hup2-ulrow li img{
+	max-width: 160px;
+}
+.hu-page2 #hup2-sec3 .hup2-ulrow:first-child li label{
+	min-width: 120px;
+}
+.hu-page2 #hup2-sec3 .hup2-ulrow:last-child li label{
+	min-width: 60px;
+}
+.hu-page2 #hup2-sec3 .hup2-bottom{
+	padding: 10px 0px;
+	display: block;
+	float: left;
+	padding-left: 50px;
+}
+
+
+/*--------------------- CSS page EN industrial chemicals 2*--------------------------*/
+.hu-page3 ul,
+.hu-page3 li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+/*.enhup3-nav  .nav_lst li{
+	width: calc(100%/5);
+}*/
+.hu-page3 .content .des,
+.hu-page3 .contai-en .des
+{
+	display: block;
+	width: 100%;
+}
+.hu-page3 .contai-en .content h2,
+.hu-page3 .contai-en .content h2.first-h{
+	padding-left: 3.5rem;
+	padding-right: 3.5rem;
+}
+.hu-page3 .content.first-chem .des{
+	display: block;
+	padding-right: 15px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.hu-page3 .content.first-chem .des .enhup2-img img{
+	max-width: 100%;
+}
+.hu-page3 .content.first-chem .des .enhup2-list{
+	padding: 30px 0px 30px 30px;
+	border-bottom: 1px dotted #ccc;
+}
+.hu-page3 .enhup2-info{
+	border: 1px solid #000;
+	padding: 0 25px;
+	height: 115px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.hu-page3 .contai-en .content .des p{
+	padding:0;
+	margin:0;
+	font-weight: normal;
+	line-height:1.3 !important;
+	color:#000 !important;
+}
+
+.hu-page3 .enhup2-text{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+}
+
+.hu-page3 .hup2-photo{
+	text-align: left;
+}
+/*.hu-page3 .contai-en .des .view-detail{
+	padding-left: 0px;
+}*/
+.hu-page3 .hup2-block,
+.hu-page3 .enhup2-block
+{
+	text-align: center;
+}
+.hu-page3 #hup2-sec2 .hup2-block img{
+	padding: 45px 0px;
+}
+
+.hu-page3 #enhup2-sec3{
+	padding-left: 8px;
+}
+.hu-page3 #enhup2-sec3 .des{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 8px;
+	width: auto;
+	border-bottom: 1px dotted #ccc;
+}
+.hu-page3 #enhup2-sec3 .hup2-ulrow{
+	display: block;
+}
+.hu-page3 #enhup2-sec3 .hup2-ulrow li{
+	display: block;
+	width: 100%;
+	padding-left: 10px;
+	border-left: 1px solid #8AB929;
+	margin-bottom: 5px;
+}
+.hu-page3 #enhup2-sec3 .hup2-ulrow:first-child{
+	padding-bottom: 35px;
+}
+.hu-page3 #enhup2-sec3 .hup2-ulrow li label{
+	margin-bottom: 0px;
+}
+.hu-page3 #enhup2-sec3 .hup2-ulrow li img{
+	max-width: 160px;
+}
+.hu-page3 #enhup2-sec3 .hup2-ulrow:first-child li label{
+	min-width: 120px;
+}
+.hu-page3 #enhup2-sec3 .hup2-ulrow:last-child li label{
+	min-width: 60px;
+}
+.hu-page3 #enhup2-sec3 .hup2-img img{
+	max-width: 100%;
+}
+.hu-page3 #enhup2-sec4 .enhup2-block img,
+.hu-page3 #enhup2-sec5 .enhup2-block img{
+	padding: 15px 0px;
+}
+.hu-page3 #enhup2-sec6 .enhup2-block ul{
+	display: block;
+}
+.hu-page3 #enhup2-sec6 .enhup2-block li{
+	display: block;
+	width: 100%;
+	padding-left: 10px;
+	border-left: 1px solid #8AB929;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.hu-page3 #enhup2-sec6 .enhup2-block li label{
+	margin-bottom: 0px;
+	min-width: 140px;
+}
+.hu-page3 #enhup2-sec6 .enhup2-block:last-child
+{
+	padding-bottom: 15px;
+}
+.hu-page3 #enhup2-sec6 .enhup2-block:first-child{
+	padding-top: 15px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block{
+	text-align: left;
+}
+.hu-page3 #enhup2-sec7{
+	padding: 0px 22px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-mainc{
+	float:left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.hu-page3 #enhup2-sec7 .des{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:last-child{
+	float:left;
+	width: 100%;
+	background: #EFEFEF;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:nth-child(2){
+	float: left;
+	width: 100%;
+	padding-bottom: 25px;
+	border-bottom: 1px dotted #ccc;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:nth-child(2){
+	margin-top: 15px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:first-child{
+	margin-top: 15px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:nth-child(2) li{
+	display: block;
+	width: 100%;
+	padding-left: 10px;
+	border-left: 1px solid #8AB929;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:nth-child(2) ul{
+	display: block;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:nth-child(2) li label{
+	margin-bottom: 0px;
+	min-width: 60px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block:nth-child(2) div:last-child{
+	text-align: left;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block .enhup2-head{
+	text-align: center;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block .enhup2-head label{
+	background: #727171;
+	padding: 8px 100px 8px 15px;
+	color: #fff;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block .enhup2-content{
+	width: 100%;
+}
+.hu-page3 #enhup2-sec7 .enhup2-block .enhup2-content div:first-child{
+	text-align: center;
+	font-size: 15px;
+	padding: 12px 0px;
+}
+.hu-page3 #enhup2-sec7 .enhup2-viewmore{
+	float:right;
+	padding-bottom: 20px;
+	font-family: 'YuGo';
+}
+.hu-page3 #enhup2-sec7 .enhup2-viewmore a{
+	color: #00A29A;
+}
+.hu-page3 #enhup2-sec7 .enhup2-viewmore .fa-play-circle-o{
+	margin-left: 0.5rem;
+}
+
+.hu-page3 #enhup2-sec8 .des{
+	padding: 30px 10px;
+}
+.hu-page3 #enhup2-sec8 .enhup2-block ul{
+	display:block;
+}
+.hu-page3 #enhup2-sec8 .enhup2-block li{
+	display: block;
+	text-align: left;
+	padding-left: 20px;
+	margin-top: 22px;
+	position: relative;
+}
+.hu-page3 #enhup2-sec8 .enhup2-block li:last-child{
+	margin-bottom: 22px;
+}
+.hu-page3 #enhup2-sec8 .enhup2-block li::before{
+	content: '';
+	width: 1px;
+	height: 15px;
+	border-left: 1px solid #8AB929;
+	position:absolute;
+	top: 0px;
+	left: 15px;
+}
+.hu-page3 #enhup2-sec8 .enhup2-header{
+	padding: 18px 0px 12px 0px;
+	background: #595757;
+	color: #fff;
+	font-size:21px;
+}
+.hu-page3 #enhup2-sec8 .enhup2-block:last-child div:last-child{
+	padding-top: 10px;
+}
+.hu-page3 #enhup2-sec8 .enhup2-viewmore{
+	float:right;
+	padding-bottom: 20px;
+    font-family: 'YuGo';
+    padding-right: 10px;
+}
+.hu-page3 #enhup2-sec8 .enhup2-viewmore{} a{
+/*	color: #00A29A;*/
+}
+.hu-page3 #enhup2-sec8 .enhup2-viewmore .fa-play-circle-o{
+	margin-left: 0.5rem;
+}
+
+
+/*--------------------- CSS page industrial chemicals 3*--------------------------*/
+.hu-page4 ul,
+.hu-page4 li{
+	list-style: none;
+}
+.hu-page4 .nav_lst li{
+	width: calc(100%/5);
+}
+.hu-page4 .contai-en .content.first-chem {
+	margin-bottom: 1rem;
+}
+.hu-page4 .navigation{
+	background:#EFEFEE;
+	border: none;
+}
+.hu-page4 .navigation ul{
+	display: block;
+	text-align: center;
+	background:#EFEFEE;
+	margin-bottom: 0rem;
+	padding: 1rem 0rem;
+}
+.hu-page4 .navigation ul li{
+	display: inline;
+	padding-right: 1rem;
+}
+.hu-page4 .contai-en .first-chem .des .col-xs-12{
+	width: auto;
+}
+
+/*--------------------- CSS EN page industrial chemicals 4*--------------------------*/
+.hu-page5 ul,
+.hu-page5 li{
+	list-style: none;
+}
+.hu-page5 .contai-en .content.first-chem {
+	margin-bottom: 1rem;
+}
+.hu-page5 .navigation{
+	background:#EFEFEE;
+	border: none;
+}
+.hu-page5 .navigation ul{
+	display: block;
+	text-align: center;
+	background:#EFEFEE;
+	margin-bottom: 0rem;
+	padding: 1rem 0rem;
+}
+.hu-page5 .navigation ul li{
+	display: inline;
+	padding-right: 1rem;
+}
+.hu-page5 .contai-en .first-chem .des .col-xs-12{
+	width: auto;
+}
+
+

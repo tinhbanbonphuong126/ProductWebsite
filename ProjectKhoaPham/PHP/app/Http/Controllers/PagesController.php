@@ -142,7 +142,7 @@ class PagesController extends Controller
 
     public function getDangky()
     {
-        return view('dangky');
+        return view('pages.dangky');
     }
 
     public function postDangky(Request $request)

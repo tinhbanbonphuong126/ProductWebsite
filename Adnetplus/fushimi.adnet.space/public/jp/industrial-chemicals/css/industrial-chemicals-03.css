@@ -1,0 +1,34 @@
+@media only screen and (max-width: 640px) {
+
+.page-chem .content .three-featured .related-product{
+	width:100% !important;
+	margin:10px 0 !important;
+}
+
+.page-chem .content .three-featured .related-product h4:after{
+/*		  width:0;
+	     border-width: 2.5rem 13rem 0 13rem !important;
+		 box-sizing:border-box !important;
+		 top:2.3rem;*/
+		 border-width: 8.5vw 43vw 0 43vw !important;
+	     top: 39px;
+}
+.page-chem .content .three-featured .tem-one ul {
+	padding-top: 2rem;
+}
+.page-chem .content .three-featured .related-product h4{
+	font-size:1.2rem;
+}
+
+.page-chem .content .three-featured .related-product ul li a{
+	font-size:1.1rem;
+	line-height:1.8;
+}
+
+.page-chem .content .three-featured{
+	padding:0 5% !important;
+	box-sizing:border-box;
+}
+
+
+}

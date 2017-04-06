@@ -1,0 +1,86 @@
+#product{
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    float: left;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+#product .page-content{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#product .page-content .block-title{
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #27A9E1;
+    font-size: 1.09rem;
+}
+#product .page-content ol{
+    padding-left: 20px;
+    position: relative;
+    float: left;
+    font-size: 1.09rem;
+    width: 100%;
+}
+#product .page-content ol > li{
+    position: relative;
+    float: left;
+    width: 100%;
+	font-weight:bold;
+}
+#product .page-content p{
+    text-align: justify;
+}
+.text-red{
+    color: #F05A28;
+}
+/*#product .page-content table{
+    width: 100%;
+    border: solid 1px #231F20;
+}
+#product .page-content table thead{
+    background: #BBBDC0;
+    color: #FFFFFF;
+}*/
+#product .page-content table thead th{
+    text-align: center;
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+}
+/*
+#product .page-content table thead th, #product .page-content table td{
+    border: solid 1px #231F20;
+}
+#product .page-content table td{
+    padding: 0.8rem 1rem;
+    box-sizing: border-box;
+}
+#product table tr:nth-child(odd)>td{
+    background-color: #EAF0E1;
+}
+#product table tr>td{
+    background: #FFFFFF;
+}
+#product .file-name{
+    color: #90BC5E;
+}
+#product .file-size{
+    margin-left: 50px;
+}*/
+@media screen and (max-width: 768px){
+    #product .page-content ol{
+        padding-left: 0px;
+    }
+}

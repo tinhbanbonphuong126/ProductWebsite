@@ -1,0 +1,161 @@
+.tit-chem h2{
+	font-size:1.3rem !important;
+}
+
+.contai-en .des.app-indu {
+	width:100%;
+    margin-top: 0; }
+    .contai-en .des.app-indu h2 {
+      width: 59%;
+      margin-top: 2rem;
+      text-align: left;
+      /*margin-left: 1%;*/
+	 letter-spacing:0;
+	  }
+    .contai-en .des.app-indu .view-img {
+      width: 45%; }
+    .contai-en .des.app-indu.af-max h2 {
+      width: 55%;}
+    .contai-en .des.app-indu.af-max .viewmore {
+      margin-top: 2.5rem; }
+	  
+.content .des p.col-md-6{
+	letter-spacing:0;
+	width:70% !important;
+	padding-right:0 !important;
+	text-align:left;
+}
+
+.content .des .col-md-7{
+	width:56% !important;
+	letter-spacing:0;
+	text-align:left;
+}
+
+.contai-en .des .view-detail{
+	padding-left:1rem;
+}
+
+.contai-en .des .viewmore{
+	padding-right:0 !important;
+}
+
+.page-chem .supplier-produce .content-supp{
+	max-width:980px;
+	margin:0 auto;
+}
+
+.content-supp dl{
+	display:block;
+	width:70%;
+	margin:0 auto;
+	padding:0;
+	font-weight:400 !important;
+	letter-spacing:0;
+}
+	.content-supp dl dt,.content-supp dl dd{
+		float:left;
+		margin-top:10px;
+		font-size:16px;
+	}
+	
+	.content-supp dl dt{
+		clear:both;
+		margin-right:2rem;
+		font-weight:400 !important;
+	}
+	
+	.content-supp dl .font{
+		font-size:18px !important;
+		font-weight:bold !important;
+	}
+
+
+.page-chem .page-induch .content.sec2 p{
+	font-weight:400 !important;
+}
+
+
+.page-chem .page-induch .chem-product table td{
+	font-weight:400 !important;
+}
+
+/*01*/
+.title-blue{
+	padding-right:20px !important;
+}
+.title-blue h3{
+	font-size:16px !important;
+	font-weight:500 !important;
+	letter-spacing:1px !important;
+	box-sizing:border-box;
+}
+
+.title-blue h3{
+	display:block;
+    position: relative;
+	height:16px;
+}
+
+.title-blue h3:after {
+    content: "";
+    display: block;
+	background:url(../../img/dot.png) repeat-x; 
+	width:95%;
+    height: 5px;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+}
+
+.title-blue h3 span{
+	display:block;
+	position:absolute;
+    background: #fff;
+    padding-right: 6px;
+    z-index: 5;
+	font-weight:bold !important
+}
+
+#table-chemical-technology-core .core-box-fine .simulation-image .image-description{
+	text-align:left !important;
+	letter-spacing:0;
+}
+
+#table-chemical-technology-core .core-box-fine .simulation-image{
+	width:80%;
+	margin:auto;
+}
+
+#table-chemical-technology-core .core-box-fine .description{
+	letter-spacing:0;
+}
+
+#table-chemical-technology-core .core-box-fine .square-list{
+	margin-top:20px;
+}
+
+#table-chemical-technology-core .core-box-fine{
+	margin-right:0 !important;
+}
+
+.enhup2-viewmore a{
+	font-weight:bold;
+	color: #00A29A !important;
+}
+
+.enhup2-content div span{
+	letter-spacing:0;
+}
+
+#note_box h3{
+	font-weight:bold !important;
+}
+
+/*ページ内リンク*/
+.link{
+	clear:both;
+	width:100%;
+	margin-top:-40px;
+	padding-top:40px;
+}

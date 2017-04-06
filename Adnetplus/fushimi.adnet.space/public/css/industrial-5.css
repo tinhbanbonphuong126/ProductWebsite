@@ -1,0 +1,100 @@
+#product{
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    float: left;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+#product .page-content{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#product .page-content .block-title{
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #27A9E1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:15px;
+    font-weight: bold;
+}
+#product .page-content ul{
+    padding-left: 30px;
+    position: relative;
+    float: left;
+}
+#product .page-content ul > li{
+    position: relative;
+    float: left;
+}
+#product .page-content ul > li > ul {
+    padding-left: 0px;
+    margin-left: -20px;
+    list-style: none;
+}
+#product .page-content ul > li > ul > li {
+    border-bottom: dashed 1px #CCC;
+    position: relative;
+    float: left;
+}
+#product .page-content ul > li > ul > li >img {
+    margin: 10px 30px;
+    max-width: 55%;
+}
+/*jp追加*/
+
+#product .page-content ul.list-image {
+    list-style-type: none;
+    padding-left: 15px;
+}
+#product .page-content ul.list-image > li{
+	font-weight: bold;
+	text-indent:-1em;
+}
+#product .page-content ul.list-image > li:before{
+    content: '・';
+    margin-right: -5px;
+}
+#product .page-content ul.list-image . li div{
+	font-weight: 100;
+	text-indent: 0;
+}
+
+#Synthesis_02 {
+	padding-top: 20px;
+}
+#Synthesis_03 {
+	padding-top: 20px;
+}
+#Synthesis_04 {
+	padding-top: 20px;
+}
+#Synthesis_05 {
+	padding-top: 20px;
+}
+@media screen and (max-width: 480px){
+	#product .page-content ul > li > ul > li >img {
+		max-width: 95%;
+	    margin: 10px 20px;
+	    width: 95%;
+	}
+	#product .page-content .block-title {
+	}
+	.margin-top-15 {
+		margin-top: 30px;
+	}
+}

@@ -1,0 +1,15 @@
+.page-contact.en .contact-des p {
+	font-size: 1rem;
+	letter-spacing: 0.3px;
+}
+
+.page-contact .form-contact .form .col-form-label {
+	color: #221714;
+	font-weight: 100;
+}
+.page-contact .form-contact .form .input-group button {
+	padding:0.5rem 3rem;
+}
+.page-contact .form-contact .form .error {
+	color: #f42a3a;
+}

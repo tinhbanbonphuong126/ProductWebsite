@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contact</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" id="font-css" href="../css/font-awesome.min.css" type="text/css" media="all">
+    <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/main.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../css/meanmenu.css" media="all" />
+    <link rel="stylesheet" href="../css/normalize.css" media="all" />
+    <link rel="stylesheet" href="../css/page.css" media="all" />
+    <link rel="stylesheet" href="../css/responsive.css" media="all" />
+    <!-- <script src="../../../../js/cssrefresh.js"></script> -->
+    <!-- <link href="../css/fushimi.min.css" rel="stylesheet" type="text/css"/> -->
+    <link rel="stylesheet" href="css/contact.css" media="all" />
+
+</head>
+<body>
+<div class="wrapper">
+    <header class="header" id="header_out">
+
+    </header> <!-- End .header  -->
+
+    <section class="main-history page-contact en">
+        <div class="banner-history">
+            <p class="tit-history">Contact Us</p>
+            <p class="small">Contact Us</p>
+        </div> <!-- End .banner-history -->
+
+        <div class="contact-des">
+
+            <p>Thank you for your visiting our website. To contact us, please use the form below.</p>
+        </div> <!-- End .contact-des -->
+        <form action="" id="form-contact">
+            <div class="form-contact">
+                <div class="container">
+                    <div class="contact-email">
+                        <img src="../../images/contact/icon-contact.png">
+                    </div>
+                    <div class="form">
+                        <div class="input-group">
+                            <label for="company" class="col-md-2 col-form-label">Company Name<span>＊</span></label>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" value="" id="company" name="company">
+                            </div>
+                        </div>
+                        <!-- <div class="input-group">
+                            <label for="ex-mail-de" class="col-md-2 col-form-label">部署名</label>
+                            <div class="col-md-4">
+                                <input class="form-control" type="email" value="" id="ex-mail-de">
+                            </div>
+                        </div> -->
+                        <div class="input-group">
+                            <label for="name" class="col-md-2 col-form-label">Name<span>＊</span></label>
+                            <div class="col-md-3">
+                                <input class="form-control" type="text" value="" id="name" name="name">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="zip11" class="col-md-2 col-form-label">Zip code<span></span></label>
+                            <div class="col-md-2">
+                                <input class="form-control" type="text" id="zip11" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','address','address');">
+                            </div>
+                            <!-- <input type="button" class="col-md-2" value="〒から住所を自動入力" onclick=""> -->
+                        </div>
+                        <div class="input-group">
+                            <label for="address" class="col-md-2 col-form-label">address<span>＊</span></label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text" id="address" name="address" size="60">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone" class="col-md-2 col-form-label">Phone number</label>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" value="" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="email" class="col-md-2 col-form-label">email<span>＊</span></label>
+                            <div class="col-md-6">
+                                <input class="form-control" type="email" value="" id="email" name="email">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-email" class="col-md-2 col-form-label">confirm_email<span>＊</span></label>
+                            <div class="col-md-6">
+                                <input class="form-control" type="mail" value="" id="confirm-email"
+                                       name="confirm-email">
+                            </div>
+                        </div>
+                        <!-- <div class="input-group">
+                            <label for="requirement" class="col-md-2 col-form-label">ご用件<span>＊</span></label>
+                            <div class="col-md-4">
+                                <select name="ご用件(必須)">
+                                    <option value="">下記の中から必ず選択して下さい</option>
+                                    <option value="製品について">製品について</option>
+                                    <option value="資料請求について">資料請求について</option>
+                                    <option value="採用情報について">採用情報について</option>
+                                    <option value="その他">その他</option>
+                                </select>
+                            </div>
+                        </div> -->
+                        <div class="input-group">
+                            <label for="confirm-email" class="col-md-2 col-form-label">Your message<span>＊</span></label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" value="" id="content" name="content" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-email" class="col-md-2 col-form-label"><span>＊</span>Requied field</label>
+                            <div class="col-md-2">
+                                <button  id="btn-submit" type="button" >Submit</button>
+                            </div>
+                        </div>
+                    </div> <!-- End .form -->
+                </div>
+            </div> <!-- End .form-contact -->
+        </form>
+
+    </section> <!-- End .main-contact -->
+
+	<div id="footer_out">
+    </div>
+</div>
+<script src="../../js/jquery.min.js"></script>
+<script> 
+    $(function(){
+      $("#header_out").load("../header.html"); 
+	  $("#footer_out").load("../footer.html"); 
+    });
+</script>
+<script src="../../js/modernizr-2.8.3.min.js"></script>
+<script src="../../js/mustache.min.js"></script>
+<script src="../../js/global.js"></script>
+<!--<script src="../../js/home.js"></script>-->
+<!--<script src="../../js/pageTop.js"></script>-->
+<script src="../../js/jquery.meanmenu.min.js"></script>
+<script src="../../js/ajaxzip3.js" charset="UTF-8"></script>
+<script src="../../js/jquery.validate.min.js" ></script>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('header nav').meanmenu({
+        meanMenuCloseSize: "120%", // クローズボタンのフォントサイズ
+        meanMenuClose: "×" // クローズボタン
+        });
+
+        $(window).ready( function() {
+            $('#postcode1').jpostal({
+                postcode : [
+                    '#zip11'
+                ],
+                address : {
+                    '#address'  : '%3%4%5'
+                }
+            });
+        });
+
+    });
+
+    $("#form-contact").validate({
+        rules: {
+            'company': {
+                required: true
+            },
+            'name': {
+                required: true
+            },
+            'address': {
+                required: true
+            },
+            'email': {
+                required: true,
+                email: true,
+            },
+            'content': {
+                required: true
+            },
+        },
+        messages: {
+            'company': {
+                required: "Company is required",
+            },
+            'name': {
+                required: "Name is required",
+            },
+            'address': {
+                required: "Address is required",
+            },
+            'email': {
+                required: "Email is required",
+                email: 'Email is not valid',
+            },
+            'content': {
+                required: "Content is required",
+            },
+        }
+    });
+    $('#btn-submit').click(function () {
+        if(!$("#form-contact").valid()){
+            return false;
+        }
+        var data = {
+            "company": $('#company').val(),
+            "name": $('#name').val(),
+            "zip11": $('#zip11').val(),
+            "address": $('#address').val(),
+            "phone": $('#phone').val(),
+            "email": $('#email').val(),
+            "content": $('#content').val(),
+            "type": 'en'
+        };
+        $.ajax({
+            data: data,
+            url: "http://fushimi.adnet.space/admin/contact/send-contact",
+            type: "POST",
+            success: function (mess) {
+                console.log(mess);
+                if (mess == "ok"){
+                    alert("Send contact successfull!");
+                    window.location.reload();
+                }else{
+                    alert("Send contact error!");
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

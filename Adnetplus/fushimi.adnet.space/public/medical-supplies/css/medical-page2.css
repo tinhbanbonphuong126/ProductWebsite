@@ -1,0 +1,171 @@
+.hu-medicalsupplies{
+    background:#EFEFEF;
+    padding-top:  6.78rem;
+}
+.pink{
+    background-color: #EF94AE;
+}
+.blue{
+    background: #00A0E9;
+}
+.yellow{
+    background: #F8B62D;
+}
+.green{
+    color: #8FC31F;
+}
+.light-green{
+    color: #60B592;
+}
+.red{
+    color: #f00;
+}
+.medical-page2 #hu-sec1 .header,
+.medical-page2 #hu-sec3 .header,
+.medical-page2 #hu-sec5 .header
+{
+    text-align: center;
+    font-size: 2.375rem;
+    width: 100%;
+    padding:2rem 0rem;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75);
+    box-shadow: 0px 0px 8px 1px rgba(136,136,136,0.75); 
+    color: #fff;  
+}
+.medical-page2 #hu-sec2 h2,
+.medical-page2 #hu-sec4 h2{
+    font-size: inherit;
+    text-align: center;
+    padding: 2.1rem 0rem;
+}
+.medical-page2 #hu-sec2 .row{
+    margin-bottom: 0.92rem;
+}
+.medical-page2 #hu-sec2 .row:last-child{
+    margin-bottom:0rem;
+}
+.medical-page2 #hu-sec3,
+.medical-page2 #hu-sec5{
+    padding-top:  6.78rem;
+}
+.medical-page2 #hu-sec6 h2{
+    padding-top: 4.85rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    font-size:inherit;
+}
+.medical-page2 #hu-sec6 .row .col-md-4{
+    text-align: center;
+}
+.medical-page2 #hu-sec6 .row{
+    margin-bottom: 3.5rem;
+}
+.medical-page2 #hu-sec6 .row:last-child{
+	margin-bottom: 0rem;
+}
+.medical-page2 #hu-sec6 .row:nth-child(3){
+    margin-bottom: 0rem;
+}
+.medical-page2 #hu-sec6 .row .col-md-4 .img{
+    margin-bottom: 1rem;
+}
+.hu-medicalsupplies.white{
+	background: #fff;
+	padding-top: 11.4rem;
+	padding-bottom: 7.57rem;
+}
+.hu-medicalsupplies #hu-sec7 .row1{
+    text-align: center;
+}
+.hu-medicalsupplies #hu-sec7 .row1 h3{
+    padding-bottom: 0.92rem;
+    font-size:inherit;
+}
+.hu-medicalsupplies #hu-sec7 .row1 div:nth-child(2){
+    padding-bottom: 2rem;
+	background: url(../../../images/page2/icon-arrow.png) no-repeat center bottom;
+}
+.hu-medicalsupplies #hu-sec7 .row1 div:last-child{
+    padding-top:0.92rem;
+}
+.hu-medicalsupplies #hu-sec7 .row2{
+    padding-top:  6.28rem;
+}
+.hu-medicalsupplies #hu-sec7 .row2 .block div:last-child,
+.hu-medicalsupplies #hu-sec7 .row2 .block-end{
+    text-align: center;
+}
+.hu-medicalsupplies #hu-sec7 .row2 .block{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	border-bottom: 1px dotted #ccc;
+}
+.hu-medicalsupplies #hu-sec7 .row2 .block:nth-child(2){
+	padding-top: 0rem;
+}
+.hu-medicalsupplies #hu-sec7 .row2 .block:nth-child(5){
+	border:none;
+}
+.hu-medicalsupplies #hu-sec7 .row2 .block label{
+	margin-bottom: 0rem;
+}
+.hu-medicalsupplies #hu-sec7 .row2 .block-end{
+	padding-top: 2rem;
+	background: url(../../../images/page2/icon-arrow.png) no-repeat center top;
+}
+.hu-medicalsupplies #hu-sec7 .row3{
+    padding-top:  6.28rem;
+    text-align: center;
+}
+.hu-medicalsupplies #hu-sec7 .row2 .medical-intro-header,
+.hu-medicalsupplies #hu-sec7 .row3 .medical-intro-header{
+	padding-bottom: 1.5rem;
+}
+.hu-medicalsupplies #hu-sec7 .row3 .ul-list{
+	margin-bottom: 6rem;
+}
+.hu-medicalsupplies #hu-sec7 .row3 div:nth-child(2){
+	margin-bottom:3rem;
+}
+.hu-medicalsupplies #hu-sec7 .row3 .ul-list p.first span{
+	font-size: 1.7rem;	
+}
+.medical-page2 .hu-medicalsupplies .header span{
+	font-size: 1rem;
+}
+.hu-medicalsupplies .icon-arrow{
+	display: block;
+	height: 3rem;
+}
+.hu-medicalsupplies.white{
+	background: url(../../../images/page2/top_icon.png) no-repeat center top -2px;
+}
+@media only screen and (min-width: 760px) and (max-width: 800px) {
+	.medical-page2 #hu-sec2 .row .col-md-6 img,
+	.medical-page2 #hu-sec4 .row .col-md-6 img{
+		max-width: 100%;
+	}	
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+	.medical-page2 #hu-sec2 .row,
+	.medical-page2 #hu-sec4 .row{
+		text-align: center;
+	}
+	.medical-page2 #hu-sec2 .row img,
+	.medical-page2 #hu-sec4 .row img{
+		max-width: 100%;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.medical-page2 #hu-sec2 .row,
+	.medical-page2 #hu-sec4 .row{
+		text-align: center;
+	}	
+	.medical-page2 #hu-sec2 .row img,
+	.medical-page2 #hu-sec4 .row img{
+		max-width: 100%;
+	}	
+}
+
+

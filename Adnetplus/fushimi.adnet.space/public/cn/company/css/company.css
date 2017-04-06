@@ -1,0 +1,110 @@
+p {
+	margin-bottom:0.5rem;
+}
+section#company{
+	margin-top:100px;
+}
+
+.content-clinical {
+  background: url(../../../images/center/bg-ci.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 3rem;
+  color: #fff; }
+  .content-clinical.bg-cloud {
+    background: url(../../../images/center/bg-oop.jpg) no-repeat center;
+    background-size: cover; }
+  .content-clinical hr {
+    border-top: 2px dotted #fff; }
+  .content-clinical .main-left table {
+    color: #fff; }
+  .content-clinical .main-left img {
+    max-width: 100%;
+    height: auto; }
+  .content-clinical .main-left .table td {
+    border-top: none;
+    padding: .3rem; }
+  .content-clinical .main-left .tit-name {
+    font-size: 1.375rem;
+    margin-bottom: 2rem; }
+    .content-clinical .main-left .tit-name span {
+      font-size: 2rem;
+      display: inline-block;
+      margin-right: 0.5rem; }
+  .content-clinical .chart {
+    color: #fff; }
+    .content-clinical .chart img {
+      max-width: 90%; }
+    .content-clinical .chart .top-y {
+      margin-left: 0.5rem;
+      margin-top: 30px; }
+    .content-clinical .chart .name {
+      text-align: center;
+      margin-top: 1rem;
+      margin-right: 5rem;
+      font-size: 1.15rem; }
+  .content-clinical .main-right {
+    color: #fff; }
+    .content-clinical .main-right img {
+      max-width: 100%;
+      height: auto; }
+  .content-clinical .icon-center {
+    margin-top: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem; }
+  .content-clinical .cn .tit-name {
+    font-size: 1.1rem; }
+  .content-clinical .cn p {
+    /*font-size: 1rem;*/
+    margin-bottom: 0.4rem; }
+  .content-clinical .tit-name {
+    font-size: 1.375rem; }
+
+.content-clinical:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  top: 0;
+  border-top: 9rem solid #fff;
+  border-left: 49.4vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  background-color: rgba(26, 169, 226, 0.8); }
+
+.corp_profile dt{
+	float:left;
+}
+
+.corp_profile dt{
+	width:75px;
+	margin-right:20px;
+    font-weight: initial;
+}
+
+
+#company .office_tit{
+	margin:20px 0 0.5rem;
+	font-weight: bold;
+}
+.cn .main-right .main-right p,
+.cn .main-right .main-left p {
+	text-align: center;
+	margin:10px 0 20px;
+}
+
+.cn .main-right .main-right,
+.cn .main-left {
+	margin-top: 20px;
+}
+
+.cn .main-right .main-left {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+	.content-clinical .icon-center {
+		padding-top: 0;
+	}
+}

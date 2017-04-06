@@ -1,0 +1,325 @@
+#product{
+    width: 100%;
+}
+#product #top-img{
+    margin-top: -15px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+.border-box{
+    box-sizing: border-box;
+    border: solid 1px #444;
+}
+#product .product-content{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#product .title{
+    width: 100%
+}
+#product .title ul{
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+#product .title ul li{
+    width: calc(90% / 3);
+    position: relative;
+    float: left;
+    white-space: nowrap;
+}
+#product .product-content{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#product .product-content .list-top{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#product .product-content .list-top > li{
+    line-height:24px;
+}
+#product .product-content .list-top-2{
+    list-style: none;
+    padding-left: 0px;
+}
+#product .product-content .list-top-2 > li{
+    line-height:24px;
+}
+#product .title-section{
+    color: #27A9E1;
+    font-size: 0.9375rem;
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    font-weight: bold;
+    z-index: 999;
+    padding-right: 0.5rem;
+    width: 100%;
+}
+#product .product-content .list-text{
+    padding-left:20px;
+    width: 100%;
+    position: relative;
+    float: left;
+    list-style: none;
+}
+#product .product-content .list-images{
+    padding-left:5px;
+    width: 100%;
+    position: relative;
+    float: left;
+    font-weight: bold;
+}
+#product .product-content .list-images li{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+#product .product-content .list-images li .row .item{
+    text-align: center;
+}
+#product .product-content .list-images li .row .item h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 0.9375rem;
+}
+#product .product-content .list-images li .row .item img{
+    width:145px;
+}
+#product .product-content .list-child{
+    list-style: none;
+    padding-left: 20px;
+}
+#product .product-content .list-child li h4{
+    font-size: 0.95rem;
+    color: #89B942;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#product .product-content .list-child li {
+    padding-bottom: 20px;
+    color: #231F20;
+}
+#product .product-content .list-child li:last-child {
+    padding-bottom: 0px;
+}
+.icon-1::before{
+    content: " ";
+    position: relative;
+    float: left;
+    margin-top: 4px;
+    margin-right: 8px;
+    width: 13px;
+    height:13px;
+    background-size: cover;
+    background-color: #000000;
+}
+.icon-2::before{
+    content: " ";
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-right: 4px;
+    width: 15px;
+    height:15px;
+    background-size: cover;
+    border-radius: 100%;
+    background-color: #00A0E8;
+}
+.icon-3::before{
+    content: " ";
+    position: relative;
+    float: left;
+    background-image: url('../images/industrial-chemicals-1/icon.png');
+    margin-top: 3px;
+    margin-right: 2px;
+    width: 12px;
+    height:15px;
+    background-size: cover;
+}
+
+#product table{
+    width: calc(100% - 2.6rem);
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    font-size: 14px;
+    border: solid 2px #CCCCCC;
+}
+#product table thead tr, #product table thead tr th, #product table tr td{
+/*    border: solid 1px #444444;*/
+    border: solid 1px #CCCCCC;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+#product table thead tr th {
+	font-size: 14px;
+}
+#product table tr:nth-child(even)>td,
+#product table tr.tr_bg_white>td {
+    background-color: #FFFFFF;
+}
+#product table tr>td{
+    background-color: #EAF0E1;
+}
+#product table tr td{
+    vertical-align: middle;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+/*    border-left: solid 1px #444444;
+    border-right: solid 1px #444444;*/
+    border: solid 1px #CCCCCC;
+    border-top: none;
+    border-bottom: none;
+}
+#product table tr{
+    border: solid 1px #CCCCCC;
+/*    border-left: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#product table.table-1 tr td{
+    text-align: center;
+}
+#product table.table-1 tr:last-child td{
+    border: solid 1px #CCCCCC;
+}
+#product table.table-1 tbody tr td:first-child{
+	text-align: left;
+}
+/*#product table.table-1 tr:last-child td:first-child{
+    border-top: none;
+}*/
+#product table.table-1 tr:nth-child(4) td:first-child{
+    border: solid 1px #CCCCCC;
+    border-top: none;
+}
+#product table.table-1 tr:last-child td{
+}
+#product table thead tr th {
+    text-align: center;
+}
+#product table.table-1 thead tr th {
+    width: calc(100% / 3);
+}
+#product table.table-2 {
+    border:solid 2px #CCCCCC;
+}
+#product .product-content table thead{
+    background: #BBBDC0;
+    color: #FFF;
+}
+#footer-content{
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    box-sizing: border-box;
+    position: relative;
+    float:left;
+    width: 100% ;
+}
+#footer-content h5{
+    font-size: 0.9rem;
+    color: #27A9E1;
+    font-weight:bold;
+}
+#footer-content p{
+    line-height: 1.9rem;
+    margin: 0;
+    padding: 0;
+    color: #231F20;
+}
+@media screen and (min-width: 1000px){
+    #product #top-img #img-1{
+        position: relative;
+        float: left;
+        width:113px;
+    }
+    #product #top-img #img-2{
+        position: relative;
+        float: left;
+        width: 180px;
+    }
+    #product #top-img #img-3{
+        position: absolute;
+        margin-left: -15px;
+        width: 67%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1000px){
+    #product #top-img #img-1{
+        position: relative;
+        float: left;
+        width:80px;
+    }
+    #product #top-img #img-2{
+        position: relative;
+        float: left;
+        width: 156px;
+    }
+    #product #top-img #img-3{
+        position: absolute;
+        margin-left: -30px;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px){
+    #product #top-img #img-1{
+        position: relative;
+        float: left;
+        width:35%;
+        margin-left: 8%;
+    }
+    #product #top-img #img-2{
+        position: relative;
+        float: left;
+        width: 55%;
+    }
+    #product #top-img #img-3{
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    #product .title ul li{
+        width: calc(90%);
+        margin-left: 0.5rem;
+        position: relative;
+        float: left;
+        white-space: normal;
+    }
+    .col-lg-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #product table{
+    	font-size: 0.8rem;
+    }
+    #product table thead tr th{
+    	font-size: 1rem;
+    }
+    #product .title-section {
+    	font-size: 15px;
+    }
+}
+/*jp 追加*/
+#footer-content p a:hover {
+	text-decoration: underline;
+}
+#footer-content p a {
+    color: #0275d8;
+}
+#product .product-content .list-images{
+    list-style-type: none;
+}
+#product .product-content .list-images li:before{
+	content:'・';
+}

@@ -1,0 +1,963 @@
+@font-face {
+  font-family: 'HiraginoSans';
+  src: url("../fonts/HiraginoSans.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Hiragino';
+  src: url("../fonts/Hiragino.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'hiragino-w';
+  src: url("../fonts/Hiragino-w.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+
+/*-- CSS page Industrial Chemicals --*/
+.featured-p, .page-chem .content .three-featured .item-fea.one p, .page-chem .content .three-featured .item-fea.two p, .page-chem .content .three-featured .item-fea.three p {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.375rem;
+  width: 13rem;
+  height: 13rem;
+  text-align: center;
+  padding-top: 6rem;
+  border-radius: 100%; }
+
+.before-after, .page-chem .supplier-produce:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  top: 0;
+  border-top: 9rem solid #fff;
+  border-left: 49.3vw solid transparent;
+  border-right: 49.4vw solid transparent; }
+
+.page-chem .img-icon .icon-center {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.page-chem .contai-en .content {
+  width: 100%;
+  margin-bottom: 3rem; }
+  .page-chem .contai-en .content.af-in {
+    margin-bottom: 0; }
+  .page-chem .contai-en .content h2.first-h {
+    font-family: 'Hiragino';
+    font-weight: 600; }
+  .page-chem .contai-en .content h2 {
+    font-family: 'hiragino-w';
+    padding: 0.2rem 0.7rem;
+    padding-top: 1rem; }
+  .page-chem .contai-en .content .des {
+    float: right; }
+    .page-chem .contai-en .content .des p {
+      padding: 1rem 0;
+      font-family: 'HiraginoSans';
+      font-size: 0.875rem;
+      letter-spacing: 0.03rem;
+      padding-right: 2rem;
+      margin-bottom: 0; }
+    .page-chem .contai-en .content .des img {
+      padding: 0.5rem 0; }
+  .page-chem .contai-en .content.first-chem {
+    margin-bottom: 0rem; }
+
+.page-chem .contai-en .content:first-child {
+  margin-top: 0rem; }
+
+.page-chem .contai-en .des {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: -3rem;
+  clear: both;
+  padding-bottom: 0.2rem; }
+  .page-chem .contai-en .des.app-indu {
+    margin-top: 0; }
+    .page-chem .contai-en .des.app-indu h2 {
+      width: 47%;
+      margin-top: 2rem;
+      text-align: left;
+      margin-left: 4rem; }
+    .page-chem .contai-en .des.app-indu .view-img {
+      width: 45%; }
+    .page-chem .contai-en .des.app-indu.af-max h2 {
+      width: 55%; }
+    .page-chem .contai-en .des.app-indu.af-max .viewmore {
+      margin-top: 2.5rem; }
+  .page-chem .contai-en .des ul {
+    padding-left: 0;
+    padding-right: 0; }
+    .page-chem .contai-en .des ul li {
+      font-family: 'HiraginoSans';
+      font-size: 0.875rem;
+      padding-left: 2rem; }
+    .page-chem .contai-en .des ul li:first-child {
+      padding-left: 0; }
+  .page-chem .contai-en .des .view-detail {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 4rem;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .page-chem .contai-en .des .view-img {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .page-chem .contai-en .des .viewmore {
+    font-family: 'YuGo';
+    color: #00A29A;
+    font-size: 0.9375rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    padding-right: 2rem; }
+    .page-chem .contai-en .des .viewmore a {
+      color: #00A29A;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-weight: bold; }
+    .page-chem .contai-en .des .viewmore .fa-play-circle-o {
+      margin-left: 0.5rem;
+      display: -webkit-inline-box; }
+  .page-chem .contai-en .des h2 {
+    color: #8AB929;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 1.3125rem;
+    position: relative;
+    top: -2rem;
+    font-family: 'hiragino-w';
+    font-weight: 500;
+    padding: 0.7rem 1.5rem; }
+
+.page-chem .contai-en .img-icon {
+  clear: both;
+  float: left;
+  width: 100%; }
+
+.page-chem .content {
+  border: 0.7rem solid #EFEFEE;
+  float: left; }
+  .page-chem .content .tit-chem {
+    text-align: center; }
+  .page-chem .content h2 {
+    color: #8AB929;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    font-size: 1.2125rem;
+    font-weight: 600;
+    position: relative;
+    top: -2rem; }
+  .page-chem .content .des {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 1.5rem; }
+    .page-chem .content .des p {
+      font-size: 0.875rem;
+/*      font-weight: 600;*/
+/*      padding: 1rem;*/
+      padding: 1rem 6rem 1rem 0;
+      line-height: 1.4375rem; }
+    .page-chem .content .des .td-tit {
+      padding: 0 0.5rem;
+      margin-bottom: 0rem;
+      margin-top: -1rem; }
+    .page-chem .content .des .after-indu {
+      text-align: left;
+      padding-right: 2rem;
+      margin-top: -1rem; }
+    .page-chem .content .des ul {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .page-chem .content .des ul li {
+        list-style: none; }
+  .page-chem .content .des-chemistry {
+    display: block; }
+    .page-chem .content .des-chemistry .chemistry {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 2.5rem;
+      padding: 0 0.8rem; }
+      .page-chem .content .des-chemistry .chemistry .left-chem .box {
+        background-color: #F7F7F7;
+        border: 0.7rem solid #CCE08E;
+        padding: 1rem 3rem 1.5rem 1rem; }
+        .page-chem .content .des-chemistry .chemistry .left-chem .box p {
+          font-weight: bold;
+          margin-bottom: 0;
+          padding: 0.25rem; }
+      .page-chem .content .des-chemistry .chemistry .left-chem .table {
+        margin-top: 3rem;
+        text-align: center; }
+        .page-chem .content .des-chemistry .chemistry .left-chem .table th {
+          background-color: #6CBB57;
+          color: #fff;
+          border: 1px solid #eceeef;
+          padding: 0.5rem 0.75rem;
+          text-align: center;
+          vertical-align: middle; }
+        .page-chem .content .des-chemistry .chemistry .left-chem .table td {
+          vertical-align: middle;
+          border: 1px solid #ccc;
+          /*font-weight: bold;*/
+          padding: 0.5rem 0.75rem; }
+        .page-chem .content .des-chemistry .chemistry .left-chem .table table {
+          margin: auto;
+          width: 70%;
+          margin-left: 3rem; }
+          .page-chem .content .des-chemistry .chemistry .left-chem .table table p {
+            margin-left: -6rem;
+            margin-top: -0.5rem; }
+      .page-chem .content .des-chemistry .chemistry .right-chem {
+        position: absolute;
+        right: 4rem; }
+    .page-chem .content .des-chemistry .td-tit {
+      padding-right: 1rem; }
+  .page-chem .content .three-featured {
+    padding: 3.3rem;
+    padding-bottom: 1.5rem; }
+    .page-chem .content .three-featured h3 {
+      color: #F39700;
+      font-size: 0.9375rem;
+      display: inline-block;
+      background-color: #fff;
+      position: relative;
+      font-weight: bold;
+      z-index: 999;
+      padding-right: 0.5rem; }
+      .page-chem .content .three-featured h3 span {
+        display: inline-block;
+        position: relative;
+        }
+    .page-chem .content .three-featured h3:after {
+      content: ""; }
+    .page-chem .content .three-featured hr {
+      position: relative;
+/*      border-bottom: 2px dotted #F39700;*/
+      border-bottom: 1px dashed #F39700;
+      bottom: 2.1rem;
+      border-top: initial; }
+    .page-chem .content .three-featured .item-fea {
+      text-align: center;
+      margin: -0.5rem 3rem; }
+      .page-chem .content .three-featured .item-fea.one p {
+        background-color: #00A0E8; }
+      .page-chem .content .three-featured .item-fea.two p {
+        background-color: #009943; }
+      .page-chem .content .three-featured .item-fea.three p {
+        background-color: #E4007E; }
+    .page-chem .content .three-featured .tw-item {
+      display: table;
+      margin: auto;
+      padding-bottom: 3rem; }
+      .page-chem .content .three-featured .tw-item .flex-item {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+    .page-chem .content .three-featured .item-series {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .page-chem .content .three-featured .item-series p {
+        font-weight: 400;
+        font-size: 1.275rem;
+        display: inline-block;
+        width: 25%;
+        text-align: center; }
+      .page-chem .content .three-featured .item-series .next {
+        width: 18%; }
+        .page-chem .content .three-featured .item-series .next span {
+          display: inline-block;
+          width: 0;
+          height: 0;
+          border-top: 1rem solid transparent;
+          border-bottom: 1rem solid transparent;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem; }
+      .page-chem .content .three-featured .item-series .button {
+        color: #fff;
+        font-size: 1.325rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        width: 50%;
+        text-align: center; }
+      .page-chem .content .three-featured .item-series.one-item p {
+        color: #00A0DF; }
+      .page-chem .content .three-featured .item-series.one-item span {
+        border-left: 1.3rem solid #00A0DF; }
+      .page-chem .content .three-featured .item-series.one-item .button {
+        background-color: #00A0DF;
+        color: #fff; }
+      .page-chem .content .three-featured .item-series.one-two p {
+        color: #009E9D; }
+      .page-chem .content .three-featured .item-series.one-two span {
+        border-left: 1.3rem solid #009E9D; }
+      .page-chem .content .three-featured .item-series.one-two .button {
+        background-color: #009E9D;
+        color: #fff; }
+      .page-chem .content .three-featured .item-series.one-three p {
+        color: #ED752B; }
+      .page-chem .content .three-featured .item-series.one-three span {
+        border-left: 1.3rem solid #ED752B; }
+      .page-chem .content .three-featured .item-series.one-three .button {
+        background-color: #ED752B;
+        color: #fff; }
+    .page-chem .content .three-featured .related-product {
+      width: 22.35%;
+      margin: 0.7rem;
+      padding: 0;
+      margin-top: -1rem;
+      margin-bottom: 1rem; }
+      .page-chem .content .three-featured .related-product h4 {
+        font-size: 0.966875rem;
+        text-align: center;
+        font-weight: 600;
+        padding: 1rem;
+        padding-bottom: 0.5rem;
+        position: relative; }
+      .page-chem .content .three-featured .related-product h4:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 2rem 6.2rem 0 6.2rem;
+        left: 0;
+        top: 2.55rem; }
+      .page-chem .content .three-featured .related-product ul {
+        padding-left: 0;
+        padding: 0.5rem;
+        height: 6.3rem; }
+        .page-chem .content .three-featured .related-product ul li{
+          list-style: none;}
+        .page-chem .content .three-featured .related-product ul li a{
+          color: #00A0DF;
+          font-size: 0.87rem;
+          white-space: nowrap; }
+          .page-chem .content .three-featured .related-product ul li span {
+            display: inline-block;
+            position: relative;}
+    .page-chem .content .three-featured .tem-one {
+      border: 1px solid #009943; }
+      .page-chem .content .three-featured .tem-one ul {
+        padding: 1.5rem; }
+      .page-chem .content .three-featured .tem-one h4 {
+        color: #009943;
+        background-color: #E8F0C4; }
+      .page-chem .content .three-featured .tem-one h4:after {
+        border-color: #E8F0C4 transparent transparent transparent; }
+    .page-chem .content .three-featured .tem-two {
+      border: 1px solid #0090E8; }
+      .page-chem .content .three-featured .tem-two ul {
+        padding: 1.5rem; }
+      .page-chem .content .three-featured .tem-two h4 {
+        color: #0090E8;
+        background-color: #D3ECF8; }
+      .page-chem .content .three-featured .tem-two h4:after {
+        border-color: #D3ECF8 transparent transparent transparent; }
+    .page-chem .content .three-featured .tem-three {
+      border: 1px solid #ED752B; }
+      .page-chem .content .three-featured .tem-three ul {
+        padding: 1.5rem 0.3rem; }
+      .page-chem .content .three-featured .tem-three h4 {
+        color: #ED752B;
+        background-color: #F3EAB5; }
+      .page-chem .content .three-featured .tem-three h4:after {
+        border-color: #F3EAB5 transparent transparent transparent; }
+    .page-chem .content .three-featured .tem-four {
+      border: 1px solid #E5005A; }
+      .page-chem .content .three-featured .tem-four ul {
+        padding: 3rem 2rem; }
+      .page-chem .content .three-featured .tem-four h4 {
+        color: #E5005A;
+        background-color: #FBE9F1; }
+      .page-chem .content .three-featured .tem-four h4:after {
+        border-color: #FBE9F1 transparent transparent transparent; }
+    .page-chem .content .three-featured .product-info {
+      background-color: #E8F0C4;
+      padding: 1.2rem;
+      margin: 0.5rem;
+      float: left;
+      margin-top: -1rem;
+      margin-bottom: 3rem; }
+      .page-chem .content .three-featured .product-info h5 {
+        color: #009943;
+        font-size: 0.966875rem;
+        font-weight: 600;
+        margin-bottom: 1rem; }
+      .page-chem .content .three-featured .product-info .box-info {
+        background-color: #fff;
+        padding: 1rem 2.2rem;
+        border-radius: 0.8rem;
+        float: left;
+        width: 100%;
+        margin-bottom: 1rem;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .page-chem .content .three-featured .product-info .box-info .des-box-info {
+          padding-left: 0;
+          padding-right: 0; }
+        .page-chem .content .three-featured .product-info .box-info h5 {
+          margin-bottom: 0.7rem;
+          font-weight: bold; }
+        .page-chem .content .three-featured .product-info .box-info ul {
+          padding-left: 0.5rem;
+          margin-bottom: 0.5rem; }
+          .page-chem .content .three-featured .product-info .box-info ul li {
+            list-style: none; }
+            .page-chem .content .three-featured .product-info .box-info ul li span {
+              display: inline-block;
+              position: relative;}
+        .page-chem .content .three-featured .product-info .box-info .img-chemicals img {
+          max-width: 100%;
+          height: auto; }
+      .page-chem .content .three-featured .product-info.pf-af {
+        background-color: #D3ECF8; }
+        .page-chem .content .three-featured .product-info.pf-af h5 {
+          color: #00A0E8; }
+      .page-chem .content .three-featured .product-info.pf-three {
+        background-color: #F3EAB5;
+        padding: 1.2rem 0.6rem;
+        width: 98%; }
+        .page-chem .content .three-featured .product-info.pf-three h5 {
+          color: #ED752B;
+          padding-left: 0.5em; }
+        .page-chem .content .three-featured .product-info.pf-three .box-pin {
+          background-color: #fff;
+          border-radius: 0.8rem;
+          margin: 0 0.6rem;
+          width: 31%;
+          height: 10rem; }
+          .page-chem .content .three-featured .product-info.pf-three .box-pin ul {
+            padding-left: 0;
+            margin-bottom: 0.5rem; }
+            .page-chem .content .three-featured .product-info.pf-three .box-pin ul li {
+              list-style: none; }
+              .page-chem .content .three-featured .product-info.pf-three .box-pin ul li span {
+                display: inline-block;
+                position: relative;}
+          .page-chem .content .three-featured .product-info.pf-three .box-pin .des-box-info {
+            padding: 1rem 0.5rem; }
+            .page-chem .content .three-featured .product-info.pf-three .box-pin .des-box-info h5 {
+              margin-bottom: 0.5rem;
+              padding-left: 0; }
+      .page-chem .content .three-featured .product-info.pf-four {
+        background-color: #FBE9F1;
+        }
+        .page-chem .content .three-featured .product-info.pf-four h5 {
+          color: #E5005A;
+          }
+  .page-chem .content .chem-product {
+    padding: 2rem; }
+    .page-chem .content .chem-product .mar-to p {
+      margin-top: 0; }
+    .page-chem .content .chem-product p {
+/*      font-weight: 600;
+      letter-spacing: 0.08rem;*/
+      margin-top: -1.5rem; }
+    .page-chem .content .chem-product .p-mg p {
+      margin-top: -0.5rem;
+      letter-spacing: 0; }
+    .page-chem .content .chem-product .text-other {
+      font-size: 1.125rem;
+      color: #EE93AE;
+      margin-bottom: 3rem;
+      font-weight: bold; }
+    .page-chem .content .chem-product .img-page {
+      text-align: center;
+      padding: 1rem 0 2rem; }
+    .page-chem .content .chem-product .content-ch {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .page-chem .content .chem-product .content-ch p {
+        padding-right: 4rem;
+        letter-spacing: 0.1rem;
+        text-align: justify;
+        margin-top: 1rem; }
+    .page-chem .content .chem-product .mobi {
+      display: none; }
+    .page-chem .content .chem-product .skin-care {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 2rem 1rem; }
+      .page-chem .content .chem-product .skin-care .des-care {
+        background-color: #EE93AE;
+        color: #fff;
+        padding: 5rem;
+        border-radius: 50%;
+        margin-left: 4rem;
+        height: 16rem;
+        margin-right: 1rem;
+        position: relative;
+        opacity: 0.8; }
+        .page-chem .content .chem-product .skin-care .des-care h3 {
+          color: #fff;
+          font-size: 1.125rem;
+          background-color: transparent;
+          margin-bottom: 2rem; }
+        .page-chem .content .chem-product .skin-care .des-care p {
+          /*font-weight: 500;*/ }
+        .page-chem .content .chem-product .skin-care .des-care.next {
+          padding: 4rem;
+          margin-left: 0;
+          margin-right: 0; }
+        .page-chem .content .chem-product .skin-care .des-care.next:after {
+          right: 10%;
+          top: 12rem;
+          -webkit-transform: rotate(65deg);
+          -ms-transform: rotate(65deg);
+          transform: rotate(65deg);
+          border-top: 3rem solid #EE93AE;
+          border-left: 1rem solid transparent;
+          border-right: 3rem solid transparent; }
+      .page-chem .content .chem-product .skin-care .des-care:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        right: 80%;
+        top: 10rem;
+        border-top: 4rem solid transparent;
+        border-right: 2.5rem solid #EE93AE;
+        border-bottom: 3rem solid transparent;
+        -webkit-transform: rotate(65deg);
+        -moz-transform: rotate(65deg);
+        -ms-transform: rotate(65deg);
+        -o-transform: rotate(65deg);
+        transform: rotate(65deg); }
+    .page-chem .content .chem-product .oral-care {
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .page-chem .content .chem-product .oral-care .des-care {
+        padding: 4rem 3rem;
+        height: 13rem;
+        margin-left: 2rem; }
+        .page-chem .content .chem-product .oral-care .des-care.next:after {
+          top: 9rem; }
+        .page-chem .content .chem-product .oral-care .des-care.next {
+          margin-right: 2rem; }
+      .page-chem .content .chem-product .oral-care .des-care:after {
+        top: 7rem; }
+    .page-chem .content .chem-product .security {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      background-color: #E8F0C4;
+      padding: 1.5rem 1rem 0.5rem; }
+      .page-chem .content .chem-product .security ul {
+        width: 33.33%; }
+        .page-chem .content .chem-product .security ul li {
+          list-style: none;
+          font-size: 1.125rem;
+          line-height: 1.5rem; }
+          .page-chem .content .chem-product .security ul li span {
+            /*font-size: 1.6rem;*/ }
+  .page-chem .content .note {
+    font-size: 0.875rem;
+    margin-bottom: 2rem; }
+
+.page-chem .supplier-produce {
+  background: url(../images/chemical/bg-chem.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  margin-top: 12rem; }
+  .page-chem .supplier-produce p {
+    font-weight: 600; }
+  .page-chem .supplier-produce .icon-center {
+    padding-top: 2rem; }
+  .page-chem .supplier-produce .content-supp {
+    max-width: 540px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    color: #333; }
+    .page-chem .supplier-produce .content-supp table tr td {
+      font-weight: 400;
+      padding-right: 1rem;
+      padding-bottom: 0.8rem;
+      letter-spacing: 0.05rem;
+      line-height: 1.8rem;
+      vertical-align: top; }
+
+.page-chem .page-induch .content {
+  float: none; }
+  .page-chem .page-induch .content img {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: -2rem; }
+  .page-chem .page-induch .content.sec2 p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    position: relative;
+    bottom: 2rem; }
+    .page-chem .page-induch .content.sec2 p span {
+      display: inline-block;
+      font-weight: bold;
+      font-size: 1.2em;
+      padding-right: 0.2rem; }
+  .page-chem .page-induch .content.sec2 img {
+    margin-top: -4rem; }
+
+.page-chem .page-induch .chem-product {
+  padding-bottom: 1rem; }
+  .page-chem .page-induch .chem-product table th {
+    background-color: #C9C9CA;
+    border: 1px solid #221814;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle; }
+  .page-chem .page-induch .chem-product table tr:nth-child(2n) {
+    background-color: #F1F6E7; }
+  .page-chem .page-induch .chem-product table td {
+    border: 1px solid #221814;
+    text-align: center;
+    font-weight: 600;
+    vertical-align: middle; }
+  .page-chem .page-induch .chem-product table.table-first th {
+    width: 24%; }
+  .page-chem .page-induch .chem-product table.table-first th:nth-child(1) {
+    width: 30%;
+    background-color: transparent; }
+  .page-chem .page-induch .chem-product table.func-app tr:nth-child(3) td:nth-child(1) {
+    width: 25%; }
+  .page-chem .page-induch .chem-product table.func-app tr:nth-child(3) td:nth-child(2) {
+    width: 25%; }
+  .page-chem .page-induch .chem-product table.func-app tr:nth-child(3) td:nth-child(3) {
+    width: 10%; }
+  .page-chem .page-induch .chem-product table.func-app tr:nth-child(3) td:nth-child(4) {
+    width: 10%; }
+  .page-chem .page-induch .chem-product table.func-app tr:nth-child(3) td:nth-child(5) {
+    width: 10%; }
+  .page-chem .page-induch .chem-product table.func-app tr td:nth-child(6) {
+    text-align: left;
+    padding-left: 2rem; }
+  .page-chem .page-induch .chem-product h3 {
+    color: #2DA7E0;
+    margin-bottom: 0.8rem; }
+  .page-chem .page-induch .chem-product .table-two td {
+    border: none;
+    text-align: left;
+    line-height: 2rem;
+    font-weight: 500; }
+  .page-chem .page-induch .chem-product .table-two tr:nth-child(2n) {
+    background-color: transparent; }
+  .page-chem .page-induch .chem-product .max-w {
+    max-width: 810px;
+    margin: 0 auto; }
+  .page-chem .page-induch .chem-product .df {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .page-chem .page-induch .chem-product .df .metal-micro {
+      padding-right: 0;
+      line-height: 2rem; }
+  .page-chem .page-induch .chem-product .th-w tr > th {
+    width: 33%; }
+  .page-chem .page-induch .chem-product .img-cross img {
+    margin-top: 0rem;
+    margin-bottom: 1rem; }
+
+.page-chem .page-induch .note-indu {
+  max-width: 880px;
+  margin: 2rem auto 0; }
+  .page-chem .page-induch .note-indu p {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-family: 'Hiragino'; }
+
+.page-chem .en-metal .chem-product h3 {
+  color: #221814; }
+
+.page-chem .en-metal .chem-product table.table-first th:nth-child(1) {
+  width: 35%; }
+
+.page-chem .en-metal .chem-product table.table-first th {
+  width: 21%; }
+
+.page-chem .en-metal .chem-product table.table-first tr td:first-child {
+  text-align: left;
+  padding-left: 1.5rem; }
+
+.page-chem .en-metal .chem-product table.func-app tr:nth-child(3) td:nth-child(1) {
+  width: 20%; }
+
+.page-chem .en-metal .chem-product table.func-app tr:nth-child(3) td:nth-child(2) {
+  width: 20%; }
+
+.page-chem .en-metal .chem-product table.func-app tr td:nth-child(6) {
+  padding-left: 1rem; }
+
+.page-chem .en-metal .chem-product .max-w {
+  margin-top: 1rem;
+  margin-bottom: -1.5rem; }
+  .page-chem .en-metal .chem-product .max-w p {
+    font-family: 'Hiragino';
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem; }
+    .page-chem .en-metal .chem-product .max-w p span {
+      font-size: 0.875rem;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex; }
+
+/*-- End CSS page Industrial Chemicals --*/
+/*-- Style CSS page Medical Personnel --*/
+.page-chem .con-medical .img-icon .icon-center {
+  margin-top: 3rem; }
+
+.page-chem .con-medical .icon-center {
+  margin-top: 0; }
+
+.page-chem .con-medical .content h2 {
+  top: -1rem;
+  margin-top: -2rem; }
+
+.page-chem .con-medical .content .three-featured h3 {
+  color: #2DA7E0;
+  display: block;
+  background-color: transparent;
+  clear: both; }
+
+.page-chem .con-medical .content .three-featured hr {
+  bottom: 0;
+  border-top: 1px dashed #93BE50;
+  border-bottom: none; }
+
+.page-chem .con-medical .content .three-featured h4 {
+  color: #93BE50;
+  font-size: 1.1375rem;
+  font-weight: 600; }
+
+.page-chem .con-medical .content .three-featured h4.font-w {
+  font-weight: 500;
+  margin-top: 1.2rem; }
+
+.page-chem .con-medical .content .three-featured .icon-center {
+  margin: inherit;
+  padding: 1rem 0 0.5rem; }
+
+.page-chem .con-medical .content .three-featured .fe-mect {
+  margin-top: 3rem;
+  padding-left: 0;
+  width: 47%; }
+  .page-chem .con-medical .content .three-featured .fe-mect.ma-top {
+    margin-top: 1rem; }
+  .page-chem .con-medical .content .three-featured .fe-mect p {
+    letter-spacing: 0; }
+  .page-chem .con-medical .content .three-featured .fe-mect img {
+    margin-bottom: 0.8rem; }
+  .page-chem .con-medical .content .three-featured .fe-mect table th {
+    background-color: #C9C9CA;
+    border: 1px solid #221814;
+    text-align: center;
+    color: #fff; }
+  .page-chem .con-medical .content .three-featured .fe-mect table td {
+    border: 1px solid #221814;
+    text-align: center;
+    font-weight: 600; }
+  .page-chem .con-medical .content .three-featured .fe-mect table tr:nth-child(2n) {
+    background-color: #F1F6E7; }
+  .page-chem .con-medical .content .three-featured .fe-mect.fe-af {
+    font-size: 0.875rem;
+    letter-spacing: -0.05rem;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 2rem; }
+    .page-chem .con-medical .content .three-featured .fe-mect.fe-af table tr {
+      background-color: transparent; }
+    .page-chem .con-medical .content .three-featured .fe-mect.fe-af table tr:nth-child(2n + 1) {
+      background-color: #F1F6E7; }
+
+.page-chem .con-medical .content .three-featured .fe-mect.m-left {
+  margin-left: 3rem; }
+
+.page-chem .con-medical .content .three-featured ul {
+  padding-left: 0; }
+  .page-chem .con-medical .content .three-featured ul li {
+    list-style: none;
+    font-weight: 600; }
+    .page-chem .con-medical .content .three-featured ul li span {
+      font-size: 1.1rem;
+      display: inline-block;
+      margin-right: .3rem; }
+
+.page-chem .con-medical .content .chem-product p {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.14rem; }
+
+.page-chem .con-medical .content .chem-product .use-note p {
+  letter-spacing: 0.05rem; }
+
+.page-chem .con-medical .content .img-mediper {
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 800px;
+  margin: auto; }
+  .page-chem .con-medical .content .img-mediper img {
+    display: block;
+    margin-top: auto; }
+  .page-chem .con-medical .content .img-mediper img:last-child {
+    margin-top: 4rem; }
+
+.page-chem .banner-center {
+  background-color: #040000;
+  padding: 2rem 0; }
+  .page-chem .banner-center .des-banner {
+    margin-left: -2rem;
+    padding-left: 0; }
+
+.page-chem.page-contact .form-contact {
+  background: transparent;
+  background-color: #5F9ECF;
+  color: #fff; }
+  .page-chem.page-contact .form-contact.pa-medical {
+    padding-bottom: 0;
+    margin-top: 0rem; }
+    .page-chem.page-contact .form-contact.pa-medical .content-supp {
+      padding-bottom: 5rem; }
+    .page-chem.page-contact .form-contact.pa-medical p {
+      font-size: 1.3125rem;
+      font-weight: 500; }
+    .page-chem.page-contact .form-contact.pa-medical .add-medical {
+      margin-bottom: 2rem; }
+      .page-chem.page-contact .form-contact.pa-medical .add-medical p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 0.7rem; }
+    .page-chem.page-contact .form-contact.pa-medical.null {
+      margin-top: 9rem; }
+    .page-chem.page-contact .form-contact.pa-medical.null:before {
+      border-top: 9rem solid #fff; }
+  .page-chem.page-contact .form-contact.page-per {
+    background-color: #D2E7A6;
+    color: #221814;
+    font-weight: 500;
+    margin-top: 5rem; }
+    .page-chem.page-contact .form-contact.page-per .please-row {
+      max-width: 640px;
+      margin: auto;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 4.5rem 0 0; }
+      .page-chem.page-contact .form-contact.page-per .please-row .item-sp {
+        padding: 0 0 0 3rem; }
+      .page-chem.page-contact .form-contact.page-per .please-row .des-sp {
+        padding-left: .5rem; }
+        .page-chem.page-contact .form-contact.page-per .please-row .des-sp input {
+          border-radius: 0;
+          border: none;
+          background-color: #E8F2D2;
+          box-shadow: 1px 1px 5px #888;
+          width: 90px;
+          display: inline-block;
+          margin: 0 .5rem; }
+        .page-chem.page-contact .form-contact.page-per .please-row .des-sp p {
+          margin-bottom: 0.4rem;
+          font-size: 0.8rem; }
+        .page-chem.page-contact .form-contact.page-per .please-row .des-sp h4 {
+          color: #93BE50;
+          font-size: 1.3125rem; }
+    .page-chem.page-contact .form-contact.page-per .note-contact ul {
+      padding-left: 0; }
+      .page-chem.page-contact .form-contact.page-per .note-contact ul li {
+        list-style: none; }
+    .page-chem.page-contact .form-contact.page-per .form {
+      padding-top: 2rem; }
+      .page-chem.page-contact .form-contact.page-per .form .input-group .col-md-1 {
+        width: 115px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .page-chem.page-contact .form-contact.page-per .form .input-group .col-md-1 span {
+          padding-left: 0.6rem; }
+  .page-chem.page-contact .form-contact.pa-medical:before {
+    border-top: 9rem solid #D2E7A6; }
+
+/*-- End CSS page Medical Personnel --*/
+/*jp add*/
+.page-chem .contai-en .content.navigation {
+    background: #EFEFEE;
+    border: none;
+    margin-bottom: 4rem;
+}
+.page-chem .contai-en .content.navigation ul {
+    display: block;
+    text-align: center;
+    background: #EFEFEE;
+    margin-bottom: 0rem;
+    padding: 1rem 0rem;
+    list-style: none;
+}
+.page-chem .contai-en .content.navigation ul li {
+    display: inline;
+    padding-right: 1rem;
+}
+.page-chem .contai-en .content.first-chem.mb1rem {
+	margin-bottom: 1rem;
+}
+.page-chem .page-induch .chem-product table {
+    border: solid 2px #CCCCCC;
+}
+
+.page-chem .page-induch .chem-product table th {
+    border: solid 1px #CCCCCC;
+    background: #BBBDC0;
+    font-size: 14px;
+}
+.page-chem .page-induch .chem-product table td {
+    border: solid 1px #CCCCCC;
+    font-weight: 400;
+}

@@ -1,0 +1,194 @@
+#product{
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    float: left;
+}
+.margin-top-60{
+    margin-top: 60px;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.margin-top-5{
+    margin-top: 5px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+#product .page-content{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: -20px;
+}
+#product .page-content .block-title{
+    position: relative;
+    float: left;
+    width: 100%;
+    /*color: #27A9E1;*/
+    font-size: 1rem;
+    font-weight: bold;
+	margin-top:30px;
+}
+#product .page-content ul{
+    padding-left: 0px;
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 100%;
+}
+#product .page-content ul > li{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#product .page-content p{
+    text-align: justify;
+}
+.text-red{
+    color: #F05A28;
+}
+#product .page-content table{
+    width: 100%;
+    border: solid 2px #CCCCCC;
+/*    border: solid 1px #231F20;*/
+    text-align: center;
+	letter-spacing:0;
+}
+#product .page-content table thead{
+    background: #BBBDC0;
+    color: #FFFFFF;
+}
+#product .page-content table thead th{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+#product .page-content table thead th, #product .page-content table td{
+/*    border-left: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;*/
+    border: solid 1px #CCCCCC;
+}
+
+#product table tr>th{
+	border-left: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+	line-height:1.2;
+}
+
+#product .page-content table td{
+    padding: 10px 5px;
+    box-sizing: border-box;
+	/*border-left: solid 1px #CCCCCC;*/
+}
+#product .page-content table td:first-child{ 
+	text-align: left;
+	padding-left: 2em;
+}
+#product table tr:nth-child(odd)>td{
+    background-color: #F1F6E7;
+}
+#product table tr>td{
+    background: #FFFFFF;
+}
+#product .file-name{
+    color: #90BC5E;
+}
+#product p{
+    margin-bottom: 0;
+}
+
+#product .text_list p{
+	margin:5px 0;
+}
+
+
+#note_box h3,.technoporous h3{
+	font-size:1rem !important;
+	font-weight:bold !important;
+}
+
+.technoporous h3{
+	margin-top:30px;
+}
+
+#note_box ul{
+	letter-spacing:0;
+}
+
+#note_box ul li:nth-child(odd){
+	margin-top:20px !important;
+}
+
+#note_box ul li{
+	margin-top:10px;
+}
+
+.technoporous ul{
+	margin-top:10px;
+}
+
+.technoporous ul span{
+	font-weight:bold !important;
+}
+
+.pdf{
+	padding-left:150px;
+}
+
+@media screen and (max-width: 768px){
+    #product .page-content ol{
+        padding-left: 0px;
+    }
+}
+}
+/*jp 追加*/
+#product .page-content .bikou p {
+	font-weight: bold;
+}
+#product .page-content .bikou ol {
+	padding-left: 20px;
+}
+#product .page-content .bikou li {
+	padding-bottom: 30px;
+}
+#product .page-content .product_pdf {
+	padding-left: 6rem;
+}
+#product .page-content .tokutyou ul li span {
+	font-weight: bold;
+}
+#product .page-content table thead.row_two th{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#product .page-content table thead.row_two tr:first-child th:first-child {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#product .technoporous_block li{
+	list-style-type: none;
+	font-weight:bold;
+}
+#product .technoporous_block li div{
+	font-weight:100;
+}
+
+#product .technoporous_block table tr.table_sonota td{
+	padding: 5px 0;
+}
+#product .technoporous_block table tr.table_sonota td:first-child{
+	padding-left: 2em;
+}
+@media screen and (max-width: 640px){
+	#product .page-content .table-scroll {
+	    overflow: scroll;
+	}
+}

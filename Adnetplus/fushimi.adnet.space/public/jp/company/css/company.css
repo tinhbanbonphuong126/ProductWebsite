@@ -1,0 +1,610 @@
+/*--------------------- CSS Page Campany ------------------------*/
+/*#page_company_info{
+	color:#000;
+}*/
+.message {
+  background: url(../../../images/campany/bg_message.jpg) no-repeat center;
+  background-size: cover; }
+  .message .swiper-slide {
+    max-width: 770px;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 8rem; }
+    .message .swiper-slide h3 {
+      color: #fff;
+      text-align: center;
+      font-size: 1.3125rem;
+      padding-bottom: 1rem; }
+      .message .swiper-slide h3 span {
+        font-size: 0.875rem; }
+    .message .swiper-slide p {
+      color: #fff;
+      margin-bottom: 0rem;
+      line-height: 1.8rem;
+	  font-size:14px;
+	  
+	  font-weight:normal; }
+    .message .swiper-slide .mg-b {
+      margin-bottom: 1.6rem; }
+    .message .swiper-slide h4 {
+      color: #fff;
+      font-size: 1.273125rem;
+	  font-weight:300;
+      float: right; }
+      .message .swiper-slide h4 span {
+        font-size: 1.555625rem;
+        margin-left: 1rem; }
+
+.infor-campany {
+  position: relative; }
+  .infor-campany .table-info {
+    border: 4px solid #C9CACA;
+    float: left;
+    width: 100%;
+    background: transparent;
+    margin-top: 3rem; }
+    .infor-campany .table-info .col-md-6 {
+      padding-left: 0; }
+      .infor-campany .table-info .col-md-6 table {
+        width: 100%; }
+        .infor-campany .table-info .col-md-6 table tr th {
+          /*font-weight: 500;*/
+          background-color: #C9CACA;
+          color: #333;
+          padding: 0.5rem;
+          font-size: 0.875rem;
+          width: 18%;
+          text-align: center;
+          position: relative; }
+        .infor-campany .table-info .col-md-6 table tr th:after {
+          content: "";
+          position: absolute;
+          width: 90%;
+          border-bottom: 1px solid #fff;
+          bottom: 0;
+          left: 5px; }
+        .infor-campany .table-info .col-md-6 table tr th:last-child {
+          border-bottom: none; }
+        .infor-campany .table-info .col-md-6 table tr:last-child th {
+          border-bottom: none; }
+        .infor-campany .table-info .col-md-6 table tr:last-child th:after {
+          content: "";
+          position: absolute;
+          width: 90%;
+          border-bottom: none;
+          bottom: 0;
+          left: 5px; }
+    .infor-campany .table-info tr {
+      line-height: 2rem; }
+      .infor-campany .table-info tr td {
+        font-size: 0.875rem;
+        padding: 0.5rem 0.2rem;
+        width: 82%;
+        position: absolute;
+		letter-spacing:0;
+		}
+      .infor-campany .table-info tr td:after {
+        content: "";
+        position: absolute;
+        width: 96%;
+        border-bottom: 1px solid #9FA0A0;
+        bottom: 0;
+        left: 5px; }
+    .infor-campany .table-info tr:last-child td {
+      border-bottom: none; }
+    .infor-campany .table-info tr:last-child td:after {
+      content: "";
+      position: absolute;
+      width: 99%;
+      border-bottom: none;
+      bottom: 0;
+      left: 5px; }
+  .infor-campany h5 {
+    font-size: 1.4375rem;
+    clear: both;
+    max-width: 940px;
+    margin: auto;
+    padding: 3.5rem 0 5rem;
+	font-weight:400;
+	}
+    .infor-campany h5 p {
+      border-left: 5px solid #99C74F;
+      font-size: 1.125rem;
+      display: inline-block;
+      line-height: 1.125rem;
+      padding-left: 0.8rem;
+      margin-left: 0.5rem;
+      font-weight: 400; }
+  .infor-campany .office {
+    /*display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;*/
+    margin: auto; }
+    /*.infor-campany .office .col-md-6 {
+      padding: 0 2rem; }*/
+    .infor-campany .office .item-office {
+      border: 0.5rem solid #C9CACA;
+      clear: both;
+      margin-bottom: 4rem; }
+      .infor-campany .office .item-office .name {
+        font-size: 1.5625rem;
+        /*font-weight: bold;*/
+        text-align: center;
+        background-color: #fff;
+        position: relative;
+        top: -1rem;
+        display: inline-block;
+        width: 250px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1.2rem; }
+        .infor-campany .office .item-office .name p {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin: auto; }
+      .infor-campany .office .item-office .img {
+        margin: auto;
+        display: table; }
+        .infor-campany .office .item-office .img img {
+          margin-top: 0; }
+      .infor-campany .office .item-office .des {
+        padding: 0.7rem 4rem 2rem; }
+        .infor-campany .office .item-office .des p {
+          margin-bottom: 0rem;
+          line-height: 1.5rem;
+          font-weight: 400;
+		   }
+
+.sales {
+  /*background: url(../../../images/campany/bg_sales.jpg);
+  padding-top: 7rem;
+  padding-bottom: 12rem;*/ }
+  /*.sales .container {
+    position: relative; }*/
+	
+  .sales .left-sa {
+    background-color: #00A0E9;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    -webkit-box-shadow: 8px 8px 11px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 8px 8px 11px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 8px 8px 11px 0px rgba(0, 0, 0, 0.16); }
+	
+    /*.sales .left-sa .top {
+      margin-bottom: 2rem; }*/
+      .sales .left-sa .top h3 {
+        font-size: 2.375rem; }
+      .sales .left-sa .top p {
+        font-size: 1.125rem; }
+    .sales .left-sa .name-location {
+		margin-top:40px;
+      /*margin-bottom: 3rem;*/
+      line-height: 1.6rem; }
+      /*.sales .left-sa .name-location .name {
+        font-size: 1.125rem; }*/
+      .sales .left-sa .name-location p {
+        margin-bottom: 0rem;
+        font-size: 0.9375rem; }
+    .sales .left-sa.right {
+      background-color: #EF94AE;
+      padding: 2rem 1rem 2.5rem; }
+  .sales .col-md-12 {
+	  margin-top:20px;
+	  }
+
+#company-two{
+	margin: 50px auto;
+}
+
+.company-aff {
+  max-width: 720px;
+  margin: auto; }
+  
+.company-aff .icon-center{
+	margin-top:40px;
+}
+
+  .company-aff h4 {
+    font-size: 1.125rem;
+	font-weight: bold;
+    color: #00A29A;
+    text-align: center;
+    margin-bottom: 1.2rem; }
+  .company-aff .name-tit {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem; }
+    .company-aff .name-tit h2 {
+		font-weight:bold;
+      font-size: 1.75rem;
+      color: #00A29A; }
+    .company-aff .name-tit p {
+      text-align: left; }
+    .company-aff .name-tit.top {
+      margin-top: 2rem; }
+    .company-aff .name-tit td {
+      vertical-align: top; }
+      .company-aff .name-tit td p {
+        text-align: left;
+        padding-left: 1rem; }
+  .company-aff .item-aff p {
+    /*text-align: center;*/
+	}
+  .company-aff .item-aff span {
+    text-align: center;
+	text-indent:1em;
+	}
+  .company-aff .item-after {
+    margin-top: 2.5rem; }
+    .company-aff .item-after table tr {
+      vertical-align: top; }
+      .company-aff .item-after table tr td {
+        padding-bottom: 2rem;
+		}
+		
+		
+    .company-aff .item-after p {
+      margin-bottom: 0.5rem; }
+
+.his-campany {
+  background-color: #EFEFEF;
+  position: relative; }
+
+
+.img-item{
+	width:194px;
+	height:142px;
+	position:absolute;
+	z-index:999;
+}
+	
+.item_one{
+	right:10%;
+	top:10%;
+}
+
+.item_two{
+	right:10%;
+	top:35%;
+}
+
+.item_three{
+	right:10%;
+	bottom:20%;
+}
+
+.item_four{
+	right:10%;
+	bottom:10%;
+}
+	
+  .his-campany .tit-his {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 1.75rem;
+    color: #2EA7E0;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5rem; }
+	
+  .his-campany .content-his {
+	position:relative;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+	
+    .his-campany .content-his dl dt {
+      font-size: 1.3125rem;
+      font-weight: bold; }
+	  
+      .his-campany .content-his dl dt span {
+        color: #2EA7E0; }
+		
+    .his-campany .content-his table tr {
+      vertical-align: top;
+      line-height: 2.5rem;
+      border-bottom: 1px dashed;
+      /*font-weight: bold;*/
+      /*font-family: YuGo;*/
+	  }
+	  
+    .his-campany .content-his table th {
+		font-weight:400;
+      width: 21%; }
+    .his-campany .content-his table p {
+      margin-bottom: 0rem; }
+    .his-campany .content-his table:last-child tr {
+      border-bottom: none; }
+
+.his-top {
+  margin-top: 7rem; }
+
+.his-top:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  top: 0;
+  border-top: 9rem solid #fff;
+  border-left: 49.2vw solid transparent;
+  border-right: 49.2vw solid transparent; }
+
+.his-campany:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 2.5rem solid #EFEFEF;
+  border-left: 3rem solid transparent;
+  border-right: 3rem solid transparent;
+  left: 50%;
+  margin-left: -3rem; }
+
+.his-bottom {
+  padding-bottom: 9rem; }
+
+.his-bottom:after {
+  content: initial; }
+  
+  .money{
+	  width:10%;
+	  padding-right:25px;
+	  text-align:right;
+  }
+
+.map.main-map {
+  padding: 0;
+  padding-bottom: 8rem; }
+  .map.main-map img {
+    margin-bottom: 3rem; }
+
+.map .title-item-map h1 {
+  border-bottom: none;
+  text-align: left;
+  margin-top: 1rem;
+  padding-bottom: 0rem;
+  /*font-family: YuGothic-Regular;
+  font-weight: 600;*/ }
+  .map .title-item-map h1 span {
+    margin-right: 0.3rem; }
+
+.map .des-item-map {
+  background-color: #EFEFEF;
+  padding: 1.5rem 4rem;
+  /*font-weight: 600;
+  font-family: YuGothic-Regular;*/
+  font-size: 1rem;
+  margin-bottom: 1rem;
+   }
+  .map .des-item-map table tr {
+    line-height: 2rem; }
+    .map .des-item-map table tr th {
+      border-right: 2px solid #9A9B9B;
+      padding-right: 1rem;
+	  font-weight:400;
+	   }
+    .map .des-item-map table tr td {
+      padding-left: 1rem; }
+.gmap h3 a{
+	color:#0074d9;
+	font-weight:400;
+	font-size:17px;
+}
+	
+
+.abouts-campany .bg-abouts {
+  background: url(../../../images/campany/bg_about_final.jpg) no-repeat;
+  height:771px;
+  z-index: 9;
+  margin-top:-100px;
+  }
+
+  
+ .cd-fixed-bg{
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+ 
+
+/*.abouts-campany .bg-blue {
+  background: url(../../../images/campany/bg_blue.png) no-repeat;
+  background-size: 100%;
+  height: 9.2rem;
+  margin-top: -9.2rem;
+  position: relative;
+  z-index: 99; }*/
+
+.abouts-campany .content-bg-abouts {
+	width:100%;
+	margin-top:-10rem;
+	padding-top:10em;
+	background-image:url(../img/furusato_bg.png);
+	background-size:cover;
+	background-position:center 0;
+	 position: relative;
+	z-index: 99;
+  /*position: relative;
+  padding-top: 3rem;*/
+   }
+   
+   .cd-scrolling-bg {
+    min-height: 100%;
+}
+  
+  
+  .abouts-campany .content-bg-abouts .content-abouts {
+    max-width: 772px;
+    margin: auto; }
+    .abouts-campany .content-bg-abouts .content-abouts .item-content {
+      padding-top: 2rem; }
+      .abouts-campany .content-bg-abouts .content-abouts .item-content p {
+        color: #fff;
+        text-indent: 1rem;
+        margin-bottom: 0rem;
+        font-size: 15px;
+        line-height: 1.8rem;
+		font-weight:normal;
+       }
+
+.img-des {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 6rem; }
+  .img-des .img-one {
+    left: 6rem;
+    position: relative; }
+  .img-des .img-t {
+    left: 6.5rem;
+    top: 5rem;
+    position: relative; }
+  .img-des .img-o {
+    position: relative;
+    left: 7.5rem; }
+
+@media only screen and (max-width : 640px) {
+.message .swiper-slide h4{
+	margin-top:20px;
+}
+
+.infor-campany .table-info .col-md-6 table tr th,
+.infor-campany .table-info .col-md-6 table tr td{
+	width:100%;
+	display:block;
+	font-size:14px;
+}
+
+.infor-campany .table-info .col-md-6 table tr th:after,
+.infor-campany .table-info .col-md-6 table tr td:after{
+	border-bottom:none !important;
+}
+
+.infor-campany .table-info .col-md-6 table tr td{
+	position:relative;
+}
+
+.infor-campany .table-info .col-md-6{
+	padding-right:0;
+}
+
+.infor-campany h5{
+	font-size:1.1rem;
+}
+
+.infor-campany .office .item-office .des{
+	padding:1rem 2rem;
+}
+
+.infor-campany h5 p{
+	font-size:1rem;
+	line-height:1.5;
+	margin-left:0.5rem;
+	padding-left:0.5rem;
+}
+
+.office .col-md-6{
+	width:100% !important;
+	clear:both;
+}
+
+.page_link2{
+	margin:inherit;
+	padding:inherit;
+
+}
+
+.his-campany img.icon-center{
+	top:0;
+}
+
+.img-item{
+	display:none;
+}
+
+.his-campany .content-his table{
+	vertical-align:middle;
+}
+
+.his-campany .content-his table th {
+	width:21%;
+	vertical-align:middle;
+}
+
+.his-campany .content-his .money {
+	width:12%;
+	padding-right:10px;
+}
+
+.his-campany .content-his table tr{
+	line-height:1.5;
+}
+
+.his-campany .content-his table td{	
+	padding:5% 0;
+		box-sizing:border-box;
+		vertical-align:middle;
+}
+
+.abouts-campany .bg-abouts{
+	height:40vh;
+}
+
+.abouts-campany .content-bg-abouts{
+	margin-top:-15rem;
+}
+.abouts-campany .content-bg-abouts .content-abouts .item-content{
+	padding-top:5rem;
+}
+
+.img-des{
+	position:relative;
+}
+
+.img-des img{
+	width:90%;
+}
+
+.img-des .img-one{
+	left:1rem;
+}
+
+.img-des .img-t{
+	left:1rem;
+}
+
+.img-des .img-o{
+	left:1rem;
+}
+.company-aff .item-aff p,
+.company-aff .item-aff p span{
+	text-align:left;
+	text-indent:0;
+}
+
+.company-aff .item-after td,
+.company-aff .item-after .first-w{
+	display:block;
+	width:100%;
+}
+
+.company-aff .item-after table tr td{
+	padding-bottom:10px;
+}
+
+}
+/*media 480 end*/
+/*--------------------- End CSS Page Campany ------------------------*/
+
+    
