@@ -11,6 +11,8 @@
 
     <title>Khoa Pham @yield('title')</title>
 
+    <base href="{{ asset('') }}">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 

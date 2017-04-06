@@ -100,3 +100,44 @@ Route::group(['prefix' => 'admin', 'middleware' => 'adminLogin'], function (){
 
 Route::get('trangchu', 'PagesController@trangchu');
 Route::get('lienhe', 'PagesController@lienhe');
+Route::get('loaitin/{id}/{TenKhongDau}.html', 'PagesController@loaitin');
+Route::get('tintuc/{id}/{TieuDeKhongDau}.html', 'PagesController@tintuc');
+
+Route::get('dangnhap' , 'PagesController@getdangnhap');
+Route::post('dangnhap', 'PagesController@postdangnhap');
+Route::get('dangxuat', 'PagesController@getDangxuat');
+
+Route::get('nguoidung', 'PagesController@getNguoidung');
+Route::post('nguoidung', 'PagesController@postNguoidung');
+
+Route::get('dangky', 'PagesController@getDangky');
+Route::post('dangky', 'PagesController@postDangky');
+
+
+Route::post('comment/{id}', 'CommentController@postComment');
+
+
+Route::post('timkiem', 'PagesController@timkiem');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,37 +15,43 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">Giới thiệu</a>
+                    <a href="gioithieu">Giới thiệu</a>
                 </li>
                 <li>
-                    <a href="#">Liên hệ</a>
+                    <a href="lienhe">Liên hệ</a>
                 </li>
             </ul>
 
-            <form class="navbar-form navbar-left" role="search">
+            <form class="navbar-form navbar-left" role="search" action="timkiem" method="post">
+                {{ csrf_field() }}
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" name="tukhoa" class="form-control" placeholder="Tim kiem">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default">Tim kiem</button>
             </form>
 
             <ul class="nav navbar-nav pull-right">
-                <li>
-                    <a href="#">Đăng ký</a>
-                </li>
-                <li>
-                    <a href="#">Đăng nhập</a>
-                </li>
-                <li>
-                    <a>
-                        <span class="glyphicon glyphicon-user"></span>
-                        Bùi Đức Phú
-                    </a>
-                </li>
+                @if(!Auth::check())
+                    <li>
+                        <a href="dangky">Đăng ký</a>
+                    </li>
+                    <li>
+                        <a href="dangnhap">Đăng nhập</a>
+                    </li>
+                @else
+                    <li>
+                        <a href="nguoidung">
+                            <span class="glyphicon glyphicon-user"></span>
+                            {{ Auth::user()->name }}
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="#">Đăng xuất</a>
-                </li>
+                    <li>
+                        <a href="dangxuat">Đăng xuất</a>
+                    </li>
+                @endif
+
+
 
             </ul>
         </div>
